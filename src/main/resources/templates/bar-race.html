@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="h-100">
+<head>
+    <meta charset="utf-8">
+        <link href="https://www.w3school.com.cn/lib/bs/bootstrap.css" rel="stylesheet">
+<!--    <link href="bootstrap.css" rel="stylesheet">-->
+    <title>Demo</title>
+</head>
+<body class="h-100 m-0">
+<!--<h1>Java Project</h1>-->
+<div class="h-100" id="container"></div>
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>
+<!--<script type="text/javascript" src="echarts.min.js"></script>-->
+<!-- Uncomment this line if you want to dataTool extension
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/extension/dataTool.min.js"></script>
+-->
+<!-- Uncomment this line if you want to use gl extension
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js"></script>
+-->
+<!-- Uncomment this line if you want to echarts-stat extension
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+-->
+<!-- Uncomment this line if you want to use map
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@4.9.0/map/js/china.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+-->
+<!-- Uncomment these two lines if you want to use bmap extension
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/extension/bmap.min.js"></script>
+-->
+
+<script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, 'dark', {
+        renderer: 'svg',
+        useDirtyRect: false
+    });
+    var app = {};
+
+    var option;
+
+    const data = [];
+    for (let i = 0; i < 5; ++i) {
+        data.push(Math.round(Math.random() * 200));//设置初始值
+    }
+    option = {
+        title: {
+            text: 'Java2Project'
+        },
+        xAxis: {
+            max: 'dataMax'
+        },
+        tooltip: {},
+        yAxis: {
+            type: 'category',
+            data: ['A', 'B', 'C', 'D', 'E'],
+            inverse: true,//最上面最大
+            animationDuration: 300,
+            animationDurationUpdate: 300,
+            max: 4 // 只有max+1个柱子
+        },
+        series: [
+            {
+                realtimeSort: true,
+                name: 'name',
+                type: 'bar',
+                itemStyle: {
+                    // color: [
+                    //     '#c23531',
+                    //     '#2f4554',
+                    //     '#61a0a8',
+                    //     '#d48265',
+                    //     '#91c7ae',
+                    //     '#749f83',
+                    //     '#ca8622',
+                    //     '#bda29a',
+                    //     '#6e7074',
+                    //     '#546570',
+                    //     '#c4ccd3'
+                    // ],
+                    color: '#2f4554'
+                },
+                data: data,
+                label: {
+                    show: true,
+                    position: 'right',
+                    valueAnimation: true
+                },
+                //高亮
+                // emphasis: {
+                //     itemStyle: {
+                //         // 高亮时点的颜色。
+                //         color: 'red'
+                //     },
+                //     label: {
+                //         show: true,
+                //         // 高亮时标签的文字。
+                //         formatter: 'This is a emphasis label.'
+                //     }
+                // },
+            }
+        ],
+        legend: {
+            // data: ['name'],
+            show: true
+        },
+        animationDuration: 0,
+        animationDurationUpdate: 3000,//设置在几秒钟之内更新到最新值
+        animationEasing: 'linear',
+        animationEasingUpdate: 'linear'
+    };
+
+    function run() {
+        for (var i = 0; i < data.length; ++i) {
+            if (Math.random() > 0.9) {
+                data[i] += Math.round(Math.random() * 2000);
+            } else {
+                data[i] += Math.round(Math.random() * 200);
+            }
+        }
+        myChart.setOption({
+            series: [
+                {
+                    type: 'bar',
+                    data
+                }
+            ]
+        });
+    }
+
+    setTimeout(function () {
+        run();
+    }, 0);
+    setInterval(function () {
+        run();
+    }, 3000);
+
+    if (option && typeof option === 'object') {
+        myChart.setOption(option);
+    }
+
+    window.onresize = function () {
+        myChart.resize();
+    };
+</script>
+</body>
+</html>
