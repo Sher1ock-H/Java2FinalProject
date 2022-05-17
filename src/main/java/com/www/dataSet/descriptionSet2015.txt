@@ -1,0 +1,100 @@
+All Algorithms implemented in Java
+Render After Effects animations natively on Android and iOS, Web, and React Native
+:fire: Android developers should collect the following utils(updating).
+Apollo is a reliable configuration management system suitable for microservice configuration management scenarios.
+Free universal database tool and SQL client
+BRVAH:Powerful and flexible RecyclerAdapter
+A Java serialization/deserialization library to convert Java Objects into JSON and back
+APM, Application Performance Monitoring System
+A libre lightweight streaming front-end for Android.
+视频播放器（IJKplayer、ExoPlayer、MediaPlayer），HTTPS，支持弹幕，外挂字幕，支持滤镜、水印、gif截图，片头广告、中间广告，多个同时播放，支持基本的拖动，声音、亮度调节，支持边播边缓存，支持视频自带rotation的旋转（90,270之类），重力旋转与手动旋转的同步支持，支持列表播放 ，列表全屏动画，视频加载速度，列表小窗口支持拖动，动画效果，调整比例，多分辨率切换，支持切换播放器，进度条小窗口预览，列表切换详情页面无缝播放，rtsp、concat、mpeg。 
+Mirror of Apache RocketMQ
+GraalVM: Run Programs Faster Anywhere :rocket:
+An Android library for managing images and the memory they use.
+Tinker is a hot-fix solution library for Android, it supports dex, library and resources update without reinstall apk.
+基于Spring+SpringMVC+Mybatis分布式敏捷开发系统架构，提供整套公共微服务服务模块：集中权限管理（单点登录）、内容管理、支付中心、用户管理（支持第三方登录）、微信平台、存储系统、配置中心、日志分析、任务和通知等，支持服务治理、监控和追踪，努力为中小型企业打造全方位J2EE企业级开发解决方案。
+Ecosystem to transform any database into a distributed database system, and enhance it with sharding, elastic scaling, encryption features & more
+《Spring Boot基础教程》，2.x版本持续连载中！点击下方链接直达教程目录！
+💪 A framework for assisting in the renovation of Android componentization (帮助 Android App 进行组件化改造的路由框架)
+Modular and customizable Material Design UI components for Android
+Android Transition animations explanation with examples.
+✔️ Simple, pretty and powerful logger for android
+Luban(鲁班)—Image compression with efficiency very close to WeChat Moments/可能是最接近微信朋友圈的图片压缩算法
+Termux - a terminal emulator application for Android OS extendible by variety of packages.
+Stetho is a debug bridge for Android applications, enabling the powerful Chrome Developer Tools and much more.
+🔥🔥🔥Banner 2.0 来了！Android广告图片轮播控件，内部基于ViewPager2实现，Indicator和UI都可以自定义。
+Open-source IoT Platform - Device management, data collection, processing and visualization.
+Spring源码阅读
+Microservice Architecture with Spring Boot, Spring Cloud and Docker
+A standalone Java Decompiler GUI
+Image Cropping Library for Android
+Apache Pulsar - distributed pub-sub messaging system
+An Android TabLayout Lib
+Multitask、MultiThread(MultiConnection)、Breakpoint-resume、High-concurrency、Simple to use、Single/NotSingle-process
+MediaPlayer exoplayer ijkplayer ffmpeg
+OkGo - 3.0 震撼来袭，该库是基于 Http 协议，封装了 OkHttp 的网络请求框架，比 Retrofit 更简单易用，支持 RxJava，RxJava2，支持自定义缓存，支持批量断点下载管理和批量上传管理功能
+Android runtime permissions powered by RxJava2
+⚔️ A common architecture for Android applications developing based on MVP, integrates many open source projects, to make your developing quicker and easier (一个整合了大量主流开源项目高度可配置化的 Android MVP 快速集成框架). 
+业内为数不多致力于极致体验的超强全自研跨平台(windows/linux/android/iOS)流媒体内核，通过模块化自由组合，支持实时RTMP推流、RTSP推流、RTMP播放器、RTSP播放器、录像、多路流媒体转发、音视频导播、动态视频合成、音频混音、直播互动、内置轻量级RTSP服务等，比快更快，业界真正靠谱的超低延迟直播SDK(1秒内，低延迟模式下200~400ms)。
+27天成为Java大神
+Cracking the Coding Interview 6th Ed. Solutions
+Tools to work with android .dex and java .class files
+[DEPRECATED] A powerful library that manage Fragment for Android
+An Android transformation library providing a variety of image transformations for Glide.
+DEPRECATED
+A Camera component for React Native. Also supports barcode scanning!
+The OWASP ZAP core project
+Simplify Android M system permissions
+A powerful, customizable and extensible ViewPager indicator framework. As the best alternative of ViewPagerIndicator, TabLayout and PagerSlidingTabStrip   ——   强大、可定制、易扩展的 ViewPager 指示器框架。是ViewPagerIndicator、TabLayout、PagerSlidingTabStrip的最佳替代品。支持角标，更支持在非ViewPager场景下使用（使用hide()、show()切换Fragment或使用setVisibility切换FrameLayout里的View等），http://www.jianshu.com/p/f3022211821c
+android java and javascript bridge, inspired by wechat webview jsbridge
+A util for setting status bar style on Android App.
+Virtual Engine for Android(Support 12.0 in business version)
+安卓学习笔记
+Some Android learning materials, hoping to help you learn Android development.
+(Deprecated) A custom view component that mimics the new Material Design Bottom Navigation pattern.
+A Material Design ViewPager easy to use library
+Android  loading animations
+Firebase Quickstart Samples for Android
+A library for debugging android databases and shared preferences - Make Debugging Great Again
+proguard resource for Android  by wechat team
+Resilience4j is a fault tolerance library designed for Java8 and functional programming
+JetBrains theme of Material Theme
+Epoxy is an Android library for building complex screens in a RecyclerView
+Android application powering the mirror in my house
+hsweb (haʊs wɛb) 是一个基于spring-boot 2.x开发 ,首个使用全响应式编程的企业级后台管理系统基础项目。
+Lifecycle handling APIs for Android apps using RxJava
+:sunrise_over_mountains: A React Native module that allows you to use native UI to select media from the device library or directly from the camera.
+Distributed scheduled job framework
+Reactive Programming for Android
+A RecyclerView(advanced and flexible version of ListView in Android) with refreshing,loading more,animation and many other features.
+一款用于在Android设备上获取照片（拍照或从相册、文件中选择）、裁剪图片、压缩图片的开源工具库
+Android view for displaying PDFs rendered with PdfiumAndroid
+:money_with_wings: WeChat's lucky money helper (微信抢红包插件) by Zhongyi Tong. An Android app that helps you snatch red packets in WeChat groups. 
+Android and Java bytecode viewer
+A custom ViewPager title strip which gives continuous feedback to the user when scrolling
+Algorithms, 4th edition textbook code and libraries
+Spring Cloud基础教程，持续连载更新中
+[停止维护]okhttp的辅助类
+A plugin framework on android,Run any third-party apk without installation, modification or repackage
+[停止维护]Android屏幕适配方案，直接填写设计图上的像素尺寸即可完成适配，最大限度解决适配问题。
+Material Design Music Player
+Change data capture for a variety of databases. Please log issues at https://issues.redhat.com/browse/DBZ.
+:strawberry: Permissions manager for Android platform.
+React Native Local and Remote Notifications
+A transparent ui-block detection library for Android. (known as BlockCanary)
+mybatis-generator界面工具，让你生成代码更简单更快捷
+A <Video /> component for react-native
+:closed_book:  "任阅" 网络小说阅读器，3D翻页效果、txt/pdf/epub书籍阅读、Wifi传书~
+Image Cropping Library for Android, optimized for Camera / Gallery.
+SVG library for React Native, React Native Web, and plain React web projects.
+仿网易云音乐 安卓版，netease  android，音乐播放器 在线 下载
+Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
+High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies
+Android orm, bitmap, http, view inject... 
+JavaFX Material Design Library
+A Material design back port of Android's CalendarView
+A menu which can ... BOOM! - Android
+A cross-language remote procedure call(RPC) framework for rapid development of high performance distributed services.
+Infinite cycle ViewPager with two-way orientation and interactive effect.
+Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more.
+手把手教你整合最优雅SSM框架：SpringMVC + Spring + MyBatis

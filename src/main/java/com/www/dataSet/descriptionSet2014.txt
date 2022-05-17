@@ -1,0 +1,100 @@
+Design patterns implemented in Java
+Google core libraries for Java
+Free universal database tool and SQL client
+🍬A set of tools that keep Java sweet.
+A Java serialization/deserialization library to convert Java Objects into JSON and back
+RxJava bindings for Android
+APM, Application Performance Monitoring System
+An extensible media player for Android
+A libre lightweight streaming front-end for Android.
+Redisson - Redis Java client with features of In-Memory Data Grid. Over 50 Redis based Java objects and services: Set, Multimap, SortedSet, Map, List, Queue, Deque, Semaphore, Lock, AtomicLong, Map Reduce, Publish / Subscribe, Bloom filter, Spring Cache, Tomcat, Scheduler, JCache API, Hibernate, MyBatis, RPC, local cache ...
+Apache Flink
+a fast, scalable, multi-language and extensible build system
+An Android library for managing images and the memory they use.
+Modern Java - A Guide to Java 8
+This is a sample app that is part of a series of blog posts I have written about how to architect an android application using Uncle Bob's clean architecture approach.
+A circular ImageView for Android
+Android Transition animations explanation with examples.
+✔️ Simple, pretty and powerful logger for android
+This is a picker view for android , support linkage effect, timepicker and optionspicker.（时间选择器、省市区三级联动）
+A Java 8+ Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)
+Termux - a terminal emulator application for Android OS extendible by variety of packages.
+Apache Hadoop
+Stetho is a debug bridge for Android applications, enabling the powerful Chrome Developer Tools and much more.
+The Most Powerful Swipe Layout!
+APM, (Application Performance Management) tool for large-scale distributed systems. 
+Cute view animation collection.
+A high performance caching library for Java
+Microservice Architecture with Spring Boot, Spring Cloud and Docker
+A standalone Java Decompiler GUI
+Mybatis通用分页插件
+Guice (pronounced 'juice') is a lightweight dependency injection framework for Java 8 and above, brought to you by Google.
+Admin UI for administration of spring boot applications
+An Android TabLayout Lib
+Multitask、MultiThread(MultiConnection)、Breakpoint-resume、High-concurrency、Simple to use、Single/NotSingle-process
+Interview questions
+Android runtime permissions powered by RxJava2
+27天成为Java大神
+Cracking the Coding Interview 6th Ed. Solutions
+Tools to work with android .dex and java .class files
+The Java gRPC implementation. HTTP/2 based RPC
+Ultra Pull to Refresh for Android. Support all the views.
+Android library to observe scroll events on scrollable views.
+An Android transformation library providing a variety of image transformations for Glide.
+DEPRECATED
+A Camera component for React Native. Also supports barcode scanning!
+The OWASP ZAP core project
+Simplify Android M system permissions
+null
+This is a library with components of Android L to you use in android 2.2
+android java and javascript bridge, inspired by wechat webview jsbridge
+An open source SQL database designed to process time series data, faster
+A collection of samples demonstrating different frameworks and techniques for automated testing
+Some Android learning materials, hoping to help you learn Android development.
+Java JWT: JSON Web Token for Java and Android
+A Material Design ViewPager easy to use library
+proguard resource for Android  by wechat team
+Resilience4j is a fault tolerance library designed for Java8 and functional programming
+JetBrains theme of Material Theme
+Android application powering the mirror in my house
+Lifecycle handling APIs for Android apps using RxJava
+:sunrise_over_mountains: A React Native module that allows you to use native UI to select media from the device library or directly from the camera.
+Learning RxJava for Android by example
+Distributed scheduled job framework
+Multi-platform transparent client-side encryption of your files in the cloud
+Charts/graphs library for Android compatible with API 8+, several chart types with support for scaling, scrolling and animations
+Reactive Programming for Android
+SweetAlert for Android, a beautiful and clever alert dialog
+A RecyclerView(advanced and flexible version of ListView in Android) with refreshing,loading more,animation and many other features.
+一款用于在Android设备上获取照片（拍照或从相册、文件中选择）、裁剪图片、压缩图片的开源工具库
+:money_with_wings: WeChat's lucky money helper (微信抢红包插件) by Zhongyi Tong. An Android app that helps you snatch red packets in WeChat groups. 
+Android and Java bytecode viewer
+[DEPRECATED] An Unofficial E-Hentai Application for Android
+A custom ViewPager title strip which gives continuous feedback to the user when scrolling
+Algorithms, 4th edition textbook code and libraries
+[停止维护]okhttp的辅助类
+Mybatis Common Mapper - Easy to use
+A plugin framework on android,Run any third-party apk without installation, modification or repackage
+[停止维护]Android屏幕适配方案，直接填写设计图上的像素尺寸即可完成适配，最大限度解决适配问题。
+Material Design Music Player
+Use SQL to query Elasticsearch
+A JavaScript checker and optimizer.
+Floating Action Button for Android based on Material Design specification
+React Native Local and Remote Notifications
+A <Video /> component for react-native
+EditText in Material Design
+Image Cropping Library for Android, optimized for Camera / Gallery.
+Sample project created to show some of the best Android practices to work in the Android UI Layer. The UI layer of this project has been implemented using MVP or MVVM (without binding engine) to show how this patterns works. This project is used during the talk "EffectiveAndroidUI".
+A library to bring fully animated Material Design components to pre-Lolipop Android. 
+The Physical Web: walk up and use anything
+Efficient reliable UDP unicast, UDP multicast, and IPC message transport
+A beautiful, slim Android ProgressBar.
+MVP Android Example
+DL : dynamic load framework in android
+Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
+Catch common Java mistakes as compile-time errors
+Android orm, bitmap, http, view inject... 
+Java interface to OpenCV, FFmpeg, and more
+A Java to iOS Objective-C translation tool and runtime.
+JavaFX Material Design Library
+A Material design back port of Android's CalendarView
