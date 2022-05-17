@@ -5,7 +5,6 @@ import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
 import java.io.*;
-import java.security.PublicKey;
 import java.util.ArrayList;
 
 public class getHottest { //获取最热门的开源项目
