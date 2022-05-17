@@ -1,9 +1,11 @@
 package com.www.util;
 
+import com.google.gson.Gson;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
 import java.io.*;
+import java.security.PublicKey;
 import java.util.ArrayList;
 
 public class getHottest { //获取最热门的开源项目
@@ -13,6 +15,7 @@ public class getHottest { //获取最热门的开源项目
         StringBuilder time = new StringBuilder();
         StringBuilder watch = new StringBuilder();
         getHot gh = new getHot();
+        ItemArray itemArray = new ItemArray();
         for(int i=1;i<=10;i++){
             BufferedReader in = new BufferedReader(new InputStreamReader(gh.get(i)));
             String info = in.readLine();
@@ -21,10 +24,18 @@ public class getHottest { //获取最热门的开源项目
             int len = ja.size();
             for(int j=0;j<len;j++){
                 JSONObject jo2 = ja.getJSONObject(j);
-                name.append(jo2.get("name").toString()).append('\n');
-                describe.append(jo2.get("description").toString()).append('\n');
-                time.append(jo2.get("created_at").toString()).append('\n');
-                watch.append(jo2.get("watchers").toString()).append('\n');
+                String itemName = jo2.get("name").toString();
+                String itemDes = jo2.get("description").toString();
+                String itemTime = jo2.get("created_at").toString();
+                int itemWatcher = jo2.getInt("watchers");
+                name.append(itemName).append('\n');
+                describe.append(itemDes).append('\n');
+                time.append(itemTime).append('\n');
+                watch.append(itemWatcher).append('\n');
+                int itemYear = Integer.parseInt(itemTime.split("-")[0]);
+                int itemMonth = Integer.parseInt(itemTime.substring(5,7));
+                int itemDay = Integer.parseInt(itemTime.substring(8,10));
+                itemArray.addItem(new Item(itemName, itemDes, itemYear, itemMonth, itemDay, itemWatcher));
             }
             in.close();
         }
@@ -40,12 +51,16 @@ public class getHottest { //获取最热门的开源项目
         desOut.close();
         timeOut.close();
         watchOut.close();
+        String JSON = new Gson().toJson(itemArray);
+        BufferedWriter json = new BufferedWriter(new FileWriter("src/main/java/com/www/dataSet/info.json"));
+        json.write(JSON);
+        json.close();
     }
 
-    public static class Array {
+    public static class ItemArray {
         public ArrayList<Item> items;
 
-        public Array() {
+        public ItemArray() {
             items = new ArrayList<>();
         }
 
@@ -55,10 +70,20 @@ public class getHottest { //获取最热门的开源项目
     }
 
     public static class Item {
-        public String xxx;
+        public String name;
+        public String description;
+        public int year;
+        public int month;
+        public int day;
+        public int watchers;
 
-        public Item(String xxx) {
-            this.xxx = xxx;
+        public Item(String name, String description, int year, int month, int day, int watchers) {
+            this.name = name;
+            this.description = description;
+            this.year = year;
+            this.month = month;
+            this.day = day;
+            this.watchers = watchers;
         }
     }
 }
