@@ -148,6 +148,12 @@
     window.onresize = function () {
         myChart.resize();
     };
+
+    myChart.on('click', function (params) {
+        console.log(params['name'])
+        // window.open('www.baidu.com')
+        window.location.replace('http://www.baidu.com')
+    })
 </script>
 </body>
 </html>
