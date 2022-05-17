@@ -9,12 +9,18 @@ public class HelloWorldController {
 
     @RequestMapping("/")
     public String hello() {
-        return "bar-race";
+        return "bar-race-git";
     }
 
     @ResponseBody
     @RequestMapping("/hello")
     public String helloWorld() {
         return "helloWorld";
+    }
+
+    @ResponseBody
+    @RequestMapping("/data")
+    public String jsonString() {
+        return "[{\"demo\": 123}]";
     }
 }
