@@ -35,7 +35,7 @@ public class GetHottest { //获取最热门的开源项目
                 int itemYear = Integer.parseInt(itemTime.split("-")[0]);
                 int itemMonth = Integer.parseInt(itemTime.substring(5,7));
                 int itemDay = Integer.parseInt(itemTime.substring(8,10));
-                itemArray.addItem(new Item(itemName, itemDes, itemYear, itemMonth, itemDay, itemWatcher));
+                itemArray.addItem(new Item(itemName, itemDes, itemYear, itemMonth, itemDay, itemWatcher, j));
             }
             in.close();
         }
@@ -51,6 +51,7 @@ public class GetHottest { //获取最热门的开源项目
         desOut.close();
         timeOut.close();
         watchOut.close();
+        itemArray.sort();
         String JSON = new Gson().toJson(itemArray);
         BufferedWriter json = new BufferedWriter(new FileWriter("src/main/java/com/www/dataSet/info.json"));
         json.write(JSON);
@@ -69,8 +70,8 @@ public class GetHottest { //获取最热门的开源项目
         }
 
         public void sort() {
-            items.sort(Comparator.comparingInt(i -> i.watchers));
-            items.sort((a, b) -> a.watchers - b.watchers);
+            items.sort(Comparator.comparingInt(i -> -i.watchers));
+            //items.sort((a, b) -> a.watchers - b.watchers);
         }
     }
 
@@ -81,14 +82,16 @@ public class GetHottest { //获取最热门的开源项目
         public int month;
         public int day;
         public int watchers;
+        public int id;
 
-        public Item(String name, String description, int year, int month, int day, int watchers) {
+        public Item(String name, String description, int year, int month, int day, int watchers, int id) {
             this.name = name;
             this.description = description;
             this.year = year;
             this.month = month;
             this.day = day;
             this.watchers = watchers;
+            this.id = id;
         }
     }
 }
