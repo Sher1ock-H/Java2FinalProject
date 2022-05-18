@@ -129,7 +129,7 @@
         $(".list-group").empty();
         let html;
         for (let i = 0; i < dataSet.length; i++) {
-            html = '<li id="' + i + '" class="list-group-item" onclick="showDialog(this)">'
+            html = '<li id="' + i + '" class="list-group-item" style="cursor: pointer" onclick="showDialog(this)">'
                 + dataSet[i]['name']
                 + '<span class="float-end text-secondary">' + dataSet[i]['watchers']
                 + '</span>'
