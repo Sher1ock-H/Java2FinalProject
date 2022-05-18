@@ -15,6 +15,11 @@ public class WebController {
         return "bar-race-git";
     }
 
+    @RequestMapping("/rankList")
+    public String rankList() {
+        return "rankList";
+    }
+
     @ResponseBody
     @RequestMapping(value = "/data", produces = "application/json; charset=utf-8")
     public String jsonString() {

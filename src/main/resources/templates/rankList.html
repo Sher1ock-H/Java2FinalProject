@@ -8,20 +8,58 @@
 
     <script src="https://www.w3school.com.cn/lib/bs/bootstrap.js"></script>
     <script src="../static/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand">JavaProject</a>
+        <!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">-->
+        <!--            <span class="navbar-toggler-icon"></span>-->
+        <!--        </button>-->
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Graph</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/rankList">RankList</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 <div class="container mt-5">
-    <ul class="list-group">
-        <li id="1" class="list-group-item" onclick="showDialog(this)">第一项</li>
-        <li class="list-group-item">第二项</li>
-        <li class="list-group-item">第三项</li>
+    <ul class="pagination justify-content-center" style="margin:20px 0">
+        <li class="page-item pre"><a class="page-link" href="#">上一页</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">6</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">7</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">8</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">9</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">10</a></li>
+        <li class="page-item next"><a class="page-link" href="#">下一页</a></li>
+    </ul>
+    <ul class="list-group" id="list">
+<!--        <li id="1" class="list-group-item" onclick="showDialog(this)">JavaGuide</li>-->
     </ul>
     <ul class="pagination justify-content-center" style="margin:20px 0">
-        <li class="page-item disabled"><a class="page-link" href="#">上一页</a></li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item"><a class="page-link" href="#">下一页</a></li>
+        <li class="page-item pre"><a class="page-link" href="#">上一页</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">6</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">7</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">8</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">9</a></li>
+        <li class="page-item p-item"><a class="page-link" href="#">10</a></li>
+        <li class="page-item next"><a class="page-link" href="#">下一页</a></li>
     </ul>
     <button id="modal" type="button" class="btn btn-primary invisible" data-bs-toggle="modal" data-bs-target="#myModal">
         打开模态
@@ -40,45 +78,83 @@
 
             <!-- 模态主体 -->
             <div class="modal-body bg-white">
-                <p class="card-text" id="discription">Discription:「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选
+                <p class="card-text" id="description">Description:「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选
                     JavaGuide！</p>
-                <p class="card-text" id="watches">Watches: 121458</p>
+                <p class="card-text" id="watchers">Watchers: 121458</p>
                 <p class="card-text" id="time">Time: 2018-05-07</p>
             </div>
 
             <!-- 模态页脚 -->
             <div class="modal-footer">
-                <a href="#" id="url" class="btn btn-primary float-end">查看Github页面</a>
+                <a href="https://github.com/MisterBooo/LeetCodeAnimation" target="_blank" id="url"
+                   class="btn btn-primary float-end">查看Github页面</a>
                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">关闭</button>
             </div>
 
         </div>
     </div>
 </div>
-<button type="button" class="btn btn-primary" onclick="showDialog()">click</button>
 </body>
 </html>
 
 <script type="text/javascript">
+    var tempPage = 1;
+    var dataSet = [];
+    $(document).ready(function () {
+        getPage(1);
+    })
+
     function showDialog(item) {
         console.log(item)
+        setDialog(item['id'])
         console.log(item['id'])
         console.log(item.innerText)
-        setDialog(item['id'], 1, 1, 1, 1, 1)
+        // setDialog(item['id'], 1, 1, 1, 1, 1)
         // document.getElementById('modal').click()
         $("#modal").click()
     }
 
-    function setDialog(id, title, discription, watches, time, url) {
-        $("#title").text(1)
-        $("#discription").text(1)
-        $("#watches").text(1)
-        $("#time").text(1)
-        $("#url").attr('href', 'http://www.baidu.com')
+    function setDialog(id) {
+        let tempItem = dataSet[id]
+        $("#title").text(tempItem['name'])
+        $("#description").text(tempItem['des'])
+        $("#watchers").text('Watchers: ' + tempItem['watchers'])
+        $("#time").text('Date: ' + tempItem['time'].split('T')[0])
+        $("#url").attr('href', tempItem['url'])
     }
 
-    $(".page-item").on('click', function () {
-        $(".list-group").empty()
+    function getPage(i) {
+        fetch('page/' + i).then(response => response.json()).then(json => {
+            dataSet = json['items'];
+            setList()
+        })
+    }
+
+    function setList() {
+        $(".list-group").empty();
+        let html;
+        for (let i = 0; i < dataSet.length; i++) {
+            html = '<li id="' + i + '" class="list-group-item" onclick="showDialog(this)">' + dataSet[i]['name'] + '</li>'
+            $('#list').append(html)
+        }
+    }
+
+
+    $(".p-item").on('click', function () {
+        tempPage = this.innerText;
+        console.log(tempPage)
+        getPage(tempPage)
+    })
+
+    $(".pre").on('click', function () {
+        tempPage = Math.max(tempPage - 1, 1);
+        console.log(tempPage)
+        getPage(tempPage)
+    })
+    $(".next").on('click', function () {
+        tempPage = Math.min(tempPage + 1, 10);
+        console.log(tempPage)
+        getPage(tempPage)
     })
 
 
