@@ -14,6 +14,7 @@ public class GetHottest { //获取最热门的开源项目
         StringBuilder describe = new StringBuilder();
         StringBuilder time = new StringBuilder();
         StringBuilder watch = new StringBuilder();
+        StringBuilder url = new StringBuilder();
         GetHot gh = new GetHot();
         ItemArray itemArray = new ItemArray();
         for (int i = 1; i <= 10; i++) {
@@ -27,11 +28,13 @@ public class GetHottest { //获取最热门的开源项目
                 String itemName = jo2.get("name").toString();
                 String itemDes = jo2.get("description").toString();
                 String itemTime = jo2.get("created_at").toString();
+                String itemUrl = jo2.get("html_url").toString();
                 int itemWatcher = jo2.getInt("watchers");
                 name.append(itemName).append('\n');
                 describe.append(itemDes).append('\n');
                 time.append(itemTime).append('\n');
                 watch.append(itemWatcher).append('\n');
+                url.append(itemUrl).append('\n');
                 int itemYear = Integer.parseInt(itemTime.split("-")[0]);
                 int itemMonth = Integer.parseInt(itemTime.substring(5,7));
                 int itemDay = Integer.parseInt(itemTime.substring(8,10));
@@ -43,14 +46,17 @@ public class GetHottest { //获取最热门的开源项目
         BufferedWriter desOut = new BufferedWriter(new FileWriter("src/main/java/com/www/dataSet/description.txt"));
         BufferedWriter timeOut = new BufferedWriter(new FileWriter("src/main/java/com/www/dataSet/time.txt"));
         BufferedWriter watchOut = new BufferedWriter(new FileWriter("src/main/java/com/www/dataSet/watcher.txt"));
+        BufferedWriter urlOut = new BufferedWriter(new FileWriter("src/main/java/com/www/dataSet/url.txt"));
         nameOut.write(name.toString());
         desOut.write(describe.toString());
         timeOut.write(time.toString());
         watchOut.write(watch.toString());
+        urlOut.write(url.toString());
         nameOut.close();
         desOut.close();
         timeOut.close();
         watchOut.close();
+        urlOut.close();
         itemArray.sort();
         String JSON = new Gson().toJson(itemArray);
         BufferedWriter json = new BufferedWriter(new FileWriter("src/main/java/com/www/dataSet/info.json"));

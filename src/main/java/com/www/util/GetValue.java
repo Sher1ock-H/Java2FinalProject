@@ -4,12 +4,14 @@ import com.google.gson.Gson;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class GetValue {
     String[] name = new String[1000];
     String[] time = new String[1000];
     int[] watcher = new int[1000];
     String[] des = new String[1000];
+    String[] urls = new String[1000];
 
     public GetValue(){
         try {
@@ -17,16 +19,19 @@ public class GetValue {
             BufferedReader timeIn = new BufferedReader(new FileReader("src/main/java/com/www/dataSet/time.txt"));
             BufferedReader watcherIn = new BufferedReader(new FileReader("src/main/java/com/www/dataSet/watcher.txt"));
             BufferedReader desIn = new BufferedReader(new FileReader("src/main/java/com/www/dataSet/description.txt"));
+            BufferedReader urlIn = new BufferedReader(new FileReader("src/main/java/com/www/dataSet/url.txt"));
             for (int i = 0; i < 1000; i++) {
                 name[i] = nameIn.readLine();
                 time[i] = timeIn.readLine();
                 watcher[i] = Integer.parseInt(watcherIn.readLine());
                 des[i] = desIn.readLine();
+                urls[i] = urlIn.readLine();
             }
             nameIn.close();
             timeIn.close();
             watcherIn.close();
             desIn.close();
+            urlIn.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -68,12 +73,9 @@ public class GetValue {
     }
 
     public String getPage(int pageNum) {
-        GetHottest.ItemArray itemArray = new GetHottest.ItemArray();
+        UArray itemArray = new UArray();
         for (int i = (pageNum - 1) * 100; i <= (pageNum) * 100; i++) {
-            int itemYear = Integer.parseInt(time[i].split("-")[0]);
-            int itemMonth = Integer.parseInt(time[i].substring(5, 7));
-            int itemDay = Integer.parseInt(time[i].substring(8, 10));
-            itemArray.addItem(new GetHottest.Item(name[i], des[i], itemYear, itemMonth, itemDay, watcher[i], i));
+            itemArray.addItem(new UItem(name[i], des[i], time[i], watcher[i], urls[i], i));
         }
         itemArray.sort();
         return new Gson().toJson(itemArray);
@@ -92,6 +94,35 @@ public class GetValue {
         public YItem(String name, int year){
             this.name = name;
             this.year = year;
+        }
+    }
+
+    public static class UArray{
+        public ArrayList<UItem> items;
+        public UArray(){items = new ArrayList<>();}
+        public void addItem(UItem item){this.items.add(item);}
+
+        public void sort() {
+            items.sort(Comparator.comparingInt(i -> -i.watchers));
+            //items.sort((a, b) -> a.watchers - b.watchers);
+        }
+    }
+
+    public static class UItem{
+        public String name;
+        public String des;
+        public String time;
+        public String url;
+        public int watchers;
+        public int id;
+
+        public UItem(String name, String des, String time, int watchers, String url, int id){
+            this.name = name;
+            this.des = des;
+            this.time = time;
+            this.watchers = watchers;
+            this.url = url;
+            this.id = id;
         }
     }
 }
