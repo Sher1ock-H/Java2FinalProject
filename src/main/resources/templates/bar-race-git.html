@@ -20,17 +20,69 @@
         useDirtyRect: false
     });
     var app = {};
+    var items;
     const url = window.location.host
 
+    var type = 'year'
     var option;
-    fetch('data').then(data => data.json()).then(json => {
+    var results = [];
+    var temp = 0;
+    var min;
 
-    })
+    fetchData('data')
 
-    const data = [];
-    for (let i = 0; i < 13; ++i) {
+    function fetchData(name) {
+        fetch(name).then(data => data.json()).then(json => {
+            items = json['items'];
+            for (const item of items) {
+                results.push(Number(item[type]))
+            }
+        })
+    }
+
+    var data = [];
+    for (let i = 0; i < 12; ++i) {
         data.push(0);//设置初始值
     }
+
+    function init(name) {
+        for (let i = 0; i < data.length; i++) {
+            data[i] = 0;
+        }
+        let title;
+        if (type === 'year') {
+            yData = ['2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022']
+            title = 'Java2Project';
+        } else {
+            yData = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12']
+            title = 'Java2Project Year = ' + name
+        }
+        myChart.setOption({
+            title: {
+                text: title
+            },
+            series: [
+                {
+                    type: 'bar',
+                    name: type,
+                    data
+                }
+            ],
+            yAxis: {
+                type: 'category',
+                data: yData,
+                inverse: true,//最上面最大
+                animationDuration: 300,
+                animationDurationUpdate: 300,
+                max: 11 // 只有max+1个柱子
+            },
+            animationDuration: 0,
+            animationDurationUpdate: 1000,//设置在几秒钟之内更新到最新值
+            animationEasing: 'linear',
+            animationEasingUpdate: 'linear'
+        });
+    }
+
     option = {
         title: {
             text: 'Java2Project'
@@ -41,11 +93,11 @@
         tooltip: {},
         yAxis: {
             type: 'category',
-            data: ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022'],
+            data: ['2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022'],
             inverse: true,//最上面最大
             animationDuration: 300,
             animationDurationUpdate: 300,
-            max: 4 // 只有max+1个柱子
+            max: 11 // 只有max+1个柱子
         },
         series: [
             {
@@ -53,19 +105,6 @@
                 name: 'year',
                 type: 'bar',
                 itemStyle: {
-                    // color: [
-                    //     '#c23531',
-                    //     '#2f4554',
-                    //     '#61a0a8',
-                    //     '#d48265',
-                    //     '#91c7ae',
-                    //     '#749f83',
-                    //     '#ca8622',
-                    //     '#bda29a',
-                    //     '#6e7074',
-                    //     '#546570',
-                    //     '#c4ccd3'
-                    // ],
                     color: '#2f4554'
                 },
                 data: data,
@@ -73,55 +112,44 @@
                     show: true,
                     position: 'right',
                     valueAnimation: true
-                },
-                //高亮
-                // emphasis: {
-                //     itemStyle: {
-                //         // 高亮时点的颜色。
-                //         color: 'red'
-                //     },
-                //     label: {
-                //         show: true,
-                //         // 高亮时标签的文字。
-                //         formatter: 'This is a emphasis label.'
-                //     }
-                // },
+                }
             }
         ],
         legend: {
             // data: ['name'],
-            show: true
+            show: false
         },
         animationDuration: 0,
-        animationDurationUpdate: 3000,//设置在几秒钟之内更新到最新值
+        animationDurationUpdate: 1000,//设置在几秒钟之内更新到最新值
         animationEasing: 'linear',
         animationEasingUpdate: 'linear'
     };
 
-    function run() {
-        for (var i = 0; i < data.length; ++i) {
-            if (Math.random() > 0.9) {
-                data[i] += Math.round(Math.random() * 2000);
-            } else {
-                data[i] += Math.round(Math.random() * 200);
-            }
-        }
-        myChart.setOption({
-            series: [
-                {
-                    type: 'bar',
-                    data
-                }
-            ]
-        });
-    }
+    setIn()
 
-    setTimeout(function () {
-        run();
-    }, 0);
-    setInterval(function () {
-        run();
-    }, 3000);
+    var interval
+    function setIn() {
+        let k = type === 'year' ? 2011 : 1;
+        interval = setInterval(function () {
+            for (let i = 0; i < 100; i++) {
+                if (temp < results.length) {
+                    data[results[temp] - k] += 1;
+                    temp++;
+                }
+            }
+            myChart.setOption({
+                series: [
+                    {
+                        type: 'bar',
+                        data
+                    }
+                ]
+            });
+            if (temp >= results.length) {
+                clearInterval(interval)
+            }
+        }, 1000)
+    }
 
     if (option && typeof option === 'object') {
         myChart.setOption(option);
@@ -132,7 +160,20 @@
     };
 
     myChart.on('click', function (params) {
-        console.log(params['name'])
+        name = params['name']
+        if (name.length === 4) {
+            clearInterval(interval)
+            type = 'month';
+            fetchData('year/' + name);
+            init(name);
+            setIn();
+        } else {
+            clearInterval(interval)
+            type = 'year';
+            fetchData('data');
+            init(name);
+            setIn();
+        }
         // window.open('www.baidu.com')
         // window.location.replace('http://www.baidu.com')
     })

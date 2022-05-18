@@ -16,13 +16,7 @@ public class WebController {
     }
 
     @ResponseBody
-    @RequestMapping("/hello")
-    public String helloWorld() {
-        return "helloWorld";
-    }
-
-    @ResponseBody
-    @RequestMapping("/data")
+    @RequestMapping(value = "/data", produces = "application/json; charset=utf-8")
     public String jsonString() {
         return getValue.getAll();
     }
