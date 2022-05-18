@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class GetValue {
     String[] name = new String[1000];
@@ -33,15 +34,12 @@ public class GetValue {
     }
 
     public String getAll() {
-        GetHottest.ItemArray itemArray = new GetHottest.ItemArray();
+        YArray yArray = new YArray();
         for (int i = 0; i < 1000; i++) {
             int itemYear = Integer.parseInt(time[i].split("-")[0]);
-            int itemMonth = Integer.parseInt(time[i].substring(5, 7));
-            int itemDay = Integer.parseInt(time[i].substring(8, 10));
-            itemArray.addItem(new GetHottest.Item(name[i], des[i], itemYear, itemMonth, itemDay, watcher[i], i));
+            yArray.addItem(new YItem(name[i], itemYear));
         }
-        itemArray.sort();
-        return new Gson().toJson(itemArray);
+        return new Gson().toJson(yArray);
     }
 
     public String getYear(int year) {
@@ -80,5 +78,21 @@ public class GetValue {
         }
         itemArray.sort();
         return new Gson().toJson(itemArray);
+    }
+
+    public static class YArray{
+        public ArrayList<YItem> items;
+        public YArray(){items = new ArrayList<>();}
+        public void addItem(YItem item){this.items.add(item);}
+    }
+
+    public static class YItem{
+        public String name;
+        public int year;
+
+        public YItem(String name, int year){
+            this.name = name;
+            this.year = year;
+        }
     }
 }
