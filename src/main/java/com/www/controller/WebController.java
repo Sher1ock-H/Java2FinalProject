@@ -1,11 +1,13 @@
 package com.www.controller;
 
+import com.www.util.GetValue;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-
 @Controller
 public class WebController {
+
+    public static GetValue getValue = new GetValue();
 
     @RequestMapping("/")
     public String index() {
@@ -27,7 +29,7 @@ public class WebController {
     @ResponseBody
     @RequestMapping("/????")
     public String year() {
-        return "Demo";
+        return null;
     }
 
     @ResponseBody

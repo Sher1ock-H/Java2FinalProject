@@ -11,16 +11,24 @@ public class GetValue {
     int[] watcher = new int[1000];
     String[] des = new String[1000];
 
-    public GetValue() throws IOException {
-        BufferedReader nameIn = new BufferedReader(new InputStreamReader(new FileInputStream("src/main/java/com/www/dataSet/name.txt")));
-        BufferedReader timeIn = new BufferedReader(new InputStreamReader(new FileInputStream("src/main/java/com/www/dataSet/time.txt")));
-        BufferedReader watcherIn = new BufferedReader(new InputStreamReader(new FileInputStream("src/main/java/com/www/dataSet/watcher.txt")));
-        BufferedReader desIn = new BufferedReader(new InputStreamReader(new FileInputStream("src/main/java/com/www/dataSet/description.txt")));
-        for (int i = 0; i < 1000; i++) {
-            name[i] = nameIn.readLine();
-            time[i] = timeIn.readLine();
-            watcher[i] = Integer.parseInt(watcherIn.readLine());
-            des[i] = desIn.readLine();
+    public GetValue(){
+        try {
+            BufferedReader nameIn = new BufferedReader(new InputStreamReader(new FileInputStream("src/main/java/com/www/dataSet/name.txt")));
+            BufferedReader timeIn = new BufferedReader(new InputStreamReader(new FileInputStream("src/main/java/com/www/dataSet/time.txt")));
+            BufferedReader watcherIn = new BufferedReader(new InputStreamReader(new FileInputStream("src/main/java/com/www/dataSet/watcher.txt")));
+            BufferedReader desIn = new BufferedReader(new InputStreamReader(new FileInputStream("src/main/java/com/www/dataSet/description.txt")));
+            for (int i = 0; i < 1000; i++) {
+                name[i] = nameIn.readLine();
+                time[i] = timeIn.readLine();
+                watcher[i] = Integer.parseInt(watcherIn.readLine());
+                des[i] = desIn.readLine();
+            }
+            nameIn.close();
+            timeIn.close();
+            watcherIn.close();
+            desIn.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 

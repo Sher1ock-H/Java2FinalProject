@@ -16,13 +16,13 @@ public class GetHottest { //获取最热门的开源项目
         StringBuilder watch = new StringBuilder();
         GetHot gh = new GetHot();
         ItemArray itemArray = new ItemArray();
-        for(int i=1;i<=10;i++){
+        for (int i = 1; i <= 10; i++) {
             BufferedReader in = new BufferedReader(new InputStreamReader(gh.get(i)));
             String info = in.readLine();
             JSONObject jo1 = JSONObject.fromObject(info);
             JSONArray ja = jo1.getJSONArray("items");
             int len = ja.size();
-            for(int j=0;j<len;j++){
+            for (int j = 0; j < len; j++) {
                 JSONObject jo2 = ja.getJSONObject(j);
                 String itemName = jo2.get("name").toString();
                 String itemDes = jo2.get("description").toString();
@@ -65,7 +65,7 @@ public class GetHottest { //获取最热门的开源项目
             items = new ArrayList<>();
         }
 
-        public void addItem (Item item) {
+        public void addItem(Item item) {
             this.items.add(item);
         }
 

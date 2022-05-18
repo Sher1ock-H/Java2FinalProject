@@ -12,7 +12,7 @@
 <body>
 <div class="container mt-5">
     <ul class="list-group">
-        <li class="list-group-item" onclick="showDialog(this)">第一项</li>
+        <li id="1" class="list-group-item" onclick="showDialog(this)">第一项</li>
         <li class="list-group-item">第二项</li>
         <li class="list-group-item">第三项</li>
     </ul>
@@ -48,7 +48,7 @@
 
             <!-- 模态页脚 -->
             <div class="modal-footer">
-                <a href="#" class="btn btn-primary float-end">查看Github页面</a>
+                <a href="#" id="url" class="btn btn-primary float-end">查看Github页面</a>
                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">关闭</button>
             </div>
 
@@ -62,7 +62,24 @@
 <script type="text/javascript">
     function showDialog(item) {
         console.log(item)
+        console.log(item['id'])
+        console.log(item.innerText)
+        setDialog(item['id'], 1, 1, 1, 1, 1)
         // document.getElementById('modal').click()
         $("#modal").click()
     }
+
+    function setDialog(id, title, discription, watches, time, url) {
+        $("#title").text(1)
+        $("#discription").text(1)
+        $("#watches").text(1)
+        $("#time").text(1)
+        $("#url").attr('href', 'http://www.baidu.com')
+    }
+
+    $(".page-item").on('click', function () {
+        $(".list-group").empty()
+    })
+
+
 </script>
