@@ -80,14 +80,8 @@ public class GetValue {
 
     public String getPage(int pageNum) {
         UArray itemArray = new UArray();
-        Iterator<UItem> uIte = pageArray.items.iterator();
-        int cnt = 0;
-        while (uIte.hasNext()){
-            if(cnt >= (pageNum - 1) * 100 && cnt < pageNum * 100){
-                itemArray.addItem(uIte.next());
-            }
-            else uIte.next();
-            cnt++;
+        for (int i = (pageNum - 1) * 100; i < pageNum * 100; i++) {
+            itemArray.addItem(pageArray.items.get(i));
         }
         return new Gson().toJson(itemArray);
     }

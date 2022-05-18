@@ -45,7 +45,7 @@
         <li class="page-item next"><a class="page-link" href="#">下一页</a></li>
     </ul>
     <ul class="list-group" id="list">
-<!--        <li id="1" class="list-group-item" onclick="showDialog(this)">JavaGuide</li>-->
+        <!--        <li id="1" class="list-group-item" onclick="showDialog(this)">JavaGuide</li>-->
     </ul>
     <ul class="pagination justify-content-center" style="margin:20px 0">
         <li class="page-item pre"><a class="page-link" href="#">上一页</a></li>
@@ -134,7 +134,11 @@
         $(".list-group").empty();
         let html;
         for (let i = 0; i < dataSet.length; i++) {
-            html = '<li id="' + i + '" class="list-group-item" onclick="showDialog(this)">' + dataSet[i]['name'] + '</li>'
+            html = '<li id="' + i + '" class="list-group-item" onclick="showDialog(this)">'
+                + dataSet[i]['name']
+                + '<span class="float-end text-secondary">' + dataSet[i]['watchers']
+                + '</span>'
+                + '</li>'
             $('#list').append(html)
         }
     }

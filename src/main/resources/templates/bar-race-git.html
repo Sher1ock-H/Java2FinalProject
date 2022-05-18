@@ -75,10 +75,10 @@
         let title;
         if (type === 'year') {
             yData = ['2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022']
-            title = 'Github按热度排序前1000条的时间分布';
+            title = 'Github按Watchers排序前1000条的时间分布';
         } else {
             yData = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-            title = 'Github按热度排序前1000条的时间分布 Year = ' + name
+            title = 'Github按Watchers排序前1000条的时间分布 Year = ' + name
         }
         myChart.setOption({
             title: {
@@ -108,7 +108,7 @@
 
     option = {
         title: {
-            text: 'Github按热度排序前1000条的时间分布'
+            text: 'Github按Watchers排序前1000条的时间分布'
         },
         xAxis: {
             max: 'dataMax'
