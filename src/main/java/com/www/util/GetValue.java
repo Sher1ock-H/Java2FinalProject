@@ -40,6 +40,7 @@ public class GetValue {
             int itemDay = Integer.parseInt(time[i].substring(8, 10));
             itemArray.addItem(new GetHottest.Item(name[i], des[i], itemYear, itemMonth, itemDay, watcher[i], i));
         }
+        itemArray.sort();
         return new Gson().toJson(itemArray);
     }
 
@@ -52,6 +53,7 @@ public class GetValue {
             if (itemYear == year)
                 itemArray.addItem(new GetHottest.Item(name[i], des[i], itemYear, itemMonth, itemDay, watcher[i], i));
         }
+        itemArray.sort();
         return new Gson().toJson(itemArray);
     }
 
@@ -64,6 +66,7 @@ public class GetValue {
             if (itemYear == year && itemMonth == month)
                 itemArray.addItem(new GetHottest.Item(name[i], des[i], itemYear, itemMonth, itemDay, watcher[i], i));
         }
+        itemArray.sort();
         return new Gson().toJson(itemArray);
     }
 
@@ -75,6 +78,7 @@ public class GetValue {
             int itemDay = Integer.parseInt(time[i].substring(8, 10));
             itemArray.addItem(new GetHottest.Item(name[i], des[i], itemYear, itemMonth, itemDay, watcher[i], i));
         }
+        itemArray.sort();
         return new Gson().toJson(itemArray);
     }
 }
