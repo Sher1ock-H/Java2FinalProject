@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link href="https://www.w3school.com.cn/lib/bs/bootstrap.css" rel="stylesheet">
     <!--    <link href="bootstrap.css" rel="stylesheet">-->
-    <title>Demo</title>
+    <title>Hottest-Project</title>
 </head>
 <body class="h-100 m-0">
 <!--<h1>Java Project</h1>-->
@@ -23,10 +23,10 @@
                     <a class="nav-link" href="/rankList">RankList</a>
                 </li>
             </ul>
-<!--            <form class="d-flex">-->
-<!--                <input class="form-control me-2" type="text" placeholder="Search">-->
-<!--                <button class="btn btn-primary" type="button">Search</button>-->
-<!--            </form>-->
+            <!--            <form class="d-flex">-->
+            <!--                <input class="form-control me-2" type="text" placeholder="Search">-->
+            <!--                <button class="btn btn-primary" type="button">Search</button>-->
+            <!--            </form>-->
         </div>
     </div>
 </nav>
@@ -52,20 +52,33 @@
     var temp = 0;
     var min;
 
-    fetchData('data')
+    window.onload = function () {
+        fetch('data').then(data => data.json()).then(json => {
+            items = json['items'];
+            for (const item of items) {
+                results.push(Number(item['year']))
+            }
+            init(bar);
+            initialSetInterval();
+        })
+    }
+
+    var bar;
+    var data = [];
+    for (let i = 0; i < 12; ++i) {
+        data.push(0);//设置初始值
+    }
 
     function fetchData(name) {
         fetch(name).then(data => data.json()).then(json => {
             items = json['items'];
+            results = []
             for (const item of items) {
                 results.push(Number(item[type]))
             }
+            init(bar);
+            loadData();
         })
-    }
-
-    var data = [];
-    for (let i = 0; i < 12; ++i) {
-        data.push(0);//设置初始值
     }
 
     function init(name) {
@@ -86,11 +99,24 @@
             },
             series: [
                 {
-                    type: 'bar',
+                    realtimeSort: true,
                     name: type,
-                    data
+                    type: 'bar',
+                    itemStyle: {
+                        color: '#2f4554'
+                    },
+                    data: data,
+                    label: {
+                        show: true,
+                        position: 'right',
+                        valueAnimation: true
+                    }
                 }
             ],
+            xAxis: {
+                max: 'dataMax'
+            },
+            tooltip: {},
             yAxis: {
                 type: 'category',
                 data: yData,
@@ -106,55 +132,9 @@
         });
     }
 
-    option = {
-        title: {
-            text: 'Github按Watchers排序前1000条的时间分布'
-        },
-        xAxis: {
-            max: 'dataMax'
-        },
-        tooltip: {},
-        yAxis: {
-            type: 'category',
-            data: ['2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022'],
-            inverse: true,//最上面最大
-            animationDuration: 300,
-            animationDurationUpdate: 300,
-            max: 11 // 只有max+1个柱子
-        },
-        series: [
-            {
-                realtimeSort: true,
-                name: 'year',
-                type: 'bar',
-                itemStyle: {
-                    color: '#2f4554'
-                },
-                data: data,
-                label: {
-                    show: true,
-                    position: 'right',
-                    valueAnimation: true
-                }
-            }
-        ],
-        legend: {
-            // data: ['name'],
-            show: false
-        },
-        animationDuration: 0,
-        animationDurationUpdate: 1000,//设置在几秒钟之内更新到最新值
-        animationEasing: 'linear',
-        animationEasingUpdate: 'linear'
-    };
-
-    setIn()
-
-    var interval
-
-    function setIn() {
+    function initialSetInterval() {
         let k = type === 'year' ? 2011 : 1;
-        interval = setInterval(function () {
+        let interval = setInterval(function () {
             for (let i = 0; i < 100; i++) {
                 if (temp < results.length) {
                     data[results[temp] - k] += 1;
@@ -175,8 +155,20 @@
         }, 1000)
     }
 
-    if (option && typeof option === 'object') {
-        myChart.setOption(option);
+    function loadData() {
+        let k = type === 'year' ? 2011 : 1;
+        temp = 0;
+        for (let i = 0; i < results.length; i++) {
+            data[results[i] - k] += 1;
+        }
+        myChart.setOption({
+            series: [
+                {
+                    type: 'bar',
+                    data
+                }
+            ]
+        });
     }
 
     window.onresize = function () {
@@ -184,22 +176,15 @@
     };
 
     myChart.on('click', function (params) {
-        name = params['name']
-        if (name.length === 4) {
-            clearInterval(interval)
+        myChart.clear();
+        bar = params['name']
+        if (bar.length === 4) {
             type = 'month';
-            fetchData('year/' + name);
-            init(name);
-            setIn();
+            fetchData('year/' + bar);
         } else {
-            clearInterval(interval)
             type = 'year';
             fetchData('data');
-            init(name);
-            setIn();
         }
-        // window.open('www.baidu.com')
-        // window.location.replace('http://www.baidu.com')
     })
 </script>
 </body>

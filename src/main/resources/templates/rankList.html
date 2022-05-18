@@ -13,7 +13,7 @@
 <body>
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand">JavaProject</a>
+        <a class="navbar-brand">Github-Watcher-Ranking</a>
         <!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">-->
         <!--            <span class="navbar-toggler-icon"></span>-->
         <!--        </button>-->
@@ -105,12 +105,7 @@
     })
 
     function showDialog(item) {
-        console.log(item)
         setDialog(item['id'])
-        console.log(item['id'])
-        console.log(item.innerText)
-        // setDialog(item['id'], 1, 1, 1, 1, 1)
-        // document.getElementById('modal').click()
         $("#modal").click()
     }
 
@@ -142,7 +137,6 @@
             $('#list').append(html)
         }
     }
-
 
     $(".p-item").on('click', function () {
         tempPage = this.innerText;
