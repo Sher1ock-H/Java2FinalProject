@@ -1,49 +1,812 @@
 {
   "items": [
     {
-      "name": "ruoyi-vue-pro",
-      "description": "🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue \u0026 Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Activiti + Flowable 工作流、三方登录、支付、短信、商城等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！",
-      "year": 2021,
-      "month": 1,
-      "day": 24,
-      "watchers": 5085,
-      "id": 204
+      "name": "JavaGuide",
+      "des": "「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！",
+      "time": "2018-05-07T13:27:00Z",
+      "url": "https://github.com/Snailclimb/JavaGuide",
+      "watchers": 121483,
+      "id": 0
     },
     {
-      "name": "OpenSearch",
-      "description": "🔎 Open source distributed and RESTful search engine.",
-      "year": 2021,
-      "month": 1,
-      "day": 29,
-      "watchers": 4992,
-      "id": 210
+      "name": "LeetCodeAnimation",
+      "des": "Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路）",
+      "time": "2018-12-06T08:01:22Z",
+      "url": "https://github.com/MisterBooo/LeetCodeAnimation",
+      "watchers": 70182,
+      "id": 1
     },
     {
-      "name": "Houseclub",
-      "description": "A barebones unofficial Android app for Clubhouse",
-      "year": 2021,
-      "month": 2,
-      "day": 20,
-      "watchers": 2444,
-      "id": 869
+      "name": "advanced-java",
+      "des": "😮 Core Interview Questions \u0026 Answers For Experienced Java(Backend) Developers | 互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识",
+      "time": "2018-10-06T11:38:30Z",
+      "url": "https://github.com/doocs/advanced-java",
+      "watchers": 63404,
+      "id": 2
     },
     {
-      "name": "log4j-scanner",
-      "description": "log4j-scanner is a project derived from other members of the open-source community by CISA to help organizations identify potentially vulnerable web services affected by the log4j vulnerabilities. ",
-      "year": 2021,
-      "month": 12,
-      "day": 21,
-      "watchers": 1212,
-      "id": 924
+      "name": "spring-boot",
+      "des": "Spring Boot",
+      "time": "2012-10-19T15:02:57Z",
+      "url": "https://github.com/spring-projects/spring-boot",
+      "watchers": 61205,
+      "id": 3
     },
     {
-      "name": "Aliucord",
-      "description": "A modification for the Discord Android App",
-      "year": 2021,
-      "month": 2,
-      "day": 27,
-      "watchers": 1158,
-      "id": 956
+      "name": "guava",
+      "des": "Google core libraries for Java",
+      "time": "2014-05-29T16:23:17Z",
+      "url": "https://github.com/google/guava",
+      "watchers": 44611,
+      "id": 4
+    },
+    {
+      "name": "AndroidUtilCode",
+      "des": ":fire: Android developers should collect the following utils(updating).",
+      "time": "2016-07-30T18:18:32Z",
+      "url": "https://github.com/Blankj/AndroidUtilCode",
+      "watchers": 30820,
+      "id": 5
+    },
+    {
+      "name": "tutorials",
+      "des": "Just Announced - \"Learn Spring Security OAuth\": ",
+      "time": "2013-04-29T18:26:36Z",
+      "url": "https://github.com/eugenp/tutorials",
+      "watchers": 30531,
+      "id": 6
+    },
+    {
+      "name": "canal",
+      "des": "阿里巴巴 MySQL binlog 增量订阅\u0026消费组件 ",
+      "time": "2013-01-13T10:59:52Z",
+      "url": "https://github.com/alibaba/canal",
+      "watchers": 22986,
+      "id": 7
+    },
+    {
+      "name": "BaseRecyclerViewAdapterHelper",
+      "des": "BRVAH:Powerful and flexible RecyclerAdapter",
+      "time": "2016-04-10T07:40:11Z",
+      "url": "https://github.com/CymChad/BaseRecyclerViewAdapterHelper",
+      "watchers": 22846,
+      "id": 8
+    },
+    {
+      "name": "Signal-Android",
+      "des": "A private messenger for Android.",
+      "time": "2011-12-15T20:01:12Z",
+      "url": "https://github.com/signalapp/Signal-Android",
+      "watchers": 22395,
+      "id": 9
+    },
+    {
+      "name": "Sentinel",
+      "des": "A powerful flow control component enabling reliability, resilience and monitoring for microservices. (面向云原生微服务的高可用流控防护组件)",
+      "time": "2018-04-04T06:37:33Z",
+      "url": "https://github.com/alibaba/Sentinel",
+      "watchers": 19080,
+      "id": 10
+    },
+    {
+      "name": "redisson",
+      "des": "Redisson - Redis Java client with features of In-Memory Data Grid. Over 50 Redis based Java objects and services: Set, Multimap, SortedSet, Map, List, Queue, Deque, Semaphore, Lock, AtomicLong, Map Reduce, Publish / Subscribe, Bloom filter, Spring Cache, Tomcat, Scheduler, JCache API, Hibernate, MyBatis, RPC, local cache ...",
+      "time": "2014-01-11T14:06:25Z",
+      "url": "https://github.com/redisson/redisson",
+      "watchers": 18989,
+      "id": 11
+    },
+    {
+      "name": "bazel",
+      "des": "a fast, scalable, multi-language and extensible build system",
+      "time": "2014-06-12T16:00:38Z",
+      "url": "https://github.com/bazelbuild/bazel",
+      "watchers": 18661,
+      "id": 12
+    },
+    {
+      "name": "PhotoView",
+      "des": "Implementation of ImageView for Android that supports zooming, by various touch gestures.",
+      "time": "2012-07-17T16:39:00Z",
+      "url": "https://github.com/Baseflow/PhotoView",
+      "watchers": 18227,
+      "id": 13
+    },
+    {
+      "name": "GSYVideoPlayer",
+      "des": "视频播放器（IJKplayer、ExoPlayer、MediaPlayer），HTTPS，支持弹幕，外挂字幕，支持滤镜、水印、gif截图，片头广告、中间广告，多个同时播放，支持基本的拖动，声音、亮度调节，支持边播边缓存，支持视频自带rotation的旋转（90,270之类），重力旋转与手动旋转的同步支持，支持列表播放 ，列表全屏动画，视频加载速度，列表小窗口支持拖动，动画效果，调整比例，多分辨率切换，支持切换播放器，进度条小窗口预览，列表切换详情页面无缝播放，rtsp、concat、mpeg。 ",
+      "time": "2016-11-13T12:34:31Z",
+      "url": "https://github.com/CarGuo/GSYVideoPlayer",
+      "watchers": 17412,
+      "id": 14
+    },
+    {
+      "name": "graal",
+      "des": "GraalVM: Run Programs Faster Anywhere :rocket:",
+      "time": "2016-01-14T17:11:35Z",
+      "url": "https://github.com/oracle/graal",
+      "watchers": 17030,
+      "id": 15
+    },
+    {
+      "name": "fresco",
+      "des": "An Android library for managing images and the memory they use.",
+      "time": "2015-03-02T09:58:04Z",
+      "url": "https://github.com/facebook/fresco",
+      "watchers": 16789,
+      "id": 16
+    },
+    {
+      "name": "cat",
+      "des": "CAT 作为服务端项目基础组件，提供了 Java, C/C++, Node.js, Python, Go 等多语言客户端，已经在美团点评的基础架构中间件框架（MVC框架，RPC框架，数据库框架，缓存框架等，消息队列，配置系统等）深度集成，为美团点评各业务线提供系统丰富的性能指标、健康状况、实时告警等。",
+      "time": "2012-12-05T02:31:48Z",
+      "url": "https://github.com/dianping/cat",
+      "watchers": 16680,
+      "id": 17
+    },
+    {
+      "name": "SpringCloudLearning",
+      "des": "《史上最简单的Spring Cloud教程源码》",
+      "time": "2017-04-08T10:06:56Z",
+      "url": "https://github.com/forezp/SpringCloudLearning",
+      "watchers": 16626,
+      "id": 18
+    },
+    {
+      "name": "java8-tutorial",
+      "des": "Modern Java - A Guide to Java 8",
+      "time": "2014-03-16T17:25:43Z",
+      "url": "https://github.com/winterbe/java8-tutorial",
+      "watchers": 15680,
+      "id": 19
+    },
+    {
+      "name": "SpringBoot-Learning",
+      "des": "《Spring Boot基础教程》，2.x版本持续连载中！点击下方链接直达教程目录！",
+      "time": "2016-08-21T03:39:06Z",
+      "url": "https://github.com/dyc87112/SpringBoot-Learning",
+      "watchers": 14394,
+      "id": 20
+    },
+    {
+      "name": "ARouter",
+      "des": "💪 A framework for assisting in the renovation of Android componentization (帮助 Android App 进行组件化改造的路由框架)",
+      "time": "2016-12-14T01:27:49Z",
+      "url": "https://github.com/alibaba/ARouter",
+      "watchers": 13806,
+      "id": 21
+    },
+    {
+      "name": "Material-Animations",
+      "des": "Android Transition animations explanation with examples.",
+      "time": "2015-03-08T20:54:00Z",
+      "url": "https://github.com/lgvalle/Material-Animations",
+      "watchers": 13565,
+      "id": 22
+    },
+    {
+      "name": "logger",
+      "des": "✔️ Simple, pretty and powerful logger for android",
+      "time": "2015-03-20T22:30:12Z",
+      "url": "https://github.com/orhanobut/logger",
+      "watchers": 13258,
+      "id": 23
+    },
+    {
+      "name": "Android-PickerView",
+      "des": "This is a picker view for android , support linkage effect, timepicker and optionspicker.（时间选择器、省市区三级联动）",
+      "time": "2014-12-28T01:46:38Z",
+      "url": "https://github.com/Bigkoo/Android-PickerView",
+      "watchers": 13123,
+      "id": 24
+    },
+    {
+      "name": "vert.x",
+      "des": "Vert.x is a tool-kit for building reactive applications on the JVM",
+      "time": "2011-06-17T14:54:55Z",
+      "url": "https://github.com/eclipse-vertx/vert.x",
+      "watchers": 12912,
+      "id": 25
+    },
+    {
+      "name": "greenDAO",
+      "des": "greenDAO is a light \u0026 fast ORM solution for Android that maps objects to SQLite databases.",
+      "time": "2011-10-22T16:15:14Z",
+      "url": "https://github.com/greenrobot/greenDAO",
+      "watchers": 12524,
+      "id": 26
+    },
+    {
+      "name": "stetho",
+      "des": "Stetho is a debug bridge for Android applications, enabling the powerful Chrome Developer Tools and much more.",
+      "time": "2015-01-22T22:34:10Z",
+      "url": "https://github.com/facebook/stetho",
+      "watchers": 12506,
+      "id": 27
+    },
+    {
+      "name": "AndroidAutoSize",
+      "des": "🔥 A low-cost Android screen adaptation solution (今日头条屏幕适配方案终极版，一个极低成本的 Android 屏幕适配方案).",
+      "time": "2018-08-17T09:04:19Z",
+      "url": "https://github.com/JessYanCoding/AndroidAutoSize",
+      "watchers": 12378,
+      "id": 28
+    },
+    {
+      "name": "Matisse",
+      "des": ":fireworks: A well-designed local image and video selector for Android",
+      "time": "2017-04-13T01:31:05Z",
+      "url": "https://github.com/zhihu/Matisse",
+      "watchers": 12267,
+      "id": 29
+    },
+    {
+      "name": "AndroidSwipeLayout",
+      "des": "The Most Powerful Swipe Layout!",
+      "time": "2014-08-25T04:09:33Z",
+      "url": "https://github.com/daimajia/AndroidSwipeLayout",
+      "watchers": 12214,
+      "id": 30
+    },
+    {
+      "name": "pinpoint",
+      "des": "APM, (Application Performance Management) tool for large-scale distributed systems. ",
+      "time": "2014-10-20T09:27:22Z",
+      "url": "https://github.com/pinpoint-apm/pinpoint",
+      "watchers": 12164,
+      "id": 31
+    },
+    {
+      "name": "spring-analysis",
+      "des": "Spring源码阅读",
+      "time": "2016-09-09T07:46:32Z",
+      "url": "https://github.com/seaswalker/spring-analysis",
+      "watchers": 11660,
+      "id": 32
+    },
+    {
+      "name": "PictureSelector",
+      "des": "Picture Selector Library for Android  or 图片选择器",
+      "time": "2017-01-04T07:47:39Z",
+      "url": "https://github.com/LuckSiege/PictureSelector",
+      "watchers": 11516,
+      "id": 33
+    },
+    {
+      "name": "realm-java",
+      "des": "Realm is a mobile database: a replacement for SQLite \u0026 ORMs",
+      "time": "2012-04-20T09:18:42Z",
+      "url": "https://github.com/realm/realm-java",
+      "watchers": 11291,
+      "id": 34
+    },
+    {
+      "name": "uCrop",
+      "des": "Image Cropping Library for Android",
+      "time": "2016-01-05T13:41:06Z",
+      "url": "https://github.com/Yalantis/uCrop",
+      "watchers": 11169,
+      "id": 36
+    },
+    {
+      "name": "androidannotations",
+      "des": "Fast Android Development. Easy maintainance.",
+      "time": "2012-01-06T08:48:03Z",
+      "url": "https://github.com/androidannotations/androidannotations",
+      "watchers": 11167,
+      "id": 35
+    },
+    {
+      "name": "android-async-http",
+      "des": "This project under develop",
+      "time": "2011-02-20T03:25:07Z",
+      "url": "https://github.com/android-async-http/android-async-http",
+      "watchers": 10651,
+      "id": 37
+    },
+    {
+      "name": "FileDownloader",
+      "des": "Multitask、MultiThread(MultiConnection)、Breakpoint-resume、High-concurrency、Simple to use、Single/NotSingle-process",
+      "time": "2015-12-22T11:17:16Z",
+      "url": "https://github.com/lingochamp/FileDownloader",
+      "watchers": 10532,
+      "id": 38
+    },
+    {
+      "name": "JiaoZiVideoPlayer",
+      "des": "MediaPlayer exoplayer ijkplayer ffmpeg",
+      "time": "2016-02-06T11:04:24Z",
+      "url": "https://github.com/lipangit/JiaoZiVideoPlayer",
+      "watchers": 10423,
+      "id": 39
+    },
+    {
+      "name": "ViewPagerIndicator",
+      "des": "Paging indicator widgets compatible with the ViewPager from the Android Support Library and ActionBarSherlock.",
+      "time": "2011-08-04T17:13:44Z",
+      "url": "https://github.com/JakeWharton/ViewPagerIndicator",
+      "watchers": 10211,
+      "id": 40
+    },
+    {
+      "name": "CtCI-6th-Edition",
+      "des": "Cracking the Coding Interview 6th Ed. Solutions",
+      "time": "2015-07-02T06:28:46Z",
+      "url": "https://github.com/careercup/CtCI-6th-Edition",
+      "watchers": 9892,
+      "id": 41
+    },
+    {
+      "name": "newbee-mall",
+      "des": "🔥 🎉newbee-mall 项目（新蜂商城）是一套电商系统，包括 newbee-mall 商城系统及 newbee-mall-admin 商城后台管理系统，基于 Spring Boot 2.X 及相关技术栈开发。 前台商城系统包含首页门户、商品分类、新品上线、首页轮播、商品推荐、商品搜索、商品展示、购物车、订单结算、订单流程、个人订单管理、会员中心、帮助中心等模块。 后台管理系统包含数据面板、轮播图管理、商品管理、订单管理、会员管理、分类管理、设置等模块。",
+      "time": "2019-09-21T03:56:04Z",
+      "url": "https://github.com/newbee-ltd/newbee-mall",
+      "watchers": 8860,
+      "id": 42
+    },
+    {
+      "name": "StatusBarUtil",
+      "des": "A util for setting status bar style on Android App.",
+      "time": "2016-02-15T03:06:06Z",
+      "url": "https://github.com/laobie/StatusBarUtil",
+      "watchers": 8749,
+      "id": 43
+    },
+    {
+      "name": "AndroidNote",
+      "des": "安卓学习笔记",
+      "time": "2016-01-04T23:51:36Z",
+      "url": "https://github.com/GcsSloop/AndroidNote",
+      "watchers": 8621,
+      "id": 44
+    },
+    {
+      "name": "AgentWeb",
+      "des": " AgentWeb is a powerful library based on Android WebView.",
+      "time": "2017-05-12T07:45:56Z",
+      "url": "https://github.com/Justson/AgentWeb",
+      "watchers": 8521,
+      "id": 45
+    },
+    {
+      "name": "BottomBar",
+      "des": "(Deprecated) A custom view component that mimics the new Material Design Bottom Navigation pattern.",
+      "time": "2016-03-16T01:31:05Z",
+      "url": "https://github.com/roughike/BottomBar",
+      "watchers": 8444,
+      "id": 46
+    },
+    {
+      "name": "CalendarView",
+      "des": "Android上一个优雅、万能自定义UI、仿iOS、支持垂直、水平方向切换、支持周视图、自定义周起始、性能高效的日历控件，支持热插拔实现的UI定制！支持标记、自定义颜色、农历、自定义月视图各种显示模式等。Canvas绘制，速度快、占用内存低，你真的想不到日历居然还可以如此优雅！An elegant, highly customized and high-performance Calendar Widget on Android.",
+      "time": "2017-03-11T07:16:09Z",
+      "url": "https://github.com/huanghaibin-dev/CalendarView",
+      "watchers": 8238,
+      "id": 49
+    },
+    {
+      "name": "Android-SpinKit",
+      "des": "Android  loading animations",
+      "time": "2016-03-20T08:40:51Z",
+      "url": "https://github.com/ybq/Android-SpinKit",
+      "watchers": 8194,
+      "id": 47
+    },
+    {
+      "name": "dropwizard",
+      "des": "A damn simple library for building production-ready RESTful web services.",
+      "time": "2011-01-19T19:52:29Z",
+      "url": "https://github.com/dropwizard/dropwizard",
+      "watchers": 8179,
+      "id": 48
+    },
+    {
+      "name": "atlas",
+      "des": "A powerful Android Dynamic Component Framework.",
+      "time": "2017-02-28T06:31:43Z",
+      "url": "https://github.com/alibaba/atlas",
+      "watchers": 8064,
+      "id": 50
+    },
+    {
+      "name": "material-theme-jetbrains",
+      "des": "JetBrains theme of Material Theme",
+      "time": "2015-09-23T07:15:04Z",
+      "url": "https://github.com/ChrisRM/material-theme-jetbrains",
+      "watchers": 7904,
+      "id": 51
+    },
+    {
+      "name": "HomeMirror",
+      "des": "Android application powering the mirror in my house",
+      "time": "2015-08-23T03:20:08Z",
+      "url": "https://github.com/HannahMitt/HomeMirror",
+      "watchers": 7893,
+      "id": 52
+    },
+    {
+      "name": "LitePal",
+      "des": "An Android library that makes developers use SQLite database extremely easy.",
+      "time": "2013-02-20T03:20:07Z",
+      "url": "https://github.com/guolindev/LitePal",
+      "watchers": 7839,
+      "id": 53
+    },
+    {
+      "name": "Signal-Server",
+      "des": "Server supporting the Signal Private Messenger applications on Android, Desktop, and iOS",
+      "time": "2013-12-09T07:10:36Z",
+      "url": "https://github.com/signalapp/Signal-Server",
+      "watchers": 7620,
+      "id": 54
+    },
+    {
+      "name": "react-native-image-picker",
+      "des": ":sunrise_over_mountains: A React Native module that allows you to use native UI to select media from the device library or directly from the camera.",
+      "time": "2015-06-08T20:25:31Z",
+      "url": "https://github.com/react-native-image-picker/react-native-image-picker",
+      "watchers": 7573,
+      "id": 55
+    },
+    {
+      "name": "UltimateAndroidReference",
+      "des": ":rocket: Ultimate Android Reference - Your Road to Become a Better Android Developer",
+      "time": "2017-04-10T07:28:27Z",
+      "url": "https://github.com/aritraroy/UltimateAndroidReference",
+      "watchers": 7497,
+      "id": 56
+    },
+    {
+      "name": "cryptomator",
+      "des": "Multi-platform transparent client-side encryption of your files in the cloud",
+      "time": "2014-02-02T00:43:47Z",
+      "url": "https://github.com/cryptomator/cryptomator",
+      "watchers": 7388,
+      "id": 57
+    },
+    {
+      "name": "hellocharts-android",
+      "des": "Charts/graphs library for Android compatible with API 8+, several chart types with support for scaling, scrolling and animations",
+      "time": "2014-10-12T09:12:37Z",
+      "url": "https://github.com/lecho/hellocharts-android",
+      "watchers": 7300,
+      "id": 58
+    },
+    {
+      "name": "dagger",
+      "des": "A fast dependency injector for Android and Java.",
+      "time": "2012-08-02T23:25:32Z",
+      "url": "https://github.com/square/dagger",
+      "watchers": 7282,
+      "id": 59
+    },
+    {
+      "name": "AndroidAsync",
+      "des": "Asynchronous socket, http(s) (client+server) and websocket library for android. Based on nio, not threads.",
+      "time": "2012-08-24T07:27:04Z",
+      "url": "https://github.com/koush/AndroidAsync",
+      "watchers": 7222,
+      "id": 60
+    },
+    {
+      "name": "ShortcutBadger",
+      "des": "An Android library supports badge notification like iOS in Samsung, LG, Sony and HTC launchers.",
+      "time": "2013-11-15T12:51:52Z",
+      "url": "https://github.com/leolin310148/ShortcutBadger",
+      "watchers": 7177,
+      "id": 61
+    },
+    {
+      "name": "ActionBarSherlock",
+      "des": "[DEPRECATED] Action bar implementation which uses the native action bar on Android 4.0+ and a custom implementation on pre-4.0 through a single API and theme.",
+      "time": "2011-03-07T17:28:54Z",
+      "url": "https://github.com/JakeWharton/ActionBarSherlock",
+      "watchers": 7154,
+      "id": 62
+    },
+    {
+      "name": "android-classyshark",
+      "des": "Android and Java bytecode viewer",
+      "time": "2015-10-12T13:40:48Z",
+      "url": "https://github.com/google/android-classyshark",
+      "watchers": 7028,
+      "id": 63
+    },
+    {
+      "name": "EhViewer",
+      "des": "[DEPRECATED] An Unofficial E-Hentai Application for Android",
+      "time": "2014-05-14T12:03:52Z",
+      "url": "https://github.com/seven332/EhViewer",
+      "watchers": 7014,
+      "id": 64
+    },
+    {
+      "name": "kkFileView",
+      "des": "spring-boot打造文件文档在线预览项目",
+      "time": "2017-12-12T11:41:08Z",
+      "url": "https://github.com/kekingcn/kkFileView",
+      "watchers": 6997,
+      "id": 66
+    },
+    {
+      "name": "SpringCloud-Learning",
+      "des": "Spring Cloud基础教程，持续连载更新中",
+      "time": "2016-08-21T03:39:52Z",
+      "url": "https://github.com/dyc87112/SpringCloud-Learning",
+      "watchers": 6930,
+      "id": 65
+    },
+    {
+      "name": "spider-flow",
+      "des": "新一代爬虫平台，以图形化方式定义爬虫流程，不写代码即可完成爬虫。",
+      "time": "2020-03-27T11:07:15Z",
+      "url": "https://github.com/ssssssss-team/spider-flow",
+      "watchers": 6692,
+      "id": 67
+    },
+    {
+      "name": "languagetool",
+      "des": "Style and Grammar Checker for 25+ Languages",
+      "time": "2013-08-08T16:37:22Z",
+      "url": "https://github.com/languagetool-org/languagetool",
+      "watchers": 6578,
+      "id": 68
+    },
+    {
+      "name": "closure-compiler",
+      "des": "A JavaScript checker and optimizer.",
+      "time": "2014-04-16T15:30:36Z",
+      "url": "https://github.com/google/closure-compiler",
+      "watchers": 6466,
+      "id": 100
+    },
+    {
+      "name": "walle",
+      "des": "Android Signature V2 Scheme签名下的新一代渠道包打包神器",
+      "time": "2017-01-10T03:39:25Z",
+      "url": "https://github.com/Meituan-Dianping/walle",
+      "watchers": 6401,
+      "id": 69
+    },
+    {
+      "name": "react-native-push-notification",
+      "des": "React Native Local and Remote Notifications",
+      "time": "2015-12-14T19:53:36Z",
+      "url": "https://github.com/zo0r/react-native-push-notification",
+      "watchers": 6358,
+      "id": 70
+    },
+    {
+      "name": "AndroidPerformanceMonitor",
+      "des": "A transparent ui-block detection library for Android. (known as BlockCanary)",
+      "time": "2016-01-17T05:23:22Z",
+      "url": "https://github.com/markzhai/AndroidPerformanceMonitor",
+      "watchers": 6346,
+      "id": 71
+    },
+    {
+      "name": "RoundedImageView",
+      "des": "A fast ImageView that supports rounded corners, ovals, and circles.",
+      "time": "2013-02-22T01:17:37Z",
+      "url": "https://github.com/vinc3m1/RoundedImageView",
+      "watchers": 6320,
+      "id": 72
+    },
+    {
+      "name": "processing",
+      "des": "Source code for the Processing Core and Development Environment (PDE)",
+      "time": "2013-01-24T21:17:22Z",
+      "url": "https://github.com/processing/processing",
+      "watchers": 6219,
+      "id": 73
+    },
+    {
+      "name": "ansj_seg",
+      "des": "ansj分词.ict的真正java实现.分词效果速度都超过开源版的ict. 中文分词,人名识别,词性标注,用户自定义词典",
+      "time": "2012-09-05T05:56:24Z",
+      "url": "https://github.com/NLPchina/ansj_seg",
+      "watchers": 6122,
+      "id": 74
+    },
+    {
+      "name": "BookReader",
+      "des": ":closed_book:  \"任阅\" 网络小说阅读器，3D翻页效果、txt/pdf/epub书籍阅读、Wifi传书~",
+      "time": "2016-08-03T05:17:27Z",
+      "url": "https://github.com/smuyyh/BookReader",
+      "watchers": 6110,
+      "id": 75
+    },
+    {
+      "name": "Android-Image-Cropper",
+      "des": "Image Cropping Library for Android, optimized for Camera / Gallery.",
+      "time": "2015-01-15T10:49:37Z",
+      "url": "https://github.com/ArthurHub/Android-Image-Cropper",
+      "watchers": 6077,
+      "id": 76
+    },
+    {
+      "name": "EffectiveAndroidUI",
+      "des": "Sample project created to show some of the best Android practices to work in the Android UI Layer. The UI layer of this project has been implemented using MVP or MVVM (without binding engine) to show how this patterns works. This project is used during the talk \"EffectiveAndroidUI\".",
+      "time": "2014-07-04T08:42:20Z",
+      "url": "https://github.com/pedrovgs/EffectiveAndroidUI",
+      "watchers": 6046,
+      "id": 77
+    },
+    {
+      "name": "physical-web",
+      "des": "The Physical Web: walk up and use anything",
+      "time": "2014-09-30T18:32:14Z",
+      "url": "https://github.com/google/physical-web",
+      "watchers": 6032,
+      "id": 78
+    },
+    {
+      "name": "error-prone",
+      "des": "Catch common Java mistakes as compile-time errors",
+      "time": "2014-08-21T23:26:50Z",
+      "url": "https://github.com/google/error-prone",
+      "watchers": 5955,
+      "id": 79
+    },
+    {
+      "name": "JFoenix",
+      "des": "JavaFX Material Design Library",
+      "time": "2015-09-08T14:04:24Z",
+      "url": "https://github.com/sshahine/JFoenix",
+      "watchers": 5884,
+      "id": 80
+    },
+    {
+      "name": "pentaho-kettle",
+      "des": "Pentaho Data Integration ( ETL ) a.k.a Kettle",
+      "time": "2013-10-08T18:27:11Z",
+      "url": "https://github.com/pentaho/pentaho-kettle",
+      "watchers": 5781,
+      "id": 81
+    },
+    {
+      "name": "material-calendarview",
+      "des": "A Material design back port of Android\u0027s CalendarView",
+      "time": "2015-02-09T22:31:56Z",
+      "url": "https://github.com/prolificinteractive/material-calendarview",
+      "watchers": 5779,
+      "id": 82
+    },
+    {
+      "name": "u2020",
+      "des": "A sample Android app which showcases advanced usage of Dagger among other open source libraries.",
+      "time": "2013-11-14T11:58:23Z",
+      "url": "https://github.com/JakeWharton/u2020",
+      "watchers": 5719,
+      "id": 83
+    },
+    {
+      "name": "SmartTubeNext",
+      "des": "Ad free app for watching tube videos on Android TV boxes",
+      "time": "2020-07-28T12:53:52Z",
+      "url": "https://github.com/yuliskov/SmartTubeNext",
+      "watchers": 5672,
+      "id": 84
+    },
+    {
+      "name": "ListViewAnimations",
+      "des": "[DEPRECATED] An Android library which allows developers to easily add animations to ListView items",
+      "time": "2013-03-19T11:59:23Z",
+      "url": "https://github.com/nhaarman/ListViewAnimations",
+      "watchers": 5630,
+      "id": 85
+    },
+    {
+      "name": "ssm",
+      "des": "手把手教你整合最优雅SSM框架：SpringMVC + Spring + MyBatis",
+      "time": "2016-06-18T17:58:56Z",
+      "url": "https://github.com/liyifeng1994/ssm",
+      "watchers": 5625,
+      "id": 86
+    },
+    {
+      "name": "DiscreteScrollView",
+      "des": "A scrollable list of items that centers the current element and provides easy-to-use APIs for cool item animations.",
+      "time": "2017-03-03T23:38:54Z",
+      "url": "https://github.com/yarolegovich/DiscreteScrollView",
+      "watchers": 5594,
+      "id": 87
+    },
+    {
+      "name": "Java-Tutorial",
+      "des": "【Java工程师面试复习指南】本仓库涵盖大部分Java程序员所需要掌握的核心知识，整合了互联网上的很多优质Java技术文章，力求打造为最完整最实用的Java开发者学习指南，如果对你有帮助，给个star告诉我吧，谢谢！",
+      "time": "2018-05-01T15:57:21Z",
+      "url": "https://github.com/h2pl/Java-Tutorial",
+      "watchers": 5572,
+      "id": 89
+    },
+    {
+      "name": "grafika",
+      "des": "Grafika test app",
+      "time": "2013-12-19T18:36:53Z",
+      "url": "https://github.com/google/grafika",
+      "watchers": 5562,
+      "id": 91
+    },
+    {
+      "name": "FlowLayout",
+      "des": "[不再维护]Android流式布局，支持单选、多选等，适合用于产品标签等。",
+      "time": "2015-08-28T09:32:31Z",
+      "url": "https://github.com/hongyangAndroid/FlowLayout",
+      "watchers": 5546,
+      "id": 88
+    },
+    {
+      "name": "springBoot",
+      "des": "springboot 框架与其它组件结合如 jpa、mybatis、websocket、security、shiro、cache等",
+      "time": "2016-11-07T02:13:31Z",
+      "url": "https://github.com/527515025/springBoot",
+      "watchers": 5542,
+      "id": 94
+    },
+    {
+      "name": "StickyListHeaders",
+      "des": "An android library for section headers that stick to the top",
+      "time": "2012-03-11T18:29:18Z",
+      "url": "https://github.com/emilsjolander/StickyListHeaders",
+      "watchers": 5522,
+      "id": 90
+    },
+    {
+      "name": "beam",
+      "des": "Apache Beam is a unified programming model for Batch and Streaming data processing.",
+      "time": "2016-02-02T08:00:06Z",
+      "url": "https://github.com/apache/beam",
+      "watchers": 5511,
+      "id": 92
+    },
+    {
+      "name": "mosby",
+      "des": "A Model-View-Presenter / Model-View-Intent library for modern Android apps",
+      "time": "2015-03-25T00:59:19Z",
+      "url": "https://github.com/sockeqwe/mosby",
+      "watchers": 5491,
+      "id": 93
+    },
+    {
+      "name": "MinecraftForge",
+      "des": "Modifications to the Minecraft base files to assist in compatibility between mods.",
+      "time": "2012-01-30T01:35:01Z",
+      "url": "https://github.com/MinecraftForge/MinecraftForge",
+      "watchers": 5465,
+      "id": 95
+    },
+    {
+      "name": "barcodescanner",
+      "des": "Barcode Scanner Libraries for Android",
+      "time": "2014-02-24T21:14:09Z",
+      "url": "https://github.com/dm77/barcodescanner",
+      "watchers": 5429,
+      "id": 96
+    },
+    {
+      "name": "SystemBarTint",
+      "des": "[DEPRECATED] Apply background tinting to the Android system UI when using KitKat translucent modes",
+      "time": "2013-11-17T12:35:05Z",
+      "url": "https://github.com/jgilfelt/SystemBarTint",
+      "watchers": 5395,
+      "id": 97
+    },
+    {
+      "name": "Fast-Android-Networking",
+      "des": "🚀 A Complete Fast Android Networking Library that also supports HTTP/2 🚀",
+      "time": "2016-03-21T18:35:44Z",
+      "url": "https://github.com/amitshekhariitbhu/Fast-Android-Networking",
+      "watchers": 5389,
+      "id": 98
+    },
+    {
+      "name": "dubbo-spring-boot-project",
+      "des": "Spring Boot Project for Apache Dubbo",
+      "time": "2018-01-18T12:10:50Z",
+      "url": "https://github.com/apache/dubbo-spring-boot-project",
+      "watchers": 5288,
+      "id": 99
     }
   ]
 }

@@ -8,6 +8,29 @@
 </head>
 <body class="h-100 m-0">
 <!--<h1>Java Project</h1>-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand">JavaProject</a>
+        <!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">-->
+        <!--            <span class="navbar-toggler-icon"></span>-->
+        <!--        </button>-->
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/">Graph</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/rankList">RankList</a>
+                </li>
+            </ul>
+<!--            <form class="d-flex">-->
+<!--                <input class="form-control me-2" type="text" placeholder="Search">-->
+<!--                <button class="btn btn-primary" type="button">Search</button>-->
+<!--            </form>-->
+        </div>
+    </div>
+</nav>
+
 <div class="h-100" id="container"></div>
 
 
@@ -128,6 +151,7 @@
     setIn()
 
     var interval
+
     function setIn() {
         let k = type === 'year' ? 2011 : 1;
         interval = setInterval(function () {

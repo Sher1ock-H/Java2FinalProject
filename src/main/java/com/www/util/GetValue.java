@@ -74,7 +74,7 @@ public class GetValue {
 
     public String getPage(int pageNum) {
         UArray itemArray = new UArray();
-        for (int i = (pageNum - 1) * 100; i <= (pageNum) * 100; i++) {
+        for (int i = (pageNum - 1) * 100; i < (pageNum) * 100; i++) {
             itemArray.addItem(new UItem(name[i], des[i], time[i], watcher[i], urls[i], i));
         }
         itemArray.sort();
