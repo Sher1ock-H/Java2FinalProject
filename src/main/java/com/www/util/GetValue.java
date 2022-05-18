@@ -1,14 +1,13 @@
 package com.www.util;
 
 import java.io.*;
-import java.util.ArrayList;
 
 public class GetValue {
     String[] name = new String[1000];
     String[] time = new String[1000];
     String[] watcher = new String[1000];
     String[] des = new String[1000];
-    getHottest.ItemArray itemArray = new getHottest.ItemArray();
+    GetHottest.ItemArray itemArray = new GetHottest.ItemArray();
 
     public GetValue() throws IOException {
         BufferedReader nameIn = new BufferedReader(new InputStreamReader(new FileInputStream("src/main/java/com/www/dataSet/name.txt")));

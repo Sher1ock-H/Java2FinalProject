@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>card</title>
+    <title>Rank List</title>
     <link href="https://www.w3school.com.cn/lib/bs/bootstrap.css" rel="stylesheet">
     <link href="../static/bootstrap.css" rel="stylesheet">
 
     <script src="https://www.w3school.com.cn/lib/bs/bootstrap.js"></script>
     <script src="../static/jquery-3.6.0.min.js"></script>
 </head>
-<body class="h-100 m-3 border">
-<div class="card m-auto bg-warning text-center" style="width:800px;">
-    <div class="card-body m-3">
-        <h4 class="card-title mb-2">JavaGuide</h4>
-        <p class="card-text">「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！</p>
-        <p class="card-text">Watches: 121458</p>
-        <p class="card-text">Time: 2018-05-07</p>
-        <a href="#" class="btn btn-primary float-end">查看Github页面</a>
-    </div>
+<body>
+<div class="container mt-5">
+    <ul class="list-group">
+        <li class="list-group-item" onclick="showDialog(this)">第一项</li>
+        <li class="list-group-item">第二项</li>
+        <li class="list-group-item">第三项</li>
+    </ul>
+    <ul class="pagination justify-content-center" style="margin:20px 0">
+        <li class="page-item disabled"><a class="page-link" href="#">上一页</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">下一页</a></li>
+    </ul>
+    <button id="modal" type="button" class="btn btn-primary invisible" data-bs-toggle="modal" data-bs-target="#myModal">
+        打开模态
+    </button>
 </div>
-<button id="modal" type="button" class="btn btn-primary invisible" data-bs-toggle="modal" data-bs-target="#myModal">
-    打开模态
-</button>
-
 <!-- 模态 -->
 <div class="modal fade" id="myModal">
     <div class="modal-dialog modal-dialog-centered">
@@ -56,7 +60,9 @@
 </html>
 
 <script type="text/javascript">
-    function showDialog() {
-        document.getElementById('modal').click()
+    function showDialog(item) {
+        console.log(item)
+        // document.getElementById('modal').click()
+        $("#modal").click()
     }
 </script>

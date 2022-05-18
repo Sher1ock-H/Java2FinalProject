@@ -6,14 +6,15 @@ import net.sf.json.JSONObject;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Comparator;
 
-public class getHottest { //获取最热门的开源项目
+public class GetHottest { //获取最热门的开源项目
     public static void main(String[] args) throws IOException {
         StringBuilder name = new StringBuilder();
         StringBuilder describe = new StringBuilder();
         StringBuilder time = new StringBuilder();
         StringBuilder watch = new StringBuilder();
-        getHot gh = new getHot();
+        GetHot gh = new GetHot();
         ItemArray itemArray = new ItemArray();
         for(int i=1;i<=10;i++){
             BufferedReader in = new BufferedReader(new InputStreamReader(gh.get(i)));
@@ -65,6 +66,11 @@ public class getHottest { //获取最热门的开源项目
 
         public void addItem (Item item) {
             this.items.add(item);
+        }
+
+        public void sort() {
+            items.sort(Comparator.comparingInt(i -> i.watchers));
+            items.sort((a, b) -> a.watchers - b.watchers);
         }
     }
 
