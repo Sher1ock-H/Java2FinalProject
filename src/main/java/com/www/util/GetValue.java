@@ -5,6 +5,7 @@ import com.google.gson.Gson;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.Iterator;
 
 public class GetValue {
     String[] name = new String[1000];
@@ -12,6 +13,7 @@ public class GetValue {
     int[] watcher = new int[1000];
     String[] des = new String[1000];
     String[] urls = new String[1000];
+    UArray pageArray = new UArray();
 
     public GetValue(){
         try {
@@ -32,6 +34,10 @@ public class GetValue {
             watcherIn.close();
             desIn.close();
             urlIn.close();
+            for (int i = 0; i < 1000; i++) {
+                pageArray.addItem(new UItem(name[i], des[i], time[i], watcher[i], urls[i], i));
+            }
+            pageArray.sort();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -74,10 +80,15 @@ public class GetValue {
 
     public String getPage(int pageNum) {
         UArray itemArray = new UArray();
-        for (int i = (pageNum - 1) * 100; i <= (pageNum) * 100; i++) {
-            itemArray.addItem(new UItem(name[i], des[i], time[i], watcher[i], urls[i], i));
+        Iterator<UItem> uIte = pageArray.items.iterator();
+        int cnt = 0;
+        while (uIte.hasNext()){
+            if(cnt >= (pageNum - 1) * 100 && cnt < pageNum * 100){
+                itemArray.addItem(uIte.next());
+            }
+            else uIte.next();
+            cnt++;
         }
-        itemArray.sort();
         return new Gson().toJson(itemArray);
     }
 
@@ -104,7 +115,6 @@ public class GetValue {
 
         public void sort() {
             items.sort(Comparator.comparingInt(i -> -i.watchers));
-            //items.sort((a, b) -> a.watchers - b.watchers);
         }
     }
 
