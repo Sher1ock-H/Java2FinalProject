@@ -1,10 +1,11 @@
-package com.www.controller;
+package com.Java2Project.controller;
 
-import com.www.util.GetValue;
+import com.Java2Project.util.GetValue;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
 @Controller
 public class WebController {
 
@@ -12,10 +13,15 @@ public class WebController {
 
     @RequestMapping("/")
     public String index() {
-        return "bar-race-git";
+        return "bar-race-graph";
     }
 
-    @RequestMapping("/rankList")
+    @RequestMapping("/pie-chart")
+    public String pieChart() {
+        return "pie-chart";
+    }
+
+    @RequestMapping("/rank-list")
     public String rankList() {
         return "rankList";
     }

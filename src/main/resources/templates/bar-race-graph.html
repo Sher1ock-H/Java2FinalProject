@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN" class="h-100">
+<html lang="en" class="h-100">
 <head>
     <meta charset="utf-8">
     <link rel="shortcut icon" href="/github_icon.ico" type="image/x-icon"/>
@@ -19,10 +19,13 @@
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="/">Graph</a>
+                    <a class="nav-link active" href="/">Bar-Race</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/rankList">RankList</a>
+                    <a class="nav-link" href="/pie-chart">Pie-Chart</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/rank-list">Rank-List</a>
                 </li>
             </ul>
         </div>
@@ -33,7 +36,7 @@
 <div class="h-100" id="container"></div>
 
 <script type="text/javascript">
-    var dom = document.getElementById('container');
+    const dom = document.getElementById('container');
     var myChart = echarts.init(dom, null, {
         renderer: 'svg',
         useDirtyRect: false
@@ -54,6 +57,7 @@
             for (const item of items) {
                 results.push(Number(item['year']))
             }
+        }).then(() => {
             init(bar);
             initialSetInterval();
         })
@@ -72,6 +76,7 @@
             for (const item of items) {
                 results.push(Number(item[type]))
             }
+        }).then(() => {
             init(bar);
             loadData();
         })
@@ -82,6 +87,7 @@
             data[i] = 0;
         }
         let title;
+        let yData;
         if (type === 'year') {
             yData = ['2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022']
             title = 'Github按Watchers排序前1000条的时间分布';

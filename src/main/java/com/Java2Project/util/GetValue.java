@@ -1,11 +1,10 @@
-package com.www.util;
+package com.Java2Project.util;
 
 import com.google.gson.Gson;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.Iterator;
 
 public class GetValue {
     String[] name = new String[1000];
@@ -17,11 +16,11 @@ public class GetValue {
 
     public GetValue(){
         try {
-            BufferedReader nameIn = new BufferedReader(new FileReader("src/main/java/com/www/dataSet/name.txt"));
-            BufferedReader timeIn = new BufferedReader(new FileReader("src/main/java/com/www/dataSet/time.txt"));
-            BufferedReader watcherIn = new BufferedReader(new FileReader("src/main/java/com/www/dataSet/watcher.txt"));
-            BufferedReader desIn = new BufferedReader(new FileReader("src/main/java/com/www/dataSet/description.txt"));
-            BufferedReader urlIn = new BufferedReader(new FileReader("src/main/java/com/www/dataSet/url.txt"));
+            BufferedReader nameIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/name.txt"));
+            BufferedReader timeIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/time.txt"));
+            BufferedReader watcherIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/watcher.txt"));
+            BufferedReader desIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/description.txt"));
+            BufferedReader urlIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/url.txt"));
             for (int i = 0; i < 1000; i++) {
                 name[i] = nameIn.readLine();
                 time[i] = timeIn.readLine();

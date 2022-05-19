@@ -1,4 +1,4 @@
-package com.www.util;
+package com.Java2Project.util;
 
 import com.google.gson.Gson;
 import net.sf.json.JSONArray;
@@ -43,11 +43,11 @@ public class GetHottest { //获取最热门的开源项目
             }
             in.close();
         }
-        BufferedWriter nameOut = new BufferedWriter(new FileWriter("src/main/java/com/www/dataSet/name.txt"));
-        BufferedWriter desOut = new BufferedWriter(new FileWriter("src/main/java/com/www/dataSet/description.txt"));
-        BufferedWriter timeOut = new BufferedWriter(new FileWriter("src/main/java/com/www/dataSet/time.txt"));
-        BufferedWriter watchOut = new BufferedWriter(new FileWriter("src/main/java/com/www/dataSet/watcher.txt"));
-        BufferedWriter urlOut = new BufferedWriter(new FileWriter("src/main/java/com/www/dataSet/url.txt"));
+        BufferedWriter nameOut = new BufferedWriter(new FileWriter("src/main/java/com/Java2Project/dataSet/name.txt"));
+        BufferedWriter desOut = new BufferedWriter(new FileWriter("src/main/java/com/Java2Project/dataSet/description.txt"));
+        BufferedWriter timeOut = new BufferedWriter(new FileWriter("src/main/java/com/Java2Project/dataSet/time.txt"));
+        BufferedWriter watchOut = new BufferedWriter(new FileWriter("src/main/java/com/Java2Project/dataSet/watcher.txt"));
+        BufferedWriter urlOut = new BufferedWriter(new FileWriter("src/main/java/com/Java2Project/dataSet/url.txt"));
         nameOut.write(name.toString());
         desOut.write(describe.toString());
         timeOut.write(time.toString());
@@ -60,7 +60,7 @@ public class GetHottest { //获取最热门的开源项目
         urlOut.close();
         itemArray.sort();
         String JSON = new Gson().toJson(itemArray);
-        BufferedWriter json = new BufferedWriter(new FileWriter("src/main/java/com/www/dataSet/info.json"));
+        BufferedWriter json = new BufferedWriter(new FileWriter("src/main/java/com/Java2Project/dataSet/info.json"));
         json.write(JSON);
         json.close();
     }

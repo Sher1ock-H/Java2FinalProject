@@ -1,4 +1,4 @@
-package com.www.util;
+package com.Java2Project.util;
 
 import java.io.IOException;
 import java.io.InputStream;
