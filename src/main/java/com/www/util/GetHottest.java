@@ -21,6 +21,7 @@ public class GetHottest { //获取最热门的开源项目
             BufferedReader in = new BufferedReader(new InputStreamReader(gh.get(i)));
             String info = in.readLine();
             JSONObject jo1 = JSONObject.fromObject(info);
+            System.out.println(jo1.get("incomplete_results"));
             JSONArray ja = jo1.getJSONArray("items");
             int len = ja.size();
             for (int j = 0; j < len; j++) {
