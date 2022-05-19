@@ -2,13 +2,13 @@
 <html lang="zh-CN" class="h-100">
 <head>
     <meta charset="utf-8">
-    <link href="https://www.w3school.com.cn/lib/bs/bootstrap.css" rel="stylesheet">
-        <link href="bootstrap.css" rel="stylesheet">
-<!--    <link th:href="@{/bootstrap.css}" rel="stylesheet"/>-->
+    <link rel="shortcut icon" th:href="@{/github_icon.ico}" type="image/x-icon"/>
+<!--    <link href="https://www.w3school.com.cn/lib/bs/bootstrap.css" rel="stylesheet">-->
+        <link th:href="@{/bootstrap.css}" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>
     <title>Hottest-Project</title>
 </head>
 <body class="h-100 m-0">
-<!--<h1>Java Project</h1>-->
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand">
@@ -30,9 +30,6 @@
 </nav>
 
 <div class="h-100" id="container"></div>
-
-
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.2/dist/echarts.min.js"></script>
 
 <script type="text/javascript">
     var dom = document.getElementById('container');
