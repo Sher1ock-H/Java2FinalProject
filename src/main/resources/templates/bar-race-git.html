@@ -3,17 +3,18 @@
 <head>
     <meta charset="utf-8">
     <link href="https://www.w3school.com.cn/lib/bs/bootstrap.css" rel="stylesheet">
-    <!--    <link href="bootstrap.css" rel="stylesheet">-->
+        <link href="bootstrap.css" rel="stylesheet">
+<!--    <link th:href="@{/bootstrap.css}" rel="stylesheet"/>-->
     <title>Hottest-Project</title>
 </head>
 <body class="h-100 m-0">
 <!--<h1>Java Project</h1>-->
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand">JavaProject</a>
-        <!--        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">-->
-        <!--            <span class="navbar-toggler-icon"></span>-->
-        <!--        </button>-->
+        <a class="navbar-brand">
+            <img src="github_icon.ico" alt="Logo" style="width:40px;" class="rounded-pill">
+        </a>
+        <a class="navbar-brand">Github-Watcher-Ranking</a>
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
@@ -23,11 +24,8 @@
                     <a class="nav-link" href="/rankList">RankList</a>
                 </li>
             </ul>
-            <!--            <form class="d-flex">-->
-            <!--                <input class="form-control me-2" type="text" placeholder="Search">-->
-            <!--                <button class="btn btn-primary" type="button">Search</button>-->
-            <!--            </form>-->
         </div>
+        <a class="navbar-brand float-end">Language: Java</a>
     </div>
 </nav>
 
