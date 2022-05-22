@@ -10,6 +10,7 @@ All Algorithms implemented in Java
 RxJava – Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM.
 Google core libraries for Java
 Apache Dubbo is a high-performance, java based, open source RPC framework.
+A powerful 🚀 Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, panning and animations.
 Render After Effects animations natively on Android and iOS, Web, and React Native
 Ghidra is a software reverse engineering (SRE) framework
 An image loading and caching library for Android focused on smooth scrolling
@@ -29,39 +30,43 @@ Bind Android views and callbacks to fields and methods.
 http下载工具，基于http代理，支持多连接分块下载
 ⭐⭐⭐⭐秒杀系统设计与实现.互联网工程师进阶与分析🙋🐓
 A fast JSON parser/generator for Java.  
-Event bus for Android and Java that simplifies communication between Activities, Fragments, Threads, Services, etc. Less code, better quality.
 微人事是一个前后端分离的人力资源管理系统，项目采用SpringBoot+Vue开发。
+Event bus for Android and Java that simplifies communication between Activities, Fragments, Threads, Services, etc. Less code, better quality.
+A browser automation framework and ecosystem.
 🔥下拉刷新、上拉加载、二级刷新、淘宝二楼、RefreshLayout、OverScroll，Android智能下拉刷新框架，支持越界回弹、越界拖动，具有极强的扩展性，集成了几十种炫酷的Header和 Footer。
 快速、简洁、解决大文件内存溢出的java处理Excel工具
 循序渐进，学习Spring Boot、Spring Boot & Shiro、Spring Batch、Spring Cloud、Spring Cloud Alibaba、Spring Security & Spring Security OAuth2，博客Spring系列源码：https://mrbird.cc
-A browser automation framework and ecosystem.
 阿里巴巴 MySQL binlog 增量订阅&消费组件 
-🍬A set of tools that keep Java sweet.
 BRVAH:Powerful and flexible RecyclerAdapter
+🍬A set of tools that keep Java sweet.
 To Be Top Javaer - Java工程师成神之路
 Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
 an easy-to-use dynamic service discovery, configuration and service management platform for building cloud native applications.
 A private messenger for Android.
-✍ 一款现代化的开源博客 / CMS 系统。
 Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware.
+✍ 一款现代化的开源博客 / CMS 系统。
 :fire: Seata is an easy-to-use, high-performance, open source distributed transaction solution.
 Mirror of Apache Kafka
+A distributed task scheduling framework.（分布式任务调度平台XXL-JOB）
 A Java serialization/deserialization library to convert Java Objects into JSON and back
+Desktop/Android/HTML5/iOS Java game development framework
 Telegram for Android source
 RxJava bindings for Android
 APM, Application Performance Monitoring System
-An extensible media player for Android
 A libre lightweight streaming front-end for Android.
+An extensible media player for Android
 A powerful flow control component enabling reliability, resilience and monitoring for microservices. (面向云原生微服务的高可用流控防护组件)
 Redisson - Redis Java client with features of In-Memory Data Grid. Over 50 Redis based Java objects and services: Set, Multimap, SortedSet, Map, List, Queue, Deque, Semaphore, Lock, AtomicLong, Map Reduce, Publish / Subscribe, Bloom filter, Spring Cache, Tomcat, Scheduler, JCache API, Hibernate, MyBatis, RPC, local cache ...
 Apache Flink
+一款面向泛前端产品研发全生命周期的效率平台。
 a fast, scalable, multi-language and extensible build system
 Implementation of ImageView for Android that supports zooming, by various touch gestures.
 项目基于 Spring Boot 2.1.0 、 Jpa、 Spring Security、redis、Vue的前后端分离的后台管理系统，项目采用分模块开发方式， 权限控制采用 RBAC，支持数据字典与数据权限管理，支持一键生成前后端代码，支持动态路由
 视频播放器（IJKplayer、ExoPlayer、MediaPlayer），HTTPS，支持弹幕，外挂字幕，支持滤镜、水印、gif截图，片头广告、中间广告，多个同时播放，支持基本的拖动，声音、亮度调节，支持边播边缓存，支持视频自带rotation的旋转（90,270之类），重力旋转与手动旋转的同步支持，支持列表播放 ，列表全屏动画，视频加载速度，列表小窗口支持拖动，动画效果，调整比例，多分辨率切换，支持切换播放器，进度条小窗口预览，列表切换详情页面无缝播放，rtsp、concat、mpeg。 
+FizzBuzz Enterprise Edition is a no-nonsense implementation of FizzBuzz made by serious businessmen for serious business purposes.
 MyBatis SQL mapper framework for Java
 Mirror of Apache RocketMQ
-FizzBuzz Enterprise Edition is a no-nonsense implementation of FizzBuzz made by serious businessmen for serious business purposes.
+又一个小商城。litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 + Vue用户移动端
 GraalVM: Run Programs Faster Anywhere :rocket:
 Powerful and flexible library for loading, caching and displaying images on Android.
 An Android library for managing images and the memory they use.
@@ -74,8 +79,8 @@ Ecosystem to transform any database into a distributed database system, and enha
 Modern Java - A Guide to Java 8
 Zipkin is a distributed tracing system
 This is a sample app that is part of a series of blog posts I have written about how to architect an android application using Uncle Bob's clean architecture approach.
-spring boot 实践学习案例，是 spring boot 初学者及核心技术巩固的最佳实践。
 High Performance Inter-Thread Messaging Library
+spring boot 实践学习案例，是 spring boot 初学者及核心技术巩固的最佳实践。
 The automation tower defense RTS
 《Spring Boot基础教程》，2.x版本持续连载中！点击下方链接直达教程目录！
 A circular ImageView for Android
@@ -94,8 +99,8 @@ A simple app to use Xposed without root, unlock the bootloader or modify system 
 JDK main-line development
 This is a picker view for android , support linkage effect, timepicker and optionspicker.（时间选择器、省市区三级联动）
 A Java 8+ Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)
-Vert.x is a tool-kit for building reactive applications on the JVM
 Luban(鲁班)—Image compression with efficiency very close to WeChat Moments/可能是最接近微信朋友圈的图片压缩算法
+Vert.x is a tool-kit for building reactive applications on the JVM
 Most popular Mocking framework for unit tests written in Java
 Termux - a terminal emulator application for Android OS extendible by variety of packages.
 A collection of algorithms and data structures
@@ -107,12 +112,12 @@ Suite of tools for deploying and training deep learning models using the JVM. Hi
 Open Source Identity and Access Management For Modern Applications and Services
 :fireworks: A well-designed local image and video selector for Android
 The Most Powerful Swipe Layout!
-APM, (Application Performance Management) tool for large-scale distributed systems. 
-flink learning blog. http://www.54tianzhisheng.cn/  含 Flink 入门、概念、原理、实战、性能调优、源码解析等内容。涉及 Flink Connector、Metrics、Library、DataStream API、Table API & SQL 等内容的学习案例，还有 Flink 落地应用的大型项目案例（PVUV、日志存储、百亿数据实时去重、监控告警）分享。欢迎大家支持我的专栏《大数据实时计算引擎 Flink 实战与性能优化》
 OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)
+flink learning blog. http://www.54tianzhisheng.cn/  含 Flink 入门、概念、原理、实战、性能调优、源码解析等内容。涉及 Flink Connector、Metrics、Library、DataStream API、Table API & SQL 等内容的学习案例，还有 Flink 落地应用的大型项目案例（PVUV、日志存储、百亿数据实时去重、监控告警）分享。欢迎大家支持我的专栏《大数据实时计算引擎 Flink 实战与性能优化》
+APM, (Application Performance Management) tool for large-scale distributed systems. 
 Cute view animation collection.
-Zuul is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more.
 🔥🔥🔥Banner 2.0 来了！Android广告图片轮播控件，内部基于ViewPager2实现，Indicator和UI都可以自定义。
+Zuul is a gateway service that provides dynamic routing, monitoring, resiliency, security, and more.
 🏗 Build container images for your Java applications.
 Apache Druid: a high performance real-time analytics database.
 大数据入门指南  :star:
@@ -120,17 +125,17 @@ Open-source IoT Platform - Device management, data collection, processing and vi
 Spring源码阅读
 A high performance caching library for Java
 Microservice Architecture with Spring Boot, Spring Cloud and Docker
+Picture Selector Library for Android  or 图片选择器
 VasSonic is a lightweight and high-performance Hybrid framework developed by tencent VAS team, which is intended to speed up the first screen of websites working on Android and iOS platform. 
 A UiAutomator on android, does not need root access(安卓平台上的JavaScript自动化工具)
-Picture Selector Library for Android  or 图片选择器
 Realm is a mobile database: a replacement for SQLite & ORMs
 AWS Service registry for resilient mid-tier load balancing and failover.
 A standalone Java Decompiler GUI
-Fast Android Development. Easy maintainance.
 An Android library that allows you to easily create applications with slide-in menus. You may use it in your Android apps provided that you cite this project and include the license in your app. Thanks!
+Fast Android Development. Easy maintainance.
 Image Cropping Library for Android
-Mybatis通用分页插件
 Guice (pronounced 'juice') is a lightweight dependency injection framework for Java 8 and above, brought to you by Google.
+Mybatis通用分页插件
 DataX是阿里云DataWorks数据集成的开源版本。
 mall学习教程，架构、业务、技术要点全方位解析。mall项目（50k+star）是一套电商系统，使用现阶段主流技术实现。涵盖了SpringBoot 2.3.0、MyBatis 3.4.6、Elasticsearch 7.6.2、RabbitMQ 3.7.15、Redis 5.0、MongoDB 4.2.5、Mysql5.7等技术，采用Docker容器化部署。
 Admin UI for administration of spring boot applications
@@ -138,8 +143,8 @@ Apache Pulsar - distributed pub-sub messaging system
 Project vlayout is a powerfull LayoutManager extension for RecyclerView, it provides a group of layouts for RecyclerView. Make it able to handle a complicate situation when grid, list and other layouts in the same recyclerview. 
 This project under develop
 An Android TabLayout Lib
-Multitask、MultiThread(MultiConnection)、Breakpoint-resume、High-concurrency、Simple to use、Single/NotSingle-process
 🚀 fullstack tutorial 2022，后台技术栈/架构师之路/全栈开发社区，春招/秋招/校招/面试
+Multitask、MultiThread(MultiConnection)、Breakpoint-resume、High-concurrency、Simple to use、Single/NotSingle-process
 MediaPlayer exoplayer ijkplayer ffmpeg
 OkGo - 3.0 震撼来袭，该库是基于 Http 协议，封装了 OkHttp 的网络请求框架，比 Retrofit 更简单易用，支持 RxJava，RxJava2，支持自定义缓存，支持批量断点下载管理和批量上传管理功能
 Interview questions
@@ -159,15 +164,15 @@ A collection of source code generators for Java.
 [DEPRECATED] A powerful library that manage Fragment for Android
 The Java gRPC implementation. HTTP/2 based RPC
 Ultra Pull to Refresh for Android. Support all the views.
-Android library to observe scroll events on scrollable views.
 An Android transformation library providing a variety of image transformations for Glide.
+Android library to observe scroll events on scrollable views.
 DEPRECATED
 A Java API for generating .java source files.
 A Camera component for React Native. Also supports barcode scanning!
 The OWASP ZAP core project
+Apereo CAS - Identity & Single Sign On for all earthlings and beyond.
 PocketHub Android App
 Simplify Android M system permissions
-Apereo CAS - Identity & Single Sign On for all earthlings and beyond.
 This library provides a simple way to add a draggable sliding up panel (popularized by Google Music and Google Maps) to your Android application. Brought to you by Umano.
 spring cloud + vue + oAuth2.0全家桶实战，前后端分离模拟商城，完整的购物流程、后端运营平台，可以实现快速搭建企业级微服务项目。支持微信登录等三方登录。
 Android开源弹幕引擎·烈焰弹幕使 ～
@@ -179,8 +184,8 @@ Views and Drawable for displaying animated GIFs on Android
 Distributed and fault-tolerant realtime computation: stream processing, continuous computation, distributed RPC, and more
 android java and javascript bridge, inspired by wechat webview jsbridge
 🔥 🎉newbee-mall 项目（新蜂商城）是一套电商系统，包括 newbee-mall 商城系统及 newbee-mall-admin 商城后台管理系统，基于 Spring Boot 2.X 及相关技术栈开发。 前台商城系统包含首页门户、商品分类、新品上线、首页轮播、商品推荐、商品搜索、商品展示、购物车、订单结算、订单流程、个人订单管理、会员中心、帮助中心等模块。 后台管理系统包含数据面板、轮播图管理、商品管理、订单管理、会员管理、分类管理、设置等模块。
-OpenRefine is a free, open source power tool for working with messy data and improving it
 这可能是史上功能最全的Java权限认证框架！目前已集成——登录认证、权限认证、分布式Session会话、微服务网关鉴权、单点登录、OAuth2.0、踢人下线、Redis集成、前后台分离、记住我模式、模拟他人账号、临时身份切换、账号封禁、多账号认证体系、注解式鉴权、路由拦截式鉴权、花式token生成、自动续签、同端互斥登录、会话治理、密码加密、jwt集成、Spring集成、WebFlux集成...
+OpenRefine is a free, open source power tool for working with messy data and improving it
 Your Cheat Sheet For Android Interview - Android Interview Questions
 DEPRECATED
 A util for setting status bar style on Android App.
@@ -190,13 +195,14 @@ Custom fonts in Android the easy way...
 安卓学习笔记
 mall-swarm是一套微服务商城系统，采用了 Spring Cloud Hoxton & Alibaba、Spring Boot 2.3、Oauth2、MyBatis、Docker、Elasticsearch、Kubernetes等核心技术，同时提供了基于Vue的管理后台方便快速搭建系统。mall-swarm在电商业务的基础集成了注册中心、配置中心、监控中心、网关等系统功能。文档齐全，附带全套Spring Cloud教程。
 Activiti is a light-weight workflow and Business Process Management (BPM) Platform targeted at business people, developers and system admins. Its core is a super-fast and rock-solid BPMN 2 process engine for Java. It's open-source and distributed under the Apache license. Activiti runs in any Java application, on a server, on a cluster or in the cloud. It integrates perfectly with Spring, it is extremely lightweight and based on simple concepts. 
- AgentWeb is a powerful library based on Android WebView.
 An open source SQL database designed to process time series data, faster
+ AgentWeb is a powerful library based on Android WebView.
+😱 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等
 A collection of samples demonstrating different frameworks and techniques for automated testing
 Some Android learning materials, hoping to help you learn Android development.
-😱 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等
 (Deprecated) A custom view component that mimics the new Material Design Bottom Navigation pattern.
 Stanford CoreNLP: A Java suite of core NLP tools.
+Android filters based on OpenGL (idea from GPUImage for iOS)
 Java JWT: JSON Web Token for Java and Android
 🤗 JVM 底层原理最全知识总结
 A fast build system that encourages the creation of small, reusable modules over a variety of platforms and languages.
@@ -207,27 +213,27 @@ Android上一个优雅、万能自定义UI、仿iOS、支持垂直、水平方�
 Firebase Quickstart Samples for Android
 A powerful Android Dynamic Component Framework.
 Feign makes writing java http clients easier
+Resilience4j is a fault tolerance library designed for Java8 and functional programming
 A library for debugging android databases and shared preferences - Make Debugging Great Again
 proguard resource for Android  by wechat team
-Resilience4j is a fault tolerance library designed for Java8 and functional programming
+Apache DolphinScheduler is a distributed and extensible workflow scheduler platform with powerful DAG visual interfaces, dedicated to solving complex job dependencies in the data pipeline and providing various types of jobs available out of box.
 JetBrains theme of Material Theme
 Epoxy is an Android library for building complex screens in a RecyclerView
 Android application powering the mirror in my house
-Apache DolphinScheduler is a distributed and extensible workflow scheduler platform with powerful DAG visual interfaces, dedicated to solving complex job dependencies in the data pipeline and providing various types of jobs available out of box.
 Tools for keeping your cloud operating in top form. Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.
 hsweb (haʊs wɛb) 是一个基于spring-boot 2.x开发 ,首个使用全响应式编程的企业级后台管理系统基础项目。
 An Android library that makes developers use SQLite database extremely easy.
 Annotation-triggered method call logging for your debug builds.
 Lifecycle handling APIs for Android apps using RxJava
-Server supporting the Signal Private Messenger applications on Android, Desktop, and iOS
 Self-hosted Git Server with CI/CD and Kanban
+Server supporting the Signal Private Messenger applications on Android, Desktop, and iOS
 :sunrise_over_mountains: A React Native module that allows you to use native UI to select media from the device library or directly from the camera.
+MeterSphere 是一站式开源持续测试平台，覆盖测试管理、接口测试、UI 测试和性能测试等。搞测试，就选 MeterSphere！
 Learning RxJava for Android by example
 Distributed scheduled job framework
-MeterSphere 是一站式开源持续测试平台，覆盖测试管理、接口测试、UI 测试和性能测试等。搞测试，就选 MeterSphere！
+是 难得一见 的 Jetpack MVVM 最佳实践！在 以简驭繁 的代码中，对 视图控制器 乃至 标准化开发模式 形成正确、深入的理解！
 Tsunami is a general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence.
 :rocket: Ultimate Android Reference - Your Road to Become a Better Android Developer
-是 难得一见 的 Jetpack MVVM 最佳实践！在 以简驭繁 的代码中，对 视图控制器 乃至 标准化开发模式 形成正确、深入的理解！
 Build cross-platform Native Progressive Web Apps for iOS, Android, and the Web ⚡️
 Multi-platform transparent client-side encryption of your files in the cloud
 A declarative framework for building efficient UIs on Android.
@@ -239,10 +245,10 @@ Android library (AAR). Highly configurable, easily extendable deep zoom view for
 Bootstrap style widgets for Android, with Glyph Icons
 The vip.com's java coding standard, libraries and tools
 SweetAlert for Android, a beautiful and clever alert dialog
-A RecyclerView(advanced and flexible version of ListView in Android) with refreshing,loading more,animation and many other features.
 阅读是一款可以自定义来源阅读网络内容的工具，为广大网络文学爱好者提供一种方便、快捷舒适的试读体验。
-Asynchronous socket, http(s) (client+server) and websocket library for android. Based on nio, not threads.
+A RecyclerView(advanced and flexible version of ListView in Android) with refreshing,loading more,animation and many other features.
 This repository consists of the code samples, assignments, and notes for the Java Data Structures & Algorithms bootcamp of Community Classroom.
+Asynchronous socket, http(s) (client+server) and websocket library for android. Based on nio, not threads.
 🥤 COLA: Clean Object-oriented & Layered Architecture
 一款用于在Android设备上获取照片（拍照或从相册、文件中选择）、裁剪图片、压缩图片的开源工具库
 An Android library supports badge notification like iOS in Samsung, LG, Sony and HTC launchers.
@@ -252,6 +258,7 @@ Android view for displaying PDFs rendered with PdfiumAndroid
 阿里巴巴分布式数据库同步系统(解决中美异地机房)
 Java Native Access
 👶🏻 신입 개발자 전공 지식 & 기술 면접 백과사전 📖
+A javaagent framework
 Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.
 Android and Java bytecode viewer
 [DEPRECATED] An Unofficial E-Hentai Application for Android
@@ -267,13 +274,14 @@ spring-boot打造文件文档在线预览项目
 Continuous Inspection
 Spring Security
 Airbyte is an open-source EL(T) platform that helps you replicate your data in your warehouses, lakes and databases.
-A plugin framework on android,Run any third-party apk without installation, modification or repackage
+A server software reimplementation for a certain anime game.
 Change data capture for a variety of databases. Please log issues at https://issues.redhat.com/browse/DBZ.
-[停止维护]Android屏幕适配方案，直接填写设计图上的像素尺寸即可完成适配，最大限度解决适配问题。
+A plugin framework on android,Run any third-party apk without installation, modification or repackage
 Material Design Music Player
+[停止维护]Android屏幕适配方案，直接填写设计图上的像素尺寸即可完成适配，最大限度解决适配问题。
 新一代爬虫平台，以图形化方式定义爬虫流程，不写代码即可完成爬虫。
-LeetCode刷题记录与面试整理
 K-9 Mail – Open Source Email App for Android
+LeetCode刷题记录与面试整理
 Use SQL to query Elasticsearch
 基于SOA架构的分布式电商购物商城 前后端分离 前台商城:Vue全家桶 后台管理系统:Dubbo/SSM/Elasticsearch/Redis/MySQL/ActiveMQ/Shiro/Zookeeper等
 即时通讯(IM)系统
@@ -281,7 +289,6 @@ Style and Grammar Checker for 25+ Languages
 V部落，Vue+SpringBoot实现的多用户博客管理平台!
 :strawberry: Permissions manager for Android platform.
 Flyway by Redgate • Database Migrations Made Easy.
-A server software reimplementation for a certain anime game.
 A Flexible and Powerful Parameter Server for large-scale machine learning
 A JavaScript checker and optimizer.
 Main repository for GoCD - Continuous Delivery server
@@ -304,44 +311,44 @@ mybatis-generator界面工具，让你生成代码更简单更快捷
 A <Video /> component for react-native
 An Android library that help you to build app with swipe back gesture.
 EditText in Material Design
-ansj分词.ict的真正java实现.分词效果速度都超过开源版的ict. 中文分词,人名识别,词性标注,用户自定义词典
 :closed_book:  "任阅" 网络小说阅读器，3D翻页效果、txt/pdf/epub书籍阅读、Wifi传书~
+ansj分词.ict的真正java实现.分词效果速度都超过开源版的ict. 中文分词,人名识别,词性标注,用户自定义词典
 Image Cropping Library for Android, optimized for Camera / Gallery.
 Apache Tomcat
 Sample project created to show some of the best Android practices to work in the Android UI Layer. The UI layer of this project has been implemented using MVP or MVVM (without binding engine) to show how this patterns works. This project is used during the talk "EffectiveAndroidUI".
 A library to bring fully animated Material Design components to pre-Lolipop Android. 
-The Physical Web: walk up and use anything
 SVG library for React Native, React Native Web, and plain React web projects.
+The Physical Web: walk up and use anything
 Efficient reliable UDP unicast, UDP multicast, and IPC message transport
 仿网易云音乐 安卓版，netease  android，音乐播放器 在线 下载
 A beautiful, slim Android ProgressBar.
-MVP Android Example
 Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
+芋道 mall 商城，基于微服务的思想，构建在 B2C 电商场景下的项目实战。核心技术栈，是 Spring Boot + Dubbo 。未来，会重构成 Spring Cloud Alibaba 。
+MVP Android Example
 DL : dynamic load framework in android
 Catch common Java mistakes as compile-time errors
 Open source alternative to Auth0 / Firebase Auth / AWS Cognito 
 High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies
-芋道 mall 商城，基于微服务的思想，构建在 B2C 电商场景下的项目实战。核心技术栈，是 Spring Boot + Dubbo 。未来，会重构成 Spring Cloud Alibaba 。
 Android orm, bitmap, http, view inject... 
 Test Automation Made Simple
 Spring Cloud 学习案例，服务发现、服务治理、链路追踪、服务监控等
 Java interface to OpenCV, FFmpeg, and more
 A Java to iOS Objective-C translation tool and runtime.
-A javaagent framework
 JavaFX Material Design Library
-A Spring Framework based, pragmatic style JavaEE application reference architecture.
-Android-skin-support is an easy dynamic skin framework to use  for Android, Only one line of code to integrate it. Android 换肤框架, 极低的学习成本, 极好的用户体验. "一行"代码就可以实现换肤, 你值得拥有!!!
+RichEditor for Android is a beautiful Rich Text WYSIWYG Editor for Android.
 Pentaho Data Integration ( ETL ) a.k.a Kettle
+A Spring Framework based, pragmatic style JavaEE application reference architecture.
+人人可用的开源数据可视化分析工具。
+Android-skin-support is an easy dynamic skin framework to use  for Android, Only one line of code to integrate it. Android 换肤框架, 极低的学习成本, 极好的用户体验. "一行"代码就可以实现换肤, 你值得拥有!!!
 A Material design back port of Android's CalendarView
 A menu which can ... BOOM! - Android
 A cross-language remote procedure call(RPC) framework for rapid development of high performance distributed services.
 Generate Java types from JSON or JSON Schema and annotate those types for data-binding with Jackson, Gson, etc
-人人可用的开源数据可视化分析工具。
 Infinite cycle ViewPager with two-way orientation and interactive effect.
 A sample Android app which showcases advanced usage of Dagger among other open source libraries.
 Spring Boot 2.4.2，Shiro1.6.0 & Layui 2.5.6 权限管理系统。
-Most comprehensive list :clipboard: of tech interview questions :blue_book: of companies scraped from Geeksforgeeks, CareerCup and Glassdoor. 
 Ad free app for watching tube videos on Android TV boxes
+Most comprehensive list :clipboard: of tech interview questions :blue_book: of companies scraped from Geeksforgeeks, CareerCup and Glassdoor. 
 Java implementation of a Disk-based LRU cache which specifically targets Android compatibility.
 🔥🔥🔥国内首个Spring Cloud微服务化RBAC的管理平台，核心采用Spring Boot 2.4、Spring Cloud 2020.0.0 & Alibaba，前端采用d2-admin中台框架。 🔝 🔝 记得上边点个star 关注更新
 Web-based notebook that enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more.
@@ -361,19 +368,19 @@ Android Circular Progress Button
 General IM UI components. Android/iOS/RectNative ready.  通用 IM 聊天 UI 组件，已经同时支持 Android/iOS/RN。
 【Java工程师面试复习指南】本仓库涵盖大部分Java程序员所需要掌握的核心知识，整合了互联网上的很多优质Java技术文章，力求打造为最完整最实用的Java开发者学习指南，如果对你有帮助，给个star告诉我吧，谢谢！
 An android library for section headers that stick to the top
+Apache Beam is a unified programming model for Batch and Streaming data processing.
 Grafika test app
 Distributed Configuration Management Platform(分布式配置管理平台)
-Apache Beam is a unified programming model for Batch and Streaming data processing.
 Statistical Machine Intelligence & Learning Engine
 GraphQL Java implementation
-A super fast build tool for Android, an alternative to Instant Run
 The Metadata Platform for the Modern Data Stack
+No clever tagline needed.
+A super fast build tool for Android, an alternative to Instant Run
 A Model-View-Presenter / Model-View-Intent library for modern Android apps
+Modifications to the Minecraft base files to assist in compatibility between mods.
 安卓选择器类库，包括日期及时间选择器（可用于出生日期、营业时间等）、单项选择器（可用于性别、民族、职业、学历、星座等）、二三级联动选择器（可用于车牌号、基金定投日期等）、城市地址选择器（分省级、地市级及区县级）、数字选择器（可用于年龄、身高、体重、温度等）、日历选日期择器（可用于酒店及机票预定日期）、颜色选择器、文件及目录选择器、图片选择器等……WheelPicker/DatePicker/TimePicker/OptionPicker/NumberPicker/LinkagePicker/AddressPicker/CarPlatePicker/CalendarPicker/ColorPicker/FilePicker/ImagePicker etc. 
 A Java library that models spring dynamics and adds real world physics to your app. 
 springboot 框架与其它组件结合如 jpa、mybatis、websocket、security、shiro、cache等
-Modifications to the Minecraft base files to assist in compatibility between mods.
-No clever tagline needed.
 Barcode Scanner Libraries for Android
 Official repository of Trino, the distributed SQL query engine for big data, formerly known as PrestoSQL (https://trino.io)
 tcc-transaction是TCC型事务java实现
@@ -382,8 +389,8 @@ tcc-transaction是TCC型事务java实现
 Android library to handle jobs in the background.
 smali/baksmali
 A gradle plugin for getting java lambda support in java 6, 7 and android
-Animation effects to text, not really textview
 Welcome to the AWS Code Examples Repository.  This repo contains code examples used in the AWS documentation, AWS SDK Developer Guides, and more. For more information, see the Readme.rst file below.
+Animation effects to text, not really textview
 Micronaut Application Framework
 Distributed ID Generate Service
 A RecyclerView that implements pullrefresh and loadingmore featrues.you can use it like a standard RecyclerView
@@ -397,20 +404,21 @@ Android Floating Action Button based on Material Design specification
 An enhanced Guava-based event bus with emphasis on Android support.
 A list of useful Java frameworks, libraries, software and hello worlds examples
 RecyclerView extension library which provides advanced features. (ex. Google's Inbox app like swiping, Play Music app like drag and drop sorting)
+LSPosed Framework
 A compact and highly efficient workflow and Business Process Management (BPM) platform for developers, system admins and business users.
+✅ The 5th major version of the programmer-friendly testing framework for Java and the JVM
+Blurry is an easy blur library for Android
 Side menu with some categories to choose.
 Real-time Filter Camera&VideoRecorder And ImageEditor With Face Beauty For Android---包含美颜等40余种实时滤镜相机，可拍照、录像、图片修改
-LSPosed Framework
-✅ The 5th major version of the programmer-friendly testing framework for Java and the JVM
 A diagram of the Android Activity / Fragment lifecycle
 Distributed Graph Database
 An implementation of tap targets from the Material Design guidelines for feature discovery.
-Blurry is an easy blur library for Android
+A High Copy WeChat ,SNS APP (高仿微信)
 Library for Android Camera 1 and 2 APIs. Massively increase stability and reliability of photo and video capture on all Android devices.
+🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Activiti + Flowable 工作流、三方登录、支付、短信、商城等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！
 📌 TransmittableThreadLocal (TTL), the missing Java™ std lib(simple & 0-dependency) for framework/middleware, provide an enhanced InheritableThreadLocal that transmits values between threads even using thread pooling components.
 Android library that simplifies the process of requesting permissions at runtime.
 A splash screen for react-native, hide when application loaded ,it works on iOS and Android.
-🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Activiti + Flowable 工作流、三方登录、支付、短信、商城等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！
 An annotation processor for generating type-safe bean mappers
 BTrace - a safe, dynamic tracing tool for the Java platform
 🔥Android MVP 快速开发框架，做国内 「示例最全面」「注释最详细」「使用最简单」「代码最严谨」的 Android 开源 UI 框架。                🔥An Android MVP Framework with many demos, detailed documents, simple usages and strict codes.
@@ -419,8 +427,8 @@ Implementation of Instagram with Material Design (originally based on Emmanuel P
 Cracking the Coding Interview, 5th Edition
 UltraViewPager is an extension for ViewPager to provide multiple features in a single ViewPager.
 A small framework to split app into small parts
-Android common lib, include ImageCache, HttpCache, DropDownListView, DownloadManager, Utils and so on
 🔎 Open source distributed and RESTful search engine.
+Android common lib, include ImageCache, HttpCache, DropDownListView, DownloadManager, Utils and so on
 Demonstrates the features of the Spring MVC web framework
 A tool for mocking HTTP services
 Code for Quartz Scheduler
@@ -432,27 +440,27 @@ Advanced dialog solution for android
 The database purpose-built for stream processing applications.
 lanproxy是一个将局域网个人电脑、服务器代理到公网的内网穿透工具，支持tcp流量转发，可支持任何tcp上层协议（访问内网网站、本地支付接口调试、ssh访问、远程桌面、http代理、https代理、socks5代理...）。技术交流QQ群 736294209
 几行代码快速集成二维码扫描功能
-A code generator for MyBatis.
 Runtime code generation for the Java virtual machine.
+A code generator for MyBatis.
 jOOQ is the best way to write SQL in Java
 Navigation tab bar with colorful interactions.
 Full-featured Socket.IO Client Library for Java, which is compatible with Socket.IO v1.0 and later.
 下载可以很简单
 :octocat: 📃  FoldingCell is a material design expanding content cell inspired by folding paper material made by @Ramotion
 A SnapHelper that snaps a RecyclerView to an edge.
- Set of extra Transitions on top of Jetpack Transitions Library
  Open-source distributed computation and storage platform
+ Set of extra Transitions on top of Jetpack Transitions Library
 ☀️ Nepxion Discovery is a solution for Spring Cloud with blue green, gray, route, limitation, circuit breaker, degrade, isolation, tracing, dye, failover 蓝绿、灰度、路由、限流、熔断、降级、隔离、追踪、流量染色、故障转移
 Real - time non-invasive AOP framework container based on JVM
 Speech and Vision Based Intelligent Personal Assistant
 :point_right: Customize the LayoutManager of RecyclerView(自定义LayoutManager)
 An Android staggered grid view which supports multiple columns with rows of varying sizes.
+下一代Android打包工具（对Gradle 7.x的支持，欢迎提PR）
 Joda-Time is the widely used replacement for the Java date and time classes prior to Java SE 8.
+:art: 《重学Java设计模式》是一本互联网真实案例实践书籍。以落地解决方案为核心，从实际业务中抽离出，交易、营销、秒杀、中间件、源码等22个真实场景，来学习设计模式的运用。欢迎关注小傅哥，微信(fustack)，公众号：bugstack虫洞栈，博客：https://bugstack.cn
 Gephi - The Open Graph Viz Platform
 Android 技术中台，但愿人长久，搬砖不再有
 vʌvr (formerly called Javaslang) is a non-commercial, non-profit object-functional library that runs with Java 8+. It aims to reduce the lines of code and increase code quality.
-:art: 《重学Java设计模式》是一本互联网真实案例实践书籍。以落地解决方案为核心，从实际业务中抽离出，交易、营销、秒杀、中间件、源码等22个真实场景，来学习设计模式的运用。欢迎关注小傅哥，微信(fustack)，公众号：bugstack虫洞栈，博客：https://bugstack.cn
-下一代Android打包工具（对Gradle 7.x的支持，欢迎提PR）
 Free implementation of Play Services
 一款android自动生成表格框架---An Android automatically generated table framework
 [DEPRECATED] Easily integrate Camera features into your Android app
@@ -487,17 +495,17 @@ Android component which presents a dismissible view from the bottom of the scree
 An page indicator for Android ViewPager
 Android library project for cropping images
 [DEPRECATED] Android library for using the Honeycomb animation API on all versions of the platform back to 1.0!
+Apache Groovy: A powerful multi-faceted programming language for the JVM platform
 PLDroidPlayer 是七牛推出的一款免费的适用于 Android 平台的播放器 SDK，采用全自研的跨平台播放内核，拥有丰富的功能和优异的性能，可高度定制化和二次开发。
 开源的 Material Design 豆瓣客户端（A Material Design app for douban.com）
-Apache Groovy: A powerful multi-faceted programming language for the JVM platform
 MapDB provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory. It is a fast and easy to use embedded Java database engine.
+Reformats Java source code to comply with Google Java Style.
 Apache HBase
 OrientDB is the most versatile DBMS supporting Graph, Document, Reactive, Full-Text and Geospatial models in one Multi-Model product. OrientDB can run distributed (Multi-Master), supports SQL, ACID Transactions, Full-Text indexing and Reactive Queries.
-Reformats Java source code to comply with Google Java Style.
+Spring Data Example Projects
 Standalone Android widget for picking a single date from a calendar view.
 dexposed enable 'god' mode for single android application.
 An unofficial bilibili client for android  http://www.jianshu.com/p/f69a55b94c05   -- 该项目已停止维护！
-Spring Data Example Projects
 JanusGraph: an open-source, distributed graph database
 A small Android library allowing you to have a smooth and customizable horizontal or circular indeterminate ProgressBar
 Fibers, Channels and Actors for the JVM
@@ -513,6 +521,7 @@ DEPRECATED
 cglib - Byte Code Generation Library is high level API to generate and transform Java byte code. It is used by AOP, testing, data access frameworks to generate dynamic proxy objects and intercept field access.
 Reactive Streams Specification for the JVM
 Conductor is a microservices orchestration engine.
+lamp-cloud 基于Jdk11 + SpringCloud + SpringBoot的微服务快速开发平台，其中的可配置的SaaS功能尤其闪耀， 具备RBAC功能、网关统一鉴权、Xss防跨站攻击、自动代码生成、多种存储系统、分布式事务、分布式定时任务等多个模块，支持多业务系统并行开发， 支持多服务并行开发，可以作为后端服务的开发脚手架。代码简洁，注释齐全，架构清晰，非常适合学习和企业作为基础框架使用。
 This Library helps users to use Bottom Navigation Bar (A new pattern from google) with ease and allows ton of customizations
 龙果支付系统（roncoo-pay）是国内首款开源的互联网支付系统，拥有独立的账户体系、用户体系、支付接入体系、支付交易体系、对账清结算体系。目标是打造一款集成主流支付方式且轻量易用的支付收款系统，满足互联网业务系统打通支付通道实现支付收款和业务资金管理等功能。
 Spring Boot 系列实战合集
@@ -524,10 +533,10 @@ GT (Great Tit) is a portable debugging tool for bug hunting and performance tuni
 An Android text view with scrolling text change animation
 Open Source Web Crawler for Java
 Java is Growing up but not only Java。Java成长路线，但学到不仅仅是Java。
+A podcast manager for Android
 Ribbon is a Inter Process Communication (remote procedure calls) library with built in software load balancers. The primary usage model involves REST calls with various serialization scheme support.
 Java Solutions to problems on LintCode/LeetCode
 完全仿微信的图片选择，并且提供了多种图片加载接口，选择图片后可以旋转，可以裁剪成矩形或圆形，可以配置各种其他的参数
-A podcast manager for Android
 该项目为多个小项目的集合（持续更新中...）。内容类似淘宝、京东等网购管理系统以及图书管理、超市管理等系统。目的在于便于Java初级爱好者在学习完某一部分Java知识后有一个合适的项目锻炼、运用所学知识，完善知识体系。适用人群：Java基础到入门的爱好者。
 Java 1-15 Parser and Abstract Syntax Tree for Java, including preview features to Java 13
 AIMSICD • Fight IMSI-Catcher, StingRay and silent SMS!
@@ -538,9 +547,9 @@ A simple, annotation-based library for making deep link handling better on Andro
 Apache Ignite
 该仓库中主要是 Spring Boot 的入门学习教程以及一些常用的 Spring Boot 实战项目教程，包括 Spring Boot 使用的各种示例代码，同时也包括一些实战项目的项目源码和效果展示，实战项目包括基本的 web 开发以及目前大家普遍使用的线上博客项目/企业大型商城系统/前后端分离实践项目等，摆脱各种 hello world 入门案例的束缚，真正的掌握 Spring Boot 开发。
 For resolve the layout conflict when keybord & panel are switching (Android键盘面板冲突 布局闪动处理方案)
+IntelliJ/AndroidStudio plugin which provides a button to connect your Android device over WiFi to install, run and debug your applications without a USB connected.
 Combination of TabLayout and CoordinatorLayout./TabLayout和CoordinatorLayout相结合的折叠控件
 Mirror of Apache RocketMQ (Incubating)
-IntelliJ/AndroidStudio plugin which provides a button to connect your Android device over WiFi to install, run and debug your applications without a USB connected.
 This is a UI lib for Android. Effects like shining.
 null
 LCN distributed transaction framework, compatible with dubbo, spring cloud and Motan framework, supports various relational databases
@@ -564,13 +573,15 @@ Fast lightweight Java Database for storing and syncing objects in Mobile & IoT
 Install and run GNU/Linux on Android
 Algorithms and Data Structures implemented in Java
 Bolts is a collection of low-level libraries designed to make developing mobile apps easier.
-提供一套基于Spring Boot-Shiro-Vue的权限管理思路.前后端都加以控制,做到按钮/接口级别的权限。（当前新版本已移除shiro依赖，简化了配置）
-📚Java程序员必读书单整理，附下载地址，助力每一个Java程序员构建属于自己的知识体系。包括但不限于Java、设计模式、计算机网络、操作系统、数据库、数据结构与算法、大数据、架构、面试等等。
-A decentralized bitcoin exchange network
 年薪百万互联网架构师课程文档及源码(公开部分)
+提供一套基于Spring Boot-Shiro-Vue的权限管理思路.前后端都加以控制,做到按钮/接口级别的权限。（当前新版本已移除shiro依赖，简化了配置）
+A decentralized bitcoin exchange network
+📚Java程序员必读书单整理，附下载地址，助力每一个Java程序员构建属于自己的知识体系。包括但不限于Java、设计模式、计算机网络、操作系统、数据库、数据结构与算法、大数据、架构、面试等等。
 Andorid 任意界面悬浮窗，实现悬浮窗如此简单
 RxJava 2 和 Retrofit 结合使用的几个最常见使用方式举例
 支持自由定制外观、拖拽消除的MaterialDesign风格Android BadgeView
+旨在打造在线最佳的 Java 学习笔记，含博客讲解和源码实例，包括 Java SE 和 Java Web
+mybatis源码中文注释
 AndroidHttpCapture网络诊断工具 是一款Android手机抓包软件 主要功能包括：手机端抓包、PING/DNS/TraceRoute诊断、抓包HAR数据上传分享。你也可以看成是Android版的"Fiddler" \(^o^)/~
 Fork of tagtraum industries' GCViewer. Tagtraum stopped development in 2008, I aim to improve support for Sun's / Oracle's java 1.6+ garbage collector logs (including G1 collector)
 Apache Pinot - A realtime distributed OLAP datastore
@@ -579,15 +590,13 @@ Easy Setup Stub Server
 Android's TextView that can expand/collapse like the Google Play's app description
 Enterprise Stream Process Engine
 This is the new home of the original DDD Sample app (previously hosted at sf.net).. 
-Powerfull download accelerator and video downloader
 The open big data serving engine. https://vespa.ai
+Powerfull download accelerator and video downloader
 RefreshLayout that support for OverScroll and better than iOS.  支持下拉刷新和上拉加载的RefreshLayout,自带越界回弹效果，支持RecyclerView,AbsListView,ScrollView,WebView
-旨在打造在线最佳的 Java 学习笔记，含博客讲解和源码实例，包括 Java SE 和 Java Web
 Android integration of multiple icon providers such as FontAwesome, Entypo, Typicons,...
 业界首个支持渐进式组件化改造的Android组件化开源框架，支持跨进程调用。Componentize your android project gradually.
 SpringBoot 相关漏洞学习资料，利用方法和技巧合集，黑盒安全评估 check list
 Android图表库(XCL-Charts is a free charting library for Android platform.),基于Android Canvas来绘制各种图表,使用简便,定制灵活。目前支持3D/非3D/背向式/横向/竖向柱形图(Bar Chart)、3D/非3D饼图(Pie Chart)、堆叠图(Stacked Bar Chart)、面积图(Area Chart)、 折线图(Line Chart)、曲线图(Spline Chart)、环形图(Dount Chart)、南丁格尔玫瑰图(Rose Chart)、仪表盘(Dial Chart)、刻度盘(Gauge Chart)、雷达图(Radar Chart)、漏斗图(Funnel Chart)、圆形图(Circle Chart)、弧线比较图、散点图(Scatter Chart)、气泡图(Bubble Chart)、范围条形图(RangeBar Chart)等图表。其它特性还包括支持图表缩放、手势移动、点击响应、动画效果、多轴显示、图表参考线、混合图表及同数据源不同图表类型切换等。
-mybatis源码中文注释
 Jodd! Lightweight. Java. Zero dependencies. Use what you like.
 We are on codeberg.org now! https://codeberg.org/Freeyourgadget/Gadgetbridge -  Gadgetbridge - A free and cloudless replacement for your gadget vendors' closed source Android applications. Supports Pebble, Mi Band, Liveview, HPlus and more.
 The WebRTC module for React Native
@@ -595,16 +604,16 @@ A library to reproduce the behavior of the Bottom Navigation guidelines from Mat
 Distributed transaction solutions
 Big image viewer supporting pan and zoom, with very little memory usage and full featured image loading choices. Powered by Subsampling Scale Image View, Fresco, Glide, and Picasso. Even with gif and webp support! 🍻
 Step by step to build Android apps using Android Studio
+An extensible multilanguage static code analyzer.
 A small, yet full-featured framework that allows building View-based Android applications
 Material design file manager for Android
 ✔️ Secure, simple key-value storage for Android
-An extensible multilanguage static code analyzer.
 Java诊断工具
+A Minecraft Launcher which is multi-functional, cross-platform and popular
 IJPay 让支付触手可及，封装了微信支付、QQ支付、支付宝支付、京东支付、银联支付、PayPal 支付等常用的支付方式以及各种常用的接口。不依赖任何第三方 mvc 框架，仅仅作为工具使用简单快速完成支付模块的开发，可轻松嵌入到任何系统里。右上角点下小星星✨ 
 Google Guice on Android, version 3.0 [RETIRED]
-A Minecraft Launcher which is multi-functional, cross-platform and popular
-The missing bridge between Java and native C++
 "Maven-node-grunt-gulp-npm-node-plugin to end all maven-node-grunt-gulp-npm-plugins." A Maven plugin that downloads/installs Node and NPM locally, runs NPM install, Grunt, Gulp and/or Karma.
+The missing bridge between Java and native C++
 Cute library to implement SearchView in a Material Design Approach
 The modern Java bytecode editor
 The simple, stupid rules engine for Java
@@ -613,8 +622,8 @@ PowerMock is a Java framework that allows you to unit test code normally regarde
 Unified Queries for Java
 一站式Apache Kafka集群指标监控与运维管控平台
 Project Malmo is a platform for Artificial Intelligence experimentation and research built on top of Minecraft. We aim to inspire a new generation of research into challenging new problems presented by this unique environment. --- For installation instructions, scroll down to *Getting Started* below, or visit the project page for more information:
-Example code from Learning Spark book
 Android平台下的富文本解析器，支持Html和Markdown
+Example code from Learning Spark book
 Dynamic java method AOP hook for Android(continution of Dexposed on ART), Supporting 5.0~11
 LWJGL is a Java library that enables cross-platform access to popular native APIs useful in the development of graphics (OpenGL, Vulkan, bgfx), audio (OpenAL, Opus), parallel computing (OpenCL, CUDA) and XR (OpenVR, LibOVR, OpenXR) applications.
 [UNMAINTAINED] Sticky Headers decorator for Android's RecyclerView
@@ -626,13 +635,13 @@ CircleProgress, DonutProgress, ArcProgress
 Spruce Animation Library
 一个简单漂亮的SSM(Spring+SpringMVC+Mybatis)博客系统
 JSqlParser parses an SQL statement and translate it into a hierarchy of Java classes. The generated hierarchy can be navigated using the Visitor Pattern
-The Launcher3 fork known as "Rootless Pixel Launcher"
 MockServer enables easy mocking of any system you integrate with via HTTP or HTTPS with clients written in Java, JavaScript and Ruby.  MockServer also includes a proxy that introspects all proxied traffic including encrypted SSL traffic and supports Port Forwarding, Web Proxying (i.e. HTTP proxy), HTTPS Tunneling Proxying (using HTTP CONNECT) and SOCKS Proxying (i.e. dynamic port forwarding).
+The Launcher3 fork known as "Rootless Pixel Launcher"
 Open source Old School RuneScape client
 a simple cache for android and java
-东半球最好用的新手引导库，能够快速为任何一个View创建一个遮罩层，支持单个页面，多个引导串联展示，支持为高亮区域设置不同的图形，支持引导动画，方便扩展,良好支持fragment
 Open source routing engine for OpenStreetMap. Use it as Java library or standalone web server.
 Jitsi is an audio/video and chat communicator that supports protocols such as SIP, XMPP/Jabber, IRC and many other useful features.
+东半球最好用的新手引导库，能够快速为任何一个View创建一个遮罩层，支持单个页面，多个引导串联展示，支持为高亮区域设置不同的图形，支持引导动画，方便扩展,良好支持fragment
 Open Location Code is a library to generate short codes, called "plus codes", that can be used as digital addresses where street addresses don't exist.
 A stylish music player for android device 16+
 Your go-to microservice framework for any situation, from the creator of Netty et al. You can build any type of microservice leveraging your favorite technologies,  including gRPC, Thrift, Kotlin, Retrofit, Reactive Streams, Spring Boot and Dropwizard.
@@ -640,26 +649,26 @@ a super textview for android
 Android Common Utils or Helper. Such as Log, Averager, Base64, Check, FlashLight, KeyguardLock, LogReader, Network, SilentInstaller, TimeAverager, TimeCounter, Toastor, WakeLock, ScreenReceiver, SmsReceiver, PhoneReceiver, NotificationService, AndroidUtil, AppUtil, BitmapUtil, ByteUtil, ClassUtil, DialogUtil, FieldUtil, FileUtil, HexUtil, MD5Util, NotificationUtil, NumberUtil, PackageUtil, RandomUtil, ShellUtil, TelephoneUtil, VibrateUtil, IOUtils, FileUtils, AsyncExecutor, etc.  通用性强，纯洁简单，体积不到50K！其中包括bitmap处理，文件操作，加密存储器，shell命令，静默安装，计数器，均值器，吐司，日志，校验，提示，网络监测等基础功能，以及一些Base64、MD5、Hex、Byte、Number、Dialog、Filed、Class、Package、Telephone、Random等工具类。
 俗名：可垂直跑、可水平跑的跑马灯；学名：可垂直翻、可水平翻的翻页公告
 A library to show emoji in TextView, EditText (like WhatsApp) for Android
+MyBatis integration with Spring Boot
 A tiny IoC container refer to Spring.
 「小马哥技术周报」
-MyBatis integration with Spring Boot
 Apache Heron (Incubating) is a realtime, distributed, fault-tolerant stream processing engine from Twitter
 :package: Android Parcelables made easy through code generation.
 explosive dust effect for views
 Android Library for Async Data Loading and Caching
 停车场系统源码，新能源充电桩系统，停车场小程序，智能停车，Parking system，【功能介绍】：①兼容市面上主流的多家相机，理论上兼容所有硬件，可灵活扩展，②相机识别后数据自动上传到云端并记录，校验相机唯一id和硬件序列号，防止非法数据录入，③用户手机查询停车记录详情可自主缴费(支持微信，支付宝，银行接口支付，支持每个停车场指定不同的商户进行收款)，支付后出场在免费时间内会自动抬杆。④支持app上查询附近停车场(导航，可用车位数，停车场费用，优惠券，评分，评论等)，可预约车位。⑤断电断网支持岗亭人员使用app可接管硬件进行停车记录的录入。 【技术架构】：后端开发语言java，框架oauth2+springboot2+dubble，数据库mysql/mongodb/redis，即时通讯底层框架netty4，安卓和ios均为原生开发，后台管理模板vue专业定制
+The Spring Authorization Server project is focused on delivering OAuth 2.1 Authorization Server support to the Spring community.
 Open source two-factor authentication for Android
 The ops and reference implementation for Apache Dubbo
 一个实用的多条件筛选菜单
 OpenGrok is a fast and usable source code search and cross reference engine, written in Java
-The Spring Authorization Server project is focused on delivering OAuth 2.1 Authorization Server support to the Spring community.
 Android StackBlur is a library that can perform a blurry effect on a Bitmap based on a gradient or radius, and return the result. The library is based on the code of Mario Klingemann.
 SOFARPC is a high-performance, high-extensibility, production-level Java RPC  framework.
-基于SpringBoot2.x、SpringCloud和SpringCloudAlibaba并采用前后端分离的企业级微服务多租户系统架构。并引入组件化的思想实现高内聚低耦合，项目代码简洁注释丰富上手容易，适合学习和企业中使用。真正实现了基于RBAC、jwt和oauth2的无状态统一权限认证的解决方案，面向互联网设计同时适合B端和C端用户，支持CI/CD多环境部署，并提供应用管理方便第三方系统接入；同时还集合各种微服务治理功能和监控功能。模块包括:企业级的认证系统、开发平台、应用监控、慢sql监控、统一日志、单点登录、Redis分布式高速缓存、配置中心、分布式任务调度、接口文档、代码生成等等。
 Traccar GPS Tracking System
+基于SpringBoot2.x、SpringCloud和SpringCloudAlibaba并采用前后端分离的企业级微服务多租户系统架构。并引入组件化的思想实现高内聚低耦合，项目代码简洁注释丰富上手容易，适合学习和企业中使用。真正实现了基于RBAC、jwt和oauth2的无状态统一权限认证的解决方案，面向互联网设计同时适合B端和C端用户，支持CI/CD多环境部署，并提供应用管理方便第三方系统接入；同时还集合各种微服务治理功能和监控功能。模块包括:企业级的认证系统、开发平台、应用监控、慢sql监控、统一日志、单点登录、Redis分布式高速缓存、配置中心、分布式任务调度、接口文档、代码生成等等。
 Deprecated
-null
 Backport of Java 8's lambda expressions to Java 7, 6 and 5
+null
 The missing Android blurring library. Fast blur-behind layout that parallels iOS.
 Picocli is a modern framework for building powerful, user-friendly, GraalVM-enabled command line apps with ease. It supports colors, autocompletion, subcommands, and more.  In 1 source file so apps can include as source & avoid adding a dependency. Written in Java, usable from Groovy, Kotlin, Scala, etc. 
 Android library. Flexible components for chat UI implementation with flexible possibilities for styling, customizing and data management.  Made by Stfalcon
@@ -675,19 +684,19 @@ A Gateway built on Spring Framework and Spring Boot providing routing and more.
 基于Spring Boot 2.x的一站式前后端分离快速开发平台XBoot 微信小程序+Uniapp 前端：Vue+iView Admin 后端：Spring Boot 2.x/Spring Security/JWT/JPA+Mybatis-Plus/Redis/Elasticsearch/Activiti 分布式限流/同步锁/验证码/SnowFlake雪花算法ID 动态权限 数据权限 工作流 代码生成 定时任务 社交账号 短信登录 单点登录 OAuth2开放平台 客服机器人 数据大屏 暗黑模式
 Android USB host serial driver library for CDC, FTDI, Arduino and other devices.
 An adaptation of the JSR-310 backport for Android.
+《大厂面试指北》——包括Java基础、JVM、数据库、mysql、redis、计算机网络、算法、数据结构、操作系统、设计模式、系统设计、框架原理。最佳阅读地址：http://notfound9.github.io/interviewGuide/
 Fast and versatile Adapter for RecyclerView which regroups several features into one library to considerably improve the user experience :-)
 :books:A pure reading App based on Material Design + MVP + RxJava2 + Retrofit + Dagger2 + Realm + Glide
 Android library that allows launching a custom activity when your app crashes, instead of showing the hated "Unfortunately, X has stopped" dialog.
-《大厂面试指北》——包括Java基础、JVM、数据库、mysql、redis、计算机网络、算法、数据结构、操作系统、设计模式、系统设计、框架原理。最佳阅读地址：http://notfound9.github.io/interviewGuide/
 Hackpad is a web-based realtime wiki.
 :partly_sunny: [@Deprecated]RxJava+RxBus+Retrofit+Glide+Material Design Weather App
+From UI Proposal to Code :notes::arrow_forward:
 XChange is a Java library providing a streamlined API for interacting with 60+ Bitcoin and Altcoin exchanges providing a consistent interface for trading and accessing market data.
 MagicaSakura 是 Android 多主题框架。~ is an Android multi theme library which supporting both daily colorful theme and night theme. 
 Add-ons for openHAB 1.x
-From UI Proposal to Code :notes::arrow_forward:
 A Fabric mod designed to improve frame rates and reduce micro-stutter
-一款开源的GIF在线分享App，乐趣就要和世界分享。
 SeaTunnel is a distributed, high-performance data integration platform for the synchronization and transformation of massive data (offline & real-time).
+一款开源的GIF在线分享App，乐趣就要和世界分享。
 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正
 Enterprise job scheduling middleware with distributed computing ability.
 Android Studio plug-in for generating ButterKnife injections from selected layout XML.
@@ -710,6 +719,7 @@ dynamic datasource for springboot 多数据源 动态数据源 主从分离 读�
 Maps SDK for Android Utility Library
 Eclipse Jetty® - Web Container & Clients - supports HTTP/2, HTTP/1.1, HTTP/1.0, websocket, servlets, and more
 Repository that showcases 3 Android app architectures: "Standard Android", MVP and MVVM. The exact same app is built 3 times following the different patterns.
+↥ ↥ ↥ 点击关注更新，基于 Spring Cloud 2021 、Spring Boot 2.7、 OAuth2 的 RBAC 权限管理系统
 Android Week View is an android library to display calendars (week view or day view) within the app. It supports custom styling.
 Netty learning.
 The Data Transfer Project makes it easy for people to transfer their data between online service providers. We are establishing a common framework, including data models and protocols, to enable direct transfer of data both into and out of participating online service providers.
@@ -723,15 +733,14 @@ Bistoury是去哪儿网的java应用生产问题诊断工具，提供了一站�
 Spring Boot集成MyBatis的基础项目
 Actor Messaging platform
 This is an adaptation of the Ninety-Nine Prolog Problems written by Werner Hett.
-↥ ↥ ↥ 点击关注更新，基于 Spring Cloud 2021 、Spring Boot 2.6、 OAuth2 的 RBAC 权限管理系统
+A free, secure and open source app for Android to manage your 2-step verification tokens.
 Apache Kylin
 本项目仿最新版微信6.5.7（除图片选择器外），基于融云SDK，使用目前较火的 Rxjava+Retrofit+MVP+Glide 技术开发。相比上个版本，加入发送位置消息，红包消息等功能。
 A framework for directly generating shape through Tags, no need to write shape.xml again（通过标签直接生成shape，无需再写shape.xml）
 一套完整有效的android组件化方案，支持组件的组件完全隔离、单独调试、集成调试、组件交互、UI跳转、动态加载卸载等功能
 With Scaling Layout scale your layout on user interaction.
-A SeekBar suited for showing a preview of something. As seen in Google Play Movies.
-A free, secure and open source app for Android to manage your 2-step verification tokens.
 H2 is an embeddable RDBMS written in Java.
+A SeekBar suited for showing a preview of something. As seen in Google Play Movies.
 An android lib for enhancing BottomNavigationView. 一个增强BottomNavigationView的安卓库。
 Android related examples
 Solutions to LeetCode problems; updated daily. Subscribe to my YouTube channel for more.
@@ -740,27 +749,27 @@ QLExpress is a powerful, lightweight, dynamic language for the Java platform aim
 Java HTTP Request Library
 Vert.x examples
 Automatic binding+disposal of RxJava streams.
+A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock Edition.
 An awesome list of tips for Android.
 Screaming fast JSON parsing and serialization library for Android.
 🌱 Hope-Boot 一款现代化的脚手架项目
 :microscope: Java Code Coverage Library
 UI form validation library for Android
-A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with Minecraft: Bedrock Edition.
 LeafPic is a fluid, material-designed alternative gallery, it also is ad-free and open source under GPLv3 license. It doesn't miss any of the main features of a stock gallery, and we also have plans to add more useful features.
 Android ListView with drag and drop reordering.
 The source code from the third edition of Effective Java, with minor additions as necessary to make it runnable.
 Android multi-media selector based on MVP mode.
 A solution for streaming H.264, H.263, AMR, AAC using RTP on Android
+null
 Main Liquibase Source
 An elegant way to show your menu or messages.
 🎶 A Discord music bot that's easy to set up and run yourself!
 DEPRECATED
 Afinal是一个android的ioc，orm框架，内置了四大模块功能：FinalAcitivity,FinalBitmap,FinalDb,FinalHttp。通过finalActivity，我们可以通过注解的方式进行绑定ui和事件。通过finalBitmap，我们可以方便的加载bitmap图片，而无需考虑oom等问题。通过finalDB模块，我们一行代码就可以对android的sqlite数据库进行增删改查。通过FinalHttp模块，我们可以以ajax形式请求http数据。详情请通过以下网址查看。
 Hi，Developer，Welcome to use SuperTextView ！
-null
 Android自定义相册，实现了拍照、图片选择（单选/多选）、 裁剪（单/多裁剪）、旋转、ImageLoader无绑定任由开发者选择、功能可配置、主题样式可配置。GalleryFinal为你定制相册。
-ANDROID. ChipsLayoutManager (SpanLayoutManager, FlowLayoutManager). A custom layout manager for RecyclerView which mimicric TextView span behaviour, flow layouts behaviour with support of amazing recyclerView features
 Apache Kafka® running on Kubernetes
+ANDROID. ChipsLayoutManager (SpanLayoutManager, FlowLayoutManager). A custom layout manager for RecyclerView which mimicric TextView span behaviour, flow layouts behaviour with support of amazing recyclerView features
 根据Gson库使用的要求,将JSONObject格式的String  解析成实体
 A lightweight, good expandability Android library used for displaying different pages like loading, error, empty, timeout or even your custom page when you load a page.(优雅地处理加载中，重试，无数据等)
 Native Operating System and Hardware Information
@@ -774,76 +783,21 @@ OsmAnd
 An application demoing meaningful motion on Android
 「低代码可视化报表」类似excel操作风格，在线拖拽完成设计！功能涵盖: 报表设计、图形报表、打印设计、大屏设计等，完全免费！秉承“简单、易用、专业”的产品理念，极大的降低报表开发难度、缩短开发周期、解决各类报表难题。
 Password manager app for Android
+Upserts, Deletes And Incremental Processing on Big Data.
+Android java library for FFmpeg binary compiled using https://github.com/writingminds/ffmpeg-android
 Apache NiFi
 Free Android 2D OpenGL Game Engine
-Android java library for FFmpeg binary compiled using https://github.com/writingminds/ffmpeg-android
-Upserts, Deletes And Incremental Processing on Big Data.
 This is an Android application with camera,picture cropping,collage sticking and tagging.贴纸标签相机,功能:拍照,相片裁剪,给图片贴贴纸,打标签。
 Native navigation library for React Native applications
 A library that provides access to Android hidden APIs and internal resources.
 High performance non-blocking webserver
 This is a project designed to help controlling Android MediaPlayer class. It makes it easier to use MediaPlayer ListView and RecyclerView. Also it tracks the most visible item in scrolling list. When new item in the list become the most visible, this library gives an API to track it.
 A tool to help eliminate NullPointerExceptions (NPEs) in your Java code with low build-time overhead
-一个简单，强大的广告活动弹窗控件
 An Android Bluetooth Low Energy (BLE) Library with RxJava2 interface
+一个简单，强大的广告活动弹窗控件
 即使不用饿了么订餐，也请务必收藏好该库！🔥  一行代码即可接入，二级联动订餐列表。
 Alink is the Machine Learning algorithm platform based on Flink, developed by the PAI team of Alibaba computing platform. 
 Annotation processor to create immutable objects and builders. Feels like Guava's immutable collections but for regular value objects. JSON, Jackson, Gson, JAX-RS integrations included
-一个用于app指向性功能高亮的库
-requery - modern SQL based query & persistence for Java / Kotlin / Android
-citypicker城市选择器，详细的省市区地址信息，支持仿iOS滚轮实现，仿京东样式，一级或者三级列表展示方式。
-Apache Calcite
-A beautiful Android custom seekbar, which has a bubble view with progress appearing upon when seeking. 自定义SeekBar，进度变化更以可视化气泡样式呈现
-TypeDB: a strongly-typed database
-Small set of tools for JVM troublshooting, monitoring and profiling.
-JPEXS Free Flash Decompiler
-A trojan client for Android (UNDER CONSTRUCTION).
-Red5 Server core
-An Android library which provides simple Item animations to RecyclerView items
-Spring、SpringMVC、MyBatis、Spring Boot案例
-The Ballerina Programming Language
-These are the sample Bounded Contexts from the book "Implementing Domain-Driven Design" by Vaughn Vernon:  http://vaughnvernon.co/?page_id=168
-Java implementation of the Tron whitepaper
-Social share, sending simple data to other apps.
-General data-binding package for Jackson (2.x): works on streaming API (core) implementation(s)
-降低Android非必要crash
-Context sensitive notifications for Android  
-:art: High quality  pure Weex demo / 网易严选 App 感受 Weex 开发
-A high performance scripting language hosted on the JVM.
-Kubernetes integration with Spring Cloud Discovery Client, Configuration, etc...
-Jarslink is a sofa ark plugin used to manage multi-application deployment 
-[DEPRECATED] A simple way to "badge" any given Android view at runtime without having to cater for it in layout
-Traditional roguelike game with pixel-art graphics and simple interface
-WebRTC plugin for Flutter Mobile/Desktop/Web
-null
-本库是一款基于RxJava2+Retrofit2实现简单易用的网络请求框架，结合android平台特性的网络封装库,采用api链式调用一点到底,集成cookie管理,多种缓存模式,极简https配置,上传下载进度显示,请求错误自动重试,请求携带token、时间戳、签名sign动态配置,自动登录成功后请求重发功能,3种层次的参数设置默认全局局部,默认标准ApiResult同时可以支持自定义的数据结构，已经能满足现在的大部分网络请求。
-A lite library, you can make your project depend it easily, and your project will be UNDEAD (contains api from 9 to 23, lol).
-:cherries: Web server and web framework of Android platform.
-viewpager with parallax pages, together with vertical sliding (or click) and activity transition
-Android BLE蓝牙通信库
-Android Buttons With Built-in Progress Meters.
-:fire::fire::fire:城市选择、定位、搜索及右侧字母导航，类似美团 百度糯米 饿了么等APP选择城市功能
-Android library used to create an awesome Android UI based on a draggable element similar to the last YouTube graphic component.
-Give a custom shape to any android view, Material Design 2 ready
-A React Native wrapper around the Facebook SDKs for Android and iOS.  Provides access to Facebook login, sharing, graph requests, app events etc.
-A complete 3-D game development suite written in Java.
-Deprecated -- Image selector for Android device. Support single choice and multi-choice.
-Lombok Plugin for IntelliJ IDEA
-PRDownloader - A file downloader library for Android with pause and resume support
-Leetcode solutions
-Java wrapper for the popular chat & VOIP service: Discord https://discord.com
-Repo of the Open Source Android library : RoboSpice. RoboSpice is a modular android library that makes writing asynchronous long running tasks easy. It is specialized in network requests, supports caching and offers REST requests out-of-the box using extension modules.
-TableView is a powerful Android library for displaying complex data structures and rendering tabular data composed of rows, columns and cells.
-Twitter's heart animation for Android
-Based on Apache Flink. Support data synchronization/integration.
-Material Design implementation for Android 4.0+. Shadows, ripples, vectors, fonts, animations, widgets, rounded corners and more.
-DrawerLayout-like ViewGroup, where a "drawer" is hidden under the content view, which can be shifted to make the drawer visible.
-Nuwa, pure java implementation, can hotfix your android application.
-Java library to create bots using Telegram Bots API
-《系统重构与迁移指南》手把手教你分析、评估现有系统、制定重构策略、探索可行重构方案、搭建测试防护网、进行系统架构重构、服务架构重构、模块重构、代码重构、数据库重构、重构后的架构守护
-A Gradle plugin to report the number of method references in your APK on every build.
-Deep Learning (Python, C, C++, Java, Scala, Go)
-📚 Java 23种设计模式全归纳
 chrome browser of android version from chromium open project
 linux运维监控工具，支持系统信息，内存，cpu，温度，磁盘空间及IO，硬盘smart，系统负载，网络流量等监控，API接口，大屏展示，拓扑图，进程监控，端口监控，docker监控，文件防篡改，日志监控，数据可视化，web ssh，堡垒机，指令下发批量执行，linux面板，探针，故障告警
 A comprehensive Domain-Driven Design example with problem space strategic analysis and various tactical patterns.
@@ -863,24 +817,24 @@ Android view with both path from constructed path or from svg.
 Brigadier is a command parser & dispatcher, designed and developed for Minecraft: Java Edition.
 Android Countdown View
 A demo for using JWT (Json Web Token) with Spring Security and Spring Boot 2
-AndroidTreeView. TreeView implementation for android
 Eclipse OpenJ9: A Java Virtual Machine for OpenJDK that's optimized for small footprint, fast start-up, and high throughput.   Builds on Eclipse OMR (https://github.com/eclipse/omr) and combines with the Extensions for OpenJDK for OpenJ9 repo.
+AndroidTreeView. TreeView implementation for android
+novel 是一套基于时下最新 Java 技术栈 Spring Boot 3 + Vue 3 开发的前后端分离学习型小说项目，配备详细的项目开发教程手把手教你从零开始开发上线一个生产级别的 Java 系统，由小说门户系统、作家后台管理系统、平台后台管理系统、爬虫管理系统等多个子系统构成。包括小说推荐、作品检索、小说排行榜、小说阅读、小说评论、充值订阅、新闻发布等功能。
 The implementation of https://dribbble.com/shots/2067564-Replace
 Anthelion is a plugin for Apache Nutch to crawl semantic annotations within HTML pages.
-novel 是一套基于时下最新 Java 技术栈 Spring Boot 3 + Vue 3 开发的前后端分离学习型小说项目，配备详细的项目开发教程手把手教你从零开始开发上线一个生产级别的 Java 系统，由小说门户系统、作家后台管理系统、平台后台管理系统、爬虫管理系统等多个子系统构成。包括小说推荐、作品检索、小说排行榜、小说阅读、小说评论、充值订阅、新闻发布等功能。
 [Deprecated] Little bites of Material Design
 :fire:RxJava2 Examples —— 这可能是从 RxJava1 跳到 RxJava2（学习 RxJava2 ）最好的例子 Demo：https://github.com/nanchen2251/RxJava2Examples
-A component for flip animation on Android, which is similar to the effect in Flipboard iPhone/Android
 null
+A component for flip animation on Android, which is similar to the effect in Flipboard iPhone/Android
 🌱《 Spring 手撸专栏》，本专栏以 Spring 源码学习为目的，通过手写简化版 Spring 框架，了解 Spring 核心原理。在手写的过程中会简化 Spring 源码，摘取整体框架中的核心逻辑，简化代码实现过程，保留核心功能，例如：IOC、AOP、Bean生命周期、上下文、作用域、资源处理等内容实现。
+Bitcoin Wallet app for your Android device. Standalone Bitcoin node, no centralized backend required.
 Aarogya Setu Android app native code
 The idea of ResideMenu is from Dribbble 1 and 2. It has come true and run in iOS devices. iOS ResideMenu This project is the RefsideMenu Android version. The visual effect is partly referred to iOS version of ResideMenu. And thanks to the authors for the above idea and contribution. 
  [DEPRECATED] Image Picker like Wechat
 本项目是Android快速开发框架，采用AndroidStudio进行开发。 预想集成工具包,采用MVP开发模式,EventBus数据分发,沉浸式状态栏,ORM,网络请求(HTTPClint,Volley,OkHttps),数据解析,依赖注入(AndroidAnnotations),xutils,图片异步加载，二维码扫描等等，后续会进行逐步添加
+A quickstart generator for Spring projects
 android emoticonsKeyboard support emoji and user-defined emoticon. easy to integrated into your project 
 :octocat::fire: :star2::star::star::star: :star:  史上最全的BAT大厂Android面试题汇集，以及常用的Android开发的一些技能点，冷门知识点汇总，开发中遇到的坑汇总等干货。
-A quickstart generator for Spring projects
-Bitcoin Wallet app for your Android device. Standalone Bitcoin node, no centralized backend required.
 cSploit - The most complete and advanced IT security professional toolkit on Android.
 Blue Ocean is a reboot of the Jenkins CI/CD User Experience
 JDBC importer for Elasticsearch
@@ -895,6 +849,61 @@ Bastillion is a web-based SSH console that centrally manages administrative acce
 Allure Report is a flexible, lightweight multi-language test reporting tool. It provides clear graphical reports and allows everyone involved in the development process to extract the maximum of information from the everyday testing process
 Apache Log4j 2 is an upgrade to Log4j that provides significant improvements over its predecessor, Log4j 1.x, and provides many of the improvements available in Logback while fixing some inherent problems in Logback's architecture.
 Name UI states, navigate between them, remember where you've been.
+"Favor composition over inheritance" for RecyclerView Adapters
+BinNavi is a binary analysis IDE that allows to inspect, navigate, edit and annotate control flow graphs and call graphs of disassembled code.
+AWS Usage Tool
+Describe your animation and run !
+ByteTCC is a distributed transaction manager based on the TCC(Try/Confirm/Cancel) mechanism. It’s compatible with the JTA specification. User guide: https://github.com/liuyangming/ByteTCC/wiki
+Migrated:
+Apache Iceberg
+Modern IntelliJ plugin to learn shortcuts for buttons
+一个通过动态加载本地皮肤包进行换肤的皮肤框架
+Dynamic iOS-like blur of underlying Views for Android
+A surgical debugging tool to uncover the layers under your app.
+Mass Service Engine in Cluster(MSEC) is opened source by QQ team from Tencent. It is a backend DEV &OPS engine, including RPC,name finding,load balance,monitoring,release and capacity management.  
+Angry IP Scanner - fast and friendly network scanner
+🚀  An awesome banner view  for Android，Based on ViewPager2. 这可能是全网最好用的ViewPager轮播图。简单、高效，一行代码实现循环轮播，一屏三页任意变，指示器样式任你挑。
+Web UI for PrestoDB.
+Apache Curator
+Combine ViewPager and Animations to provide a simple way to create applications' guide pages. 
+This repository contains a detailed sample app that implements MVVM architecture using Dagger2,  Room, RxJava2, FastAndroidNetworking and PlaceholderView
+专注批量推送的小而美的工具，目前支持：模板消息-公众号、模板消息-小程序、微信客服消息、微信企业号/企业微信消息、阿里云短信、阿里大于模板短信 、腾讯云短信、云片网短信、E-Mail、HTTP请求、钉钉、华为云短信、百度云短信、又拍云短信、七牛云短信
+A Music Player for android that renders beautiful DNA(Visualization) of the currently playing music.
+CoCoin, Multi-view Accounting Application
+快速开发工具类收集，史上最全的开发工具类，欢迎Follow、Fork、Star
+Neat library, that provides a simple way to implement guillotine-styled animation
+判断App位于前台或者后台的6种方法
+@Deprecated android 自定义日历控件  支持左右无限滑动 周月切换 标记日期显示 自定义显示效果跳转到指定日期
+Awesome Android references for everything like best practices, performance optimization, etc.
+Ant Media Server is a streaming engine software that provides adaptive, ultra low latency streaming by using WebRTC technology with ~0.5 seconds latency. Ant Media Server is highly scalable both horizontally and vertically. It can run on-premise or on-cloud.
+Framework for Evolutionary Event-Driven Microservices on the JVM
+an animated circular menu for Android
+Solutions for some common algorithm problems written in Java.
+SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
+Official GeoServer repository
+A robust native library loader for Android.
+[NO LONGER MAINTAINED] Android library for better Picker DialogFragments
+一个帮助您完成从缩略视图到原视图无缝过渡转变的神奇框架
+可能是最好的支付SDK
+Android 开发中的日常积累
+Unblock 163 Cloud Music Android client through Xposed.
+Android ImageViews animated by Ken Burns Effect
+Android: iOS-like over-scrolling effect applicable over almost all scrollable Android views.
+High-quality QR Code generator library in Java, TypeScript/JavaScript, Python, Rust, C++, C.
+A library that extends the Android toast framework.
+Flexible framework for workflow and decision automation with BPMN and DMN. Integration with Spring, Spring Boot, CDI.
+An easy to use ViewPager that adds an awesome set of custom swiping animations. Just change your ViewPagers to JazzyViewPagers, two more steps, and you're good to go!
+A nice spinner for Android
+Shopizer java e-commerce software
+An easy-to-use, customizable and Material Design ready Pattern Lock view for Android
+A Minecraft: Java Edition Launcher for Android and iOS based on Boardwalk. This repository contains source code for Android platform.
+微信公众号、企业号Java SDK
+Router activities and methods with url for android
+Bastillion is a web-based SSH console that centrally manages administrative access to systems. Web-based administration is combined with management and distribution of user's public SSH keys.
+图片选择库，单选/多选、拍照、裁剪、压缩，自定义。包括视频选择和录制。
+Allure Report is a flexible, lightweight multi-language test reporting tool. It provides clear graphical reports and allows everyone involved in the development process to extract the maximum of information from the everyday testing process
+Apache Log4j 2 is an upgrade to Log4j that provides significant improvements over its predecessor, Log4j 1.x, and provides many of the improvements available in Logback while fixing some inherent problems in Logback's architecture.
+Name UI states, navigate between them, remember where you've been.
 A realtime blurring overlay for Android (like iOS UIVisualEffectView)
 [DEPRECATED] A fast PDF reader component for Android development
 "Favor composition over inheritance" for RecyclerView Adapters
@@ -903,37 +912,37 @@ AWS Usage Tool
 Describe your animation and run !
 ByteTCC is a distributed transaction manager based on the TCC(Try/Confirm/Cancel) mechanism. It’s compatible with the JTA specification. User guide: https://github.com/liuyangming/ByteTCC/wiki
 Migrated:
+Apache Iceberg
 Modern IntelliJ plugin to learn shortcuts for buttons
 一个通过动态加载本地皮肤包进行换肤的皮肤框架
 Dynamic iOS-like blur of underlying Views for Android
 A surgical debugging tool to uncover the layers under your app.
 Mass Service Engine in Cluster(MSEC) is opened source by QQ team from Tencent. It is a backend DEV &OPS engine, including RPC,name finding,load balance,monitoring,release and capacity management.  
 Angry IP Scanner - fast and friendly network scanner
-Apache Iceberg
 🚀  An awesome banner view  for Android，Based on ViewPager2. 这可能是全网最好用的ViewPager轮播图。简单、高效，一行代码实现循环轮播，一屏三页任意变，指示器样式任你挑。
 Web UI for PrestoDB.
+Apache Curator
 Combine ViewPager and Animations to provide a simple way to create applications' guide pages. 
 This repository contains a detailed sample app that implements MVVM architecture using Dagger2,  Room, RxJava2, FastAndroidNetworking and PlaceholderView
 专注批量推送的小而美的工具，目前支持：模板消息-公众号、模板消息-小程序、微信客服消息、微信企业号/企业微信消息、阿里云短信、阿里大于模板短信 、腾讯云短信、云片网短信、E-Mail、HTTP请求、钉钉、华为云短信、百度云短信、又拍云短信、七牛云短信
+A Music Player for android that renders beautiful DNA(Visualization) of the currently playing music.
 CoCoin, Multi-view Accounting Application
 快速开发工具类收集，史上最全的开发工具类，欢迎Follow、Fork、Star
-Apache Curator
-A Music Player for android that renders beautiful DNA(Visualization) of the currently playing music.
 Neat library, that provides a simple way to implement guillotine-styled animation
 判断App位于前台或者后台的6种方法
 @Deprecated android 自定义日历控件  支持左右无限滑动 周月切换 标记日期显示 自定义显示效果跳转到指定日期
+Awesome Android references for everything like best practices, performance optimization, etc.
 Ant Media Server is a streaming engine software that provides adaptive, ultra low latency streaming by using WebRTC technology with ~0.5 seconds latency. Ant Media Server is highly scalable both horizontally and vertically. It can run on-premise or on-cloud.
+Framework for Evolutionary Event-Driven Microservices on the JVM
 Inspired by Heinrich Reimer Material Intro and developed with love from scratch 
 an animated circular menu for Android
-Framework for Evolutionary Event-Driven Microservices on the JVM
 Solutions for some common algorithm problems written in Java.
 SpringMVC 和 MyBatis 学习笔记，搭配示例，主要讲解一些基础的概念、用法和配置
 null
 SpotBugs is FindBugs' successor. A tool for static analysis to look for bugs in Java code.
-A robust native library loader for Android.
 Official GeoServer repository
+A robust native library loader for Android.
 [NO LONGER MAINTAINED] Android library for better Picker DialogFragments
-Awesome Android references for everything like best practices, performance optimization, etc.
 Redis 一站式管理平台，支持集群的监控、安装、管理、告警以及基本的数据操作
 一个帮助您完成从缩略视图到原视图无缝过渡转变的神奇框架
 可能是最好的支付SDK
@@ -943,8 +952,8 @@ Android ImageViews animated by Ken Burns Effect
 Android: iOS-like over-scrolling effect applicable over almost all scrollable Android views.
 High-quality QR Code generator library in Java, TypeScript/JavaScript, Python, Rust, C++, C.
 A library that extends the Android toast framework.
-An easy to use ViewPager that adds an awesome set of custom swiping animations. Just change your ViewPagers to JazzyViewPagers, two more steps, and you're good to go!
 Flexible framework for workflow and decision automation with BPMN and DMN. Integration with Spring, Spring Boot, CDI.
+An easy to use ViewPager that adds an awesome set of custom swiping animations. Just change your ViewPagers to JazzyViewPagers, two more steps, and you're good to go!
 A nice spinner for Android
 Shopizer java e-commerce software
 An easy-to-use, customizable and Material Design ready Pattern Lock view for Android
@@ -961,8 +970,9 @@ Micro second messaging that stores everything to disk
 A floating menu library for Android.
 A progress wheel for android, intended for use instead of the standard progress bar.
 Pumped up RecyclerView
-Sina Weibo Android Client
 A material designed music player for Android
+Sina Weibo Android Client
+Bundletool is a command-line tool to manipulate Android App Bundles
 Allows Android apps to interact with BLE beacons
 Easily add slide to dismiss functionality to an Activity 
 Insanely easy way to work with Android Database.  
@@ -982,19 +992,9 @@ Simple Binary Encoding (SBE) - High Performance Message Codec
 基于 webmagic 的 Java 爬虫应用
 A comprehensive tutorial for Android Data Binding
 INACTIVE: A maven plugin for Docker
-Bundletool is a command-line tool to manipulate Android App Bundles
 A better compressed bitset in Java
 null
 An experimental toolset for Unity asset and asset bundle files.
-Code from the book "Algorithms" (4th ed.) by Robert Sedgewick and Kevin Wayne (original, and my solutions to exercises).
 Serve, optimize and scale PyTorch models in production
+Code from the book "Algorithms" (4th ed.) by Robert Sedgewick and Kevin Wayne (original, and my solutions to exercises).
 【停止维护】组件化综合案例，组件分层为：基础公共组件，功能组件，业务组件，主工程。以及跨组件之间通信的设计，很全面的一个组件化实践案例。
-A Material Design themed ShowcaseView for Android
-Java / JavaFX / Kotlin Game Library (Engine)
-:key: Keychain Access for React Native
-GDA is a new fast and powerful decompiler in C++(working without Java VM) for the APK, DEX, ODEX, OAT, JAR, AAR, and CLASS file. which supports malicious behavior detection, privacy leaking detection, vulnerability detection, path solving, packer identification, variable tracking, deobfuscation, python&java scripts, device memory extraction, data decryption, and encryption, etc. 
-AI constraint solver in Java to optimize the vehicle routing problem, employee rostering, task assignment, maintenance scheduling, conference scheduling and other planning problems.
-@Deprecated RecyclerView实现Card Gallery效果，替代ViewPager方案
-Migrated:
-Joda-Time library with Android specialization
-With Diagonal Layout explore new styles and approaches on material design
