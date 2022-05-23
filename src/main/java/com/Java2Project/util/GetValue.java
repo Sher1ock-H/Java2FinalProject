@@ -18,12 +18,10 @@ public class GetValue {
     String[] des = new String[1000];
     String[] urls = new String[1000];
     UArray pageArray = new UArray();
-    String wordFrequency;
 
     public GetValue() {
         try {
             BufferedReader in = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/info.json"));
-            BufferedReader wordIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/cloud.json"));
             JSONObject jo1 = JSONObject.fromObject(in.readLine());
             JSONArray ja = jo1.getJSONArray("items");
             for (int i = 0; i < 1000; i++) {
@@ -36,9 +34,7 @@ public class GetValue {
                 month[i] = jo2.getInt("month");
                 day[i] = jo2.getInt("day");
             }
-            wordFrequency = wordIn.readLine();
             in.close();
-            wordIn.close();
             for (int i = 0; i < 1000; i++) {
                 String time = String.valueOf(year[i]) + '-' + month[i] + '-' + day[i];
                 pageArray.addItem(new UItem(name[i], des[i], time, watcher[i], urls[i], i));
@@ -85,8 +81,18 @@ public class GetValue {
         return new Gson().toJson(itemArray);
     }
 
-    public String getWords() {
-        System.out.println(wordFrequency);
+    public String getWords(){
+        String wordFrequency = null;
+        try{
+            WordAnalyse wa = new WordAnalyse();
+            wa.analyse();
+            BufferedReader wordIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/cloud.json"));
+            wordFrequency = wordIn.readLine();
+            wordIn.close();
+            System.out.println(wordFrequency);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         return wordFrequency;
     }
 
