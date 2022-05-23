@@ -36,7 +36,9 @@ public class GetValue {
                 day[i] = jo2.getInt("day");
             }
             in.close();
-            wordFrequency = new WordAnalyse().getCloud();
+            WordAnalyse wa = new WordAnalyse();
+            wa.analyse();
+            wordFrequency = wa.getCloud();
             for (int i = 0; i < 1000; i++) {
                 String time = String.valueOf(year[i]) + '-' + month[i] + '-' + day[i];
                 pageArray.addItem(new UItem(name[i], des[i], time, watcher[i], urls[i], i));
