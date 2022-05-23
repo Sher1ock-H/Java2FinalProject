@@ -41,7 +41,7 @@
 
     option = {
         title: {
-            text: 'Github按Watchers排序前1000条的时间分布',
+            text: 'Github仓库关键词分布图',
             subtext: 'Fake Data',
             left: 'center'
         },
@@ -63,15 +63,21 @@
                     borderColor: '#fff',
                     borderWidth: 2
                 },
-                label: {
-                    show: false,
-                    position: 'center'
-                },
+                // label: {
+                //     show: false,
+                //     position: 'center'
+                // },
                 emphasis: {
                     label: {
                         show: true,
+                        position: 'center',
                         fontSize: '40',
                         fontWeight: 'bold'
+                    },
+                    itemStyle: {
+                        shadowBlur: 10,
+                        shadowOffsetX: 0,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
                     }
                 },
                 labelLine: {

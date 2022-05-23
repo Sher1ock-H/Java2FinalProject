@@ -70,7 +70,7 @@
                 left: 'center'
             },
             tooltip: {
-                trigger: 'item'
+                // trigger: 'item'
             },
             legend: {
                 orient: 'vertical',
@@ -81,26 +81,27 @@
                 {
                     name: 'word',
                     type: 'pie',
-                    radius: ['40%', '80%'],
-                    avoidLabelOverlap: false,
+                    radius: ['20%', '70%'],
+                    // radius: '70%',
+                    // avoidLabelOverlap: false,
                     itemStyle: {
-                        // borderRadius: 10,
+                        borderRadius: 5,
                         borderColor: '#fff',
                         borderWidth: 2
                     },
                     label: {
-                        show: false,
-                        position: 'center'
+                        formatter: '{b}: {d}%',
                     },
                     emphasis: {
                         label: {
-                            show: true,
-                            fontSize: '40',
+                            fontSize: '35',
                             fontWeight: 'bold'
+                        },
+                        itemStyle: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
                         }
-                    },
-                    labelLine: {
-                        show: false
                     },
                     data: data
                 }
@@ -116,14 +117,7 @@
     myChart.on('click', 'series', function (params) {
         console.log(params);
         let name = params['data']['name']
-        let preData = option.series[0].data
-        let datas = []
         option.legend.selected[name] = false
-        for (let i = 0; i < preData.length; i++) {
-            if (preData[i]['word'] === name) continue
-            datas.push(preData[i])
-        }
-        option.series[0].data = datas
         if (temp < dataSet.length) {
             option.series[0].data.push({value: dataSet[temp]['frequency'], name: dataSet[temp]['word']})
             temp++;
