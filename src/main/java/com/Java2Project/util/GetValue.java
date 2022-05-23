@@ -86,7 +86,7 @@ public class GetValue {
     }
 
     public String getWords(){
-        System.out.println(wordFrequency);
+//        System.out.println(wordFrequency);
         return wordFrequency;
     }
 

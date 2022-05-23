@@ -10,7 +10,7 @@
     <script src="/jquery.min.js"></script>
     <script src="/bootstrap.js"></script>
     <!--    <script src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js"></script>-->
-    <title>Rank List</title>
+    <title>Rank-List: Search</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -40,40 +40,14 @@
     </div>
 </nav>
 <div class="container mt-5">
-    <ul class="pagination justify-content-center" style="margin:20px 0">
-        <li class="page-item pre"><a class="page-link" href="#">上一页</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">4</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">5</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">6</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">7</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">8</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">9</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">10</a></li>
-        <li class="page-item next"><a class="page-link" href="#">下一页</a></li>
-    </ul>
     <ul class="list-group" id="list">
         <!--        <li id="1" class="list-group-item" onclick="showDialog(this)">JavaGuide</li>-->
     </ul>
-    <ul class="pagination justify-content-center" style="margin:20px 0">
-        <li class="page-item pre"><a class="page-link" href="#">上一页</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">3</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">4</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">5</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">6</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">7</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">8</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">9</a></li>
-        <li class="page-item p-item"><a class="page-link" href="#">10</a></li>
-        <li class="page-item next"><a class="page-link" href="#">下一页</a></li>
-    </ul>
     <button id="modal" type="button" class="btn btn-primary invisible" data-bs-toggle="modal" data-bs-target="#myModal">
+        打开模态
     </button>
 </div>
+
 <!-- 模态 -->
 <div class="modal fade" id="myModal">
     <div class="modal-dialog modal-dialog-centered">
@@ -104,12 +78,14 @@
 </div>
 </body>
 </html>
-
 <script type="application/javascript">
     var tempPage = 1;
     var dataSet;
     $(document).ready(function () {
-        getPage(1);
+        fetch(window.location.href + '/data').then(response => response.json()).then(json => {
+            dataSet = json['items'];
+            setList()
+        })
     })
 
     $('#content').keydown(function (event) {
@@ -119,9 +95,9 @@
     })
 
     function search() {
-        console.log(window.location.href)
-        window.location.href += '/search-result/' + $('#content').val()
-        return false
+        let hrefs = window.location.href.split('/')
+        let href = window.location.href.slice(0, -hrefs[hrefs.length - 1])
+        window.location.href = href + $('#content').val()
     }
 
     function showDialog(item) {
@@ -138,13 +114,6 @@
         $("#url").attr('href', tempItem['url'])
     }
 
-    function getPage(i) {
-        fetch('page/' + i).then(response => response.json()).then(json => {
-            dataSet = json['items'];
-            setList()
-        })
-    }
-
     function setList() {
         $(".list-group").empty();
         let html;
@@ -157,23 +126,4 @@
             $('#list').append(html)
         }
     }
-
-    $(".p-item").on('click', function () {
-        tempPage = this.innerText;
-        console.log(tempPage)
-        getPage(tempPage)
-    })
-
-    $(".pre").on('click', function () {
-        tempPage = Math.max(tempPage - 1, 1);
-        console.log(tempPage)
-        getPage(tempPage)
-    })
-    $(".next").on('click', function () {
-        tempPage = Math.min(tempPage + 1, 10);
-        console.log(tempPage)
-        getPage(tempPage)
-    })
-
-
 </script>

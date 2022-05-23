@@ -2,9 +2,9 @@ package com.Java2Project.controller;
 
 import com.Java2Project.util.GetValue;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
+
+import javax.websocket.server.PathParam;
 
 @Controller
 public class WebController {
@@ -24,6 +24,21 @@ public class WebController {
     @RequestMapping("/rank-list")
     public String rankList() {
         return "rankList";
+    }
+    @RequestMapping(value = "/rank-list/search-result/{param}")
+    public String rankListSearch(@PathVariable String param) {
+        return "search-result";
+    }
+    @ResponseBody
+    @RequestMapping(value = "/rank-list/search-result/{param}/data", produces = "application/json; charset=utf-8")
+    public String searchResult(@PathVariable String param) {
+        return getValue.search(param);
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "/pie-chart/data", produces = "application/json; charset=utf-8")
+    public String pieChartData() {
+        return getValue.getWords();
     }
 
     @ResponseBody
