@@ -51,14 +51,14 @@ public class WordAnalyse {
     }
 
     public static class IArray {
-        ArrayList<Item> itemArrayList;
+        ArrayList<Item> items;
 
         public IArray() {
-            itemArrayList = new ArrayList<>();
+            items = new ArrayList<>();
         }
 
         public void add(Item item) {
-            itemArrayList.add(item);
+            items.add(item);
         }
     }
 

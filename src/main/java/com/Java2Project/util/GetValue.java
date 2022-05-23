@@ -23,7 +23,7 @@ public class GetValue {
     public GetValue() {
         try {
             BufferedReader in = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/info.json"));
-            BufferedReader wordIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/stopwords.txt"));
+            BufferedReader wordIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/cloud.json"));
             JSONObject jo1 = JSONObject.fromObject(in.readLine());
             JSONArray ja = jo1.getJSONArray("items");
             for (int i = 0; i < 1000; i++) {
@@ -86,6 +86,7 @@ public class GetValue {
     }
 
     public String getWords() {
+        System.out.println(wordFrequency);
         return wordFrequency;
     }
 
