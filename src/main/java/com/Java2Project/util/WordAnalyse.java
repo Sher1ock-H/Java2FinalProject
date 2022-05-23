@@ -5,24 +5,34 @@ import com.kennycason.kumo.WordFrequency;
 import com.kennycason.kumo.nlp.FrequencyAnalyzer;
 import com.kennycason.kumo.nlp.tokenizers.ChineseWordTokenizer;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.HashSet;
 import java.util.List;
 
 public class WordAnalyse {
     public void analyse() throws IOException {
+        //筛掉中英文stop words
+        HashSet<String> stopWord = new HashSet<>();
+        BufferedReader stopWordsIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/stopwords.txt"));
+        String s;
+        while ((s = stopWordsIn.readLine()) != null){
+            stopWord.add(s);
+        }
+
         FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
         frequencyAnalyzer.setWordFrequenciesToReturn(600); //最大词频
         frequencyAnalyzer.setMinWordLength(2);
         frequencyAnalyzer.setWordTokenizer(new ChineseWordTokenizer());
         List<WordFrequency> wordFrequencyList = frequencyAnalyzer.load("src/main/java/com/Java2Project/dataSet/description.txt");
         wordFrequencyList.sort(Comparator.comparingInt(WordFrequency::getFrequency));
+
         IArray iArray = new IArray();
-        for(WordFrequency wordFrequency : wordFrequencyList)
+        for(WordFrequency wordFrequency : wordFrequencyList) {
+            if(stopWord.contains(wordFrequency.getWord())) continue;
             iArray.add(new Item(wordFrequency.getWord(), wordFrequency.getFrequency()));
+        }
         String cloud = new Gson().toJson(iArray);
         BufferedWriter out = new BufferedWriter(new FileWriter("src/main/java/com/Java2Project/dataSet/cloud.json"));
         out.write(cloud);

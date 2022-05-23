@@ -1,908 +1,8 @@
 {
   "itemArrayList": [
     {
-      "word": "调试",
-      "frequency": 3
-    },
-    {
-      "word": "fastandroidnetworking",
-      "frequency": 3
-    },
-    {
-      "word": "指示器",
-      "frequency": 3
-    },
-    {
-      "word": "搭建",
-      "frequency": 3
-    },
-    {
-      "word": "good",
-      "frequency": 3
-    },
-    {
-      "word": "查询",
-      "frequency": 3
-    },
-    {
-      "word": "implement",
-      "frequency": 3
-    },
-    {
-      "word": "拥有",
-      "frequency": 3
-    },
-    {
-      "word": "room",
-      "frequency": 3
-    },
-    {
-      "word": "swiping",
-      "frequency": 3
-    },
-    {
-      "word": "byte",
-      "frequency": 3
-    },
-    {
-      "word": "专注",
-      "frequency": 3
-    },
-    {
-      "word": "have",
-      "frequency": 3
-    },
-    {
-      "word": "mybatis-plus",
-      "frequency": 3
-    },
-    {
-      "word": "traffic",
-      "frequency": 3
-    },
-    {
-      "word": "爱好者",
-      "frequency": 3
-    },
-    {
-      "word": "improve",
-      "frequency": 3
-    },
-    {
-      "word": "mapper",
-      "frequency": 3
-    },
-    {
-      "word": "activities",
-      "frequency": 3
-    },
-    {
-      "word": "refreshlayout",
-      "frequency": 3
-    },
-    {
-      "word": "@deprecated",
-      "frequency": 3
-    },
-    {
-      "word": "协议",
-      "frequency": 3
-    },
-    {
-      "word": "悬浮",
-      "frequency": 3
-    },
-    {
-      "word": "根据",
-      "frequency": 3
-    },
-    {
-      "word": "languages",
-      "frequency": 3
-    },
-    {
-      "word": "stability",
-      "frequency": 3
-    },
-    {
-      "word": "netty",
-      "frequency": 3
-    },
-    {
-      "word": "manage",
-      "frequency": 3
-    },
-    {
-      "word": "结构",
-      "frequency": 3
-    },
-    {
-      "word": "gallery",
-      "frequency": 3
-    },
-    {
-      "word": "dependencies",
-      "frequency": 3
-    },
-    {
-      "word": "生命",
-      "frequency": 3
-    },
-    {
-      "word": "log",
-      "frequency": 3
-    },
-    {
-      "word": "enterprise",
-      "frequency": 3
-    },
-    {
-      "word": "friendly",
-      "frequency": 3
-    },
-    {
-      "word": "threads",
-      "frequency": 3
-    },
-    {
-      "word": "硬件",
-      "frequency": 3
-    },
-    {
-      "word": "intellij",
-      "frequency": 3
-    },
-    {
-      "word": "dex",
-      "frequency": 3
-    },
-    {
-      "word": "composition",
-      "frequency": 3
-    },
-    {
-      "word": "标记",
-      "frequency": 3
-    },
-    {
-      "word": "static",
-      "frequency": 3
-    },
-    {
-      "word": "华为",
-      "frequency": 3
-    },
-    {
-      "word": "optimized",
-      "frequency": 3
-    },
-    {
-      "word": "状态栏",
-      "frequency": 3
-    },
-    {
-      "word": "showing",
-      "frequency": 3
-    },
-    {
-      "word": "dmn",
-      "frequency": 3
-    },
-    {
-      "word": "lock",
-      "frequency": 3
-    },
-    {
-      "word": "computation",
-      "frequency": 3
-    },
-    {
-      "word": "main",
-      "frequency": 3
-    },
-    {
-      "word": "background",
-      "frequency": 3
-    },
-    {
-      "word": "included",
-      "frequency": 3
-    },
-    {
-      "word": "地址",
-      "frequency": 3
-    },
-    {
-      "word": "10",
-      "frequency": 3
-    },
-    {
-      "word": "module",
-      "frequency": 3
-    },
-    {
-      "word": "quality",
-      "frequency": 3
-    },
-    {
-      "word": "cute",
-      "frequency": 3
-    },
-    {
-      "word": "mysql",
-      "frequency": 3
-    },
-    {
-      "word": "admin",
-      "frequency": 3
-    },
-    {
-      "word": "placeholderview",
-      "frequency": 3
-    },
-    {
-      "word": "8+",
-      "frequency": 3
-    },
-    {
-      "word": "优化",
-      "frequency": 3
-    },
-    {
-      "word": "扩展",
-      "frequency": 3
-    },
-    {
-      "word": "成本",
-      "frequency": 3
-    },
-    {
-      "word": "reliable",
-      "frequency": 3
-    },
-    {
-      "word": "work",
-      "frequency": 3
-    },
-    {
-      "word": "extension",
-      "frequency": 3
-    },
-    {
-      "word": "writing",
-      "frequency": 3
-    },
-    {
-      "word": "大家",
-      "frequency": 3
-    },
-    {
-      "word": "轻松",
-      "frequency": 3
-    },
-    {
-      "word": "不同",
-      "frequency": 3
-    },
-    {
-      "word": "maven",
-      "frequency": 3
-    },
-    {
-      "word": "capture",
-      "frequency": 3
-    },
-    {
-      "word": "command",
-      "frequency": 3
-    },
-    {
-      "word": "async",
-      "frequency": 3
-    },
-    {
-      "word": "providers",
-      "frequency": 3
-    },
-    {
-      "word": "annotate",
-      "frequency": 3
-    },
-    {
-      "word": "图形",
-      "frequency": 3
-    },
-    {
-      "word": "spring-boot",
-      "frequency": 3
-    },
-    {
-      "word": "安卓",
-      "frequency": 3
-    },
-    {
-      "word": "大部分",
-      "frequency": 3
-    },
-    {
-      "word": "environment",
-      "frequency": 3
-    },
-    {
-      "word": "面向",
-      "frequency": 3
-    },
-    {
-      "word": "tomcat",
-      "frequency": 3
-    },
-    {
-      "word": "等等",
-      "frequency": 3
-    },
-    {
-      "word": "springcloud",
-      "frequency": 3
-    },
-    {
-      "word": "门户",
-      "frequency": 3
-    },
-    {
-      "word": "提升",
-      "frequency": 3
-    },
-    {
-      "word": "智能",
-      "frequency": 3
-    },
-    {
-      "word": "资源",
-      "frequency": 3
-    },
-    {
-      "word": "mongodb",
-      "frequency": 3
-    },
-    {
-      "word": "仓库",
-      "frequency": 3
-    },
-    {
-      "word": "automatically",
-      "frequency": 3
-    },
-    {
-      "word": "类型",
-      "frequency": 3
-    },
-    {
-      "word": "停车",
-      "frequency": 3
-    },
-    {
-      "word": "administration",
-      "frequency": 3
-    },
-    {
-      "word": "拖动",
-      "frequency": 3
-    },
-    {
-      "word": "thymeleaf",
-      "frequency": 3
-    },
-    {
-      "word": "improving",
-      "frequency": 3
-    },
-    {
-      "word": "分类",
-      "frequency": 3
-    },
-    {
-      "word": "opengl",
-      "frequency": 3
-    },
-    {
-      "word": "grid",
-      "frequency": 3
-    },
-    {
-      "word": "界面",
-      "frequency": 3
-    },
-    {
-      "word": "屏幕",
-      "frequency": 3
-    },
-    {
-      "word": "proxying",
-      "frequency": 3
-    },
-    {
-      "word": "uses",
-      "frequency": 3
-    },
-    {
-      "word": "integrates",
-      "frequency": 3
-    },
-    {
-      "word": "grpc",
-      "frequency": 3
-    },
-    {
-      "word": "blurring",
-      "frequency": 3
-    },
-    {
-      "word": "rdbms",
-      "frequency": 3
-    },
-    {
-      "word": "ci",
-      "frequency": 3
-    },
-    {
-      "word": "firebase",
-      "frequency": 3
-    },
-    {
-      "word": "无限",
-      "frequency": 3
-    },
-    {
-      "word": "scalable",
-      "frequency": 3
-    },
-    {
-      "word": "流量",
-      "frequency": 3
-    },
-    {
-      "word": "go",
-      "frequency": 3
-    },
-    {
-      "word": "form",
-      "frequency": 3
-    },
-    {
-      "word": "very",
-      "frequency": 3
-    },
-    {
-      "word": "id",
-      "frequency": 3
-    },
-    {
-      "word": "im",
-      "frequency": 3
-    },
-    {
-      "word": "dependency",
-      "frequency": 3
-    },
-    {
-      "word": "排序",
-      "frequency": 3
-    },
-    {
-      "word": "complete",
-      "frequency": 3
-    },
-    {
-      "word": "faster",
-      "frequency": 3
-    },
-    {
-      "word": "tolerance",
-      "frequency": 3
-    },
-    {
-      "word": "license",
-      "frequency": 3
-    },
-    {
-      "word": "progressbar",
-      "frequency": 3
-    },
-    {
-      "word": "storage",
-      "frequency": 3
-    },
-    {
-      "word": "课程",
-      "frequency": 3
-    },
-    {
-      "word": "layoutmanager",
-      "frequency": 3
-    },
-    {
-      "word": "rocket",
-      "frequency": 3
-    },
-    {
-      "word": "adaptation",
-      "frequency": 3
-    },
-    {
-      "word": "工作",
-      "frequency": 3
-    },
-    {
-      "word": "modular",
-      "frequency": 3
-    },
-    {
-      "word": "webrtc",
-      "frequency": 3
-    },
-    {
-      "word": "so",
-      "frequency": 3
-    },
-    {
-      "word": "扫描",
-      "frequency": 3
-    },
-    {
-      "word": "residemenu",
-      "frequency": 3
-    },
-    {
-      "word": "streams",
-      "frequency": 3
-    },
-    {
-      "word": "相机",
-      "frequency": 3
-    },
-    {
-      "word": "out",
-      "frequency": 3
-    },
-    {
-      "word": "unified",
-      "frequency": 3
-    },
-    {
-      "word": "date",
-      "frequency": 3
-    },
-    {
-      "word": "blog",
-      "frequency": 3
-    },
-    {
-      "word": "activiti",
-      "frequency": 3
-    },
-    {
-      "word": "垂直",
-      "frequency": 3
-    },
-    {
-      "word": "gif",
-      "frequency": 3
-    },
-    {
-      "word": "scale",
-      "frequency": 3
-    },
-    {
-      "word": "asynchronous",
-      "frequency": 3
-    },
-    {
-      "word": "gson",
-      "frequency": 3
-    },
-    {
-      "word": "devices",
-      "frequency": 3
-    },
-    {
-      "word": "restful",
-      "frequency": 3
-    },
-    {
-      "word": "blur",
-      "frequency": 3
-    },
-    {
-      "word": "bugs",
-      "frequency": 3
-    },
-    {
-      "word": "suite",
-      "frequency": 3
-    },
-    {
-      "word": "combined",
-      "frequency": 3
-    },
-    {
-      "word": "tracing",
-      "frequency": 3
-    },
-    {
-      "word": "toast",
-      "frequency": 3
-    },
-    {
-      "word": "ultra",
-      "frequency": 3
-    },
-    {
-      "word": "install",
-      "frequency": 3
-    },
-    {
-      "word": "依赖",
-      "frequency": 3
-    },
-    {
-      "word": "详情",
-      "frequency": 3
-    },
-    {
-      "word": "everyone",
-      "frequency": 3
-    },
-    {
-      "word": "容器",
-      "frequency": 3
-    },
-    {
-      "word": "掌握",
-      "frequency": 3
-    },
-    {
-      "word": "转发",
-      "frequency": 3
-    },
-    {
-      "word": "沉浸",
-      "frequency": 3
-    },
-    {
-      "word": "logback",
-      "frequency": 3
-    },
-    {
-      "word": "routing",
-      "frequency": 3
-    },
-    {
-      "word": "gives",
-      "frequency": 3
-    },
-    {
-      "word": "运行",
-      "frequency": 3
-    },
-    {
-      "word": "速度",
-      "frequency": 3
-    },
-    {
-      "word": "has",
-      "frequency": 3
-    },
-    {
-      "word": "compatibility",
-      "frequency": 3
-    },
-    {
-      "word": "jdbc",
-      "frequency": 3
-    },
-    {
-      "word": "viewpager2",
-      "frequency": 3
-    },
-    {
-      "word": "configurable",
-      "frequency": 3
-    },
-    {
-      "word": "gateway",
-      "frequency": 3
-    },
-    {
-      "word": "修改",
-      "frequency": 3
-    },
-    {
-      "word": "webview",
-      "frequency": 3
-    },
-    {
-      "word": "mocking",
-      "frequency": 3
-    },
-    {
-      "word": "调度",
-      "frequency": 3
-    },
-    {
-      "word": "笔记",
-      "frequency": 3
-    },
-    {
-      "word": "socketio",
-      "frequency": 3
-    },
-    {
-      "word": "tiny",
-      "frequency": 3
-    },
-    {
-      "word": "editor",
-      "frequency": 3
-    },
-    {
-      "word": "efficient",
-      "frequency": 3
-    },
-    {
-      "word": "eclipse",
-      "frequency": 3
-    },
-    {
-      "word": "their",
-      "frequency": 3
-    },
-    {
-      "word": "been",
-      "frequency": 3
-    },
-    {
-      "word": "how",
-      "frequency": 3
-    },
-    {
-      "word": "交互",
-      "frequency": 3
-    },
-    {
-      "word": "系列",
-      "frequency": 3
-    },
-    {
-      "word": "multi-language",
-      "frequency": 3
-    },
-    {
-      "word": "selector",
-      "frequency": 3
-    },
-    {
-      "word": "京东",
-      "frequency": 3
-    },
-    {
-      "word": "python",
-      "frequency": 3
-    },
-    {
-      "word": "无缝",
-      "frequency": 3
-    },
-    {
-      "word": "file",
-      "frequency": 3
-    },
-    {
-      "word": "within",
-      "frequency": 3
-    },
-    {
-      "word": "原生",
-      "frequency": 3
-    },
-    {
-      "word": "tangram",
-      "frequency": 3
-    },
-    {
-      "word": "上手",
-      "frequency": 3
-    },
-    {
-      "word": "task",
-      "frequency": 3
-    },
-    {
-      "word": "utils",
-      "frequency": 3
-    },
-    {
-      "word": "people",
-      "frequency": 3
-    },
-    {
-      "word": "场景",
-      "frequency": 3
-    },
-    {
-      "word": "extends",
-      "frequency": 3
-    },
-    {
-      "word": "inspect",
-      "frequency": 3
-    },
-    {
-      "word": "scheduler",
-      "frequency": 3
-    },
-    {
-      "word": "hbase",
-      "frequency": 3
-    },
-    {
-      "word": "guns",
-      "frequency": 3
-    },
-    {
-      "word": "binding",
-      "frequency": 3
-    },
-    {
-      "word": "enable",
-      "frequency": 3
-    },
-    {
-      "word": "效率",
-      "frequency": 3
-    },
-    {
-      "word": "全家",
-      "frequency": 3
-    },
-    {
-      "word": "event",
-      "frequency": 3
-    },
-    {
-      "word": "runs",
-      "frequency": 3
-    },
-    {
-      "word": "replacement",
-      "frequency": 3
-    },
-    {
-      "word": "ioc",
-      "frequency": 3
-    },
-    {
-      "word": "移动",
-      "frequency": 3
-    },
-    {
-      "word": "metrics",
-      "frequency": 3
-    },
-    {
-      "word": "收集",
-      "frequency": 3
-    },
-    {
-      "word": "resilience",
-      "frequency": 3
-    },
-    {
-      "word": "耦合",
-      "frequency": 3
-    },
-    {
-      "word": "水平",
-      "frequency": 3
+      "word": "circular",
+      "frequency": 4
     },
     {
       "word": "告警",
@@ -910,6 +10,10 @@
     },
     {
       "word": "connect",
+      "frequency": 4
+    },
+    {
+      "word": "搭建",
       "frequency": 4
     },
     {
@@ -925,15 +29,31 @@
       "frequency": 4
     },
     {
-      "word": "binary",
+      "word": "flow",
       "frequency": 4
     },
     {
-      "word": "cluster",
+      "word": "automation",
+      "frequency": 4
+    },
+    {
+      "word": "team",
       "frequency": 4
     },
     {
       "word": "主要",
+      "frequency": 4
+    },
+    {
+      "word": "manage",
+      "frequency": 4
+    },
+    {
+      "word": "结构",
+      "frequency": 4
+    },
+    {
+      "word": "provide",
       "frequency": 4
     },
     {
@@ -953,19 +73,7 @@
       "frequency": 4
     },
     {
-      "word": "back",
-      "frequency": 4
-    },
-    {
       "word": "bitcoin",
-      "frequency": 4
-    },
-    {
-      "word": "known",
-      "frequency": 4
-    },
-    {
-      "word": "高效",
       "frequency": 4
     },
     {
@@ -981,15 +89,11 @@
       "frequency": 4
     },
     {
-      "word": "导航",
-      "frequency": 4
-    },
-    {
       "word": "个人",
       "frequency": 4
     },
     {
-      "word": "kotlin",
+      "word": "地址",
       "frequency": 4
     },
     {
@@ -1001,7 +105,7 @@
       "frequency": 4
     },
     {
-      "word": "progress",
+      "word": "quality",
       "frequency": 4
     },
     {
@@ -1009,7 +113,19 @@
       "frequency": 4
     },
     {
+      "word": "extension",
+      "frequency": 4
+    },
+    {
+      "word": "writing",
+      "frequency": 4
+    },
+    {
       "word": "include",
+      "frequency": 4
+    },
+    {
+      "word": "facebook",
       "frequency": 4
     },
     {
@@ -1029,10 +145,6 @@
       "frequency": 4
     },
     {
-      "word": "learn",
-      "frequency": 4
-    },
-    {
       "word": "级别",
       "frequency": 4
     },
@@ -1041,7 +153,7 @@
       "frequency": 4
     },
     {
-      "word": "need",
+      "word": "official",
       "frequency": 4
     },
     {
@@ -1049,7 +161,7 @@
       "frequency": 4
     },
     {
-      "word": "useful",
+      "word": "大部分",
       "frequency": 4
     },
     {
@@ -1057,11 +169,11 @@
       "frequency": 4
     },
     {
-      "word": "pages",
+      "word": "websocket",
       "frequency": 4
     },
     {
-      "word": "websocket",
+      "word": "media",
       "frequency": 4
     },
     {
@@ -1069,15 +181,11 @@
       "frequency": 4
     },
     {
+      "word": "日历",
+      "frequency": 4
+    },
+    {
       "word": "scaling",
-      "frequency": 4
-    },
-    {
-      "word": "structures",
-      "frequency": 4
-    },
-    {
-      "word": "such",
       "frequency": 4
     },
     {
@@ -1097,15 +205,11 @@
       "frequency": 4
     },
     {
-      "word": "not",
+      "word": "debugging",
       "frequency": 4
     },
     {
       "word": "菜单",
-      "frequency": 4
-    },
-    {
-      "word": "detailed",
       "frequency": 4
     },
     {
@@ -1125,27 +229,11 @@
       "frequency": 4
     },
     {
-      "word": "ios-like",
-      "frequency": 4
-    },
-    {
-      "word": "设置",
-      "frequency": 4
-    },
-    {
       "word": "部署",
       "frequency": 4
     },
     {
       "word": "effects",
-      "frequency": 4
-    },
-    {
-      "word": "game",
-      "frequency": 4
-    },
-    {
-      "word": "其他",
       "frequency": 4
     },
     {
@@ -1157,11 +245,7 @@
       "frequency": 4
     },
     {
-      "word": "language",
-      "frequency": 4
-    },
-    {
-      "word": "信息",
+      "word": "systems",
       "frequency": 4
     },
     {
@@ -1169,11 +253,23 @@
       "frequency": 4
     },
     {
+      "word": "fork",
+      "frequency": 4
+    },
+    {
       "word": "中间",
       "frequency": 4
     },
     {
-      "word": "picker",
+      "word": "complete",
+      "frequency": 4
+    },
+    {
+      "word": "transaction",
+      "frequency": 4
+    },
+    {
+      "word": "backend",
       "frequency": 4
     },
     {
@@ -1189,7 +285,7 @@
       "frequency": 4
     },
     {
-      "word": "activity",
+      "word": "modular",
       "frequency": 4
     },
     {
@@ -1197,7 +293,7 @@
       "frequency": 4
     },
     {
-      "word": "one",
+      "word": "scrollable",
       "frequency": 4
     },
     {
@@ -1205,315 +301,11 @@
       "frequency": 4
     },
     {
-      "word": "we",
-      "frequency": 4
-    },
-    {
-      "word": "我们",
-      "frequency": 4
-    },
-    {
-      "word": "you\u0027",
-      "frequency": 4
-    },
-    {
-      "word": "decompiler",
-      "frequency": 4
-    },
-    {
-      "word": "remote",
-      "frequency": 4
-    },
-    {
-      "word": "底层",
-      "frequency": 4
-    },
-    {
-      "word": "standard",
-      "frequency": 4
-    },
-    {
-      "word": "脚手架",
-      "frequency": 4
-    },
-    {
-      "word": "mobile",
-      "frequency": 4
-    },
-    {
-      "word": "write",
-      "frequency": 4
-    },
-    {
-      "word": "钉钉",
-      "frequency": 4
-    },
-    {
-      "word": "even",
-      "frequency": 4
-    },
-    {
-      "word": "指南",
-      "frequency": 4
-    },
-    {
-      "word": "robust",
-      "frequency": 4
-    },
-    {
-      "word": "任意",
-      "frequency": 4
-    },
-    {
-      "word": "video",
-      "frequency": 4
-    },
-    {
-      "word": "time",
-      "frequency": 4
-    },
-    {
-      "word": "standalone",
-      "frequency": 4
-    },
-    {
-      "word": "mediaplayer",
-      "frequency": 4
-    },
-    {
-      "word": "methods",
-      "frequency": 4
-    },
-    {
-      "word": "reverse",
-      "frequency": 4
-    },
-    {
-      "word": "caching",
-      "frequency": 4
-    },
-    {
-      "word": "丰富",
-      "frequency": 4
-    },
-    {
-      "word": "debug",
-      "frequency": 4
-    },
-    {
-      "word": "alternative",
-      "frequency": 4
-    },
-    {
-      "word": "banner",
-      "frequency": 4
-    },
-    {
-      "word": "rtsp",
-      "frequency": 4
-    },
-    {
-      "word": "音乐",
-      "frequency": 4
-    },
-    {
-      "word": "clients",
-      "frequency": 4
-    },
-    {
-      "word": "codes",
-      "frequency": 4
-    },
-    {
-      "word": "本地",
-      "frequency": 4
-    },
-    {
-      "word": "layouts",
-      "frequency": 4
-    },
-    {
-      "word": "permissions",
-      "frequency": 4
-    },
-    {
-      "word": "reference",
-      "frequency": 4
-    },
-    {
-      "word": "bottom",
-      "frequency": 4
-    },
-    {
-      "word": "真正",
-      "frequency": 4
-    },
-    {
-      "word": "its",
-      "frequency": 4
-    },
-    {
-      "word": "algorithm",
-      "frequency": 4
-    },
-    {
-      "word": "指定",
-      "frequency": 4
-    },
-    {
-      "word": "swipe",
-      "frequency": 4
-    },
-    {
-      "word": "bytecode",
-      "frequency": 4
-    },
-    {
-      "word": "are",
-      "frequency": 4
-    },
-    {
-      "word": "where",
-      "frequency": 4
-    },
-    {
-      "word": "call",
-      "frequency": 4
-    },
-    {
-      "word": "spinner",
-      "frequency": 4
-    },
-    {
-      "word": "name",
-      "frequency": 4
-    },
-    {
-      "word": "microservice",
-      "frequency": 4
-    },
-    {
-      "word": "repo",
-      "frequency": 4
-    },
-    {
-      "word": "jpa",
-      "frequency": 4
-    },
-    {
-      "word": "projects",
-      "frequency": 4
-    },
-    {
-      "word": "bitmap",
-      "frequency": 4
-    },
-    {
-      "word": "专栏",
-      "frequency": 4
-    },
-    {
-      "word": "developed",
-      "frequency": 4
-    },
-    {
-      "word": "dagger2",
-      "frequency": 4
-    },
-    {
-      "word": "压缩",
-      "frequency": 4
-    },
-    {
-      "word": "messaging",
-      "frequency": 4
-    },
-    {
-      "word": "everything",
-      "frequency": 4
-    },
-    {
-      "word": "分享",
-      "frequency": 4
-    },
-    {
-      "word": "improvements",
-      "frequency": 4
-    },
-    {
-      "word": "different",
-      "frequency": 4
-    },
-    {
-      "word": "滑动",
-      "frequency": 4
-    },
-    {
-      "word": "常用",
-      "frequency": 4
-    },
-    {
-      "word": "部分",
-      "frequency": 4
-    },
-    {
-      "word": "types",
-      "frequency": 4
-    },
-    {
-      "word": "可用",
-      "frequency": 4
-    },
-    {
-      "word": "工程师",
-      "frequency": 4
-    },
-    {
-      "word": "token",
-      "frequency": 4
-    },
-    {
-      "word": "tablayout",
-      "frequency": 4
-    },
-    {
-      "word": "皮肤",
-      "frequency": 4
-    },
-    {
-      "word": "周期",
-      "frequency": 4
-    },
-    {
-      "word": "cross-platform",
-      "frequency": 4
-    },
-    {
-      "word": "队列",
-      "frequency": 4
-    },
-    {
-      "word": "circular",
-      "frequency": 5
-    },
-    {
       "word": "存储",
       "frequency": 5
     },
     {
       "word": "问题",
-      "frequency": 5
-    },
-    {
-      "word": "information",
-      "frequency": 5
-    },
-    {
-      "word": "一些",
-      "frequency": 5
-    },
-    {
-      "word": "flow",
       "frequency": 5
     },
     {
@@ -1525,10 +317,6 @@
       "frequency": 5
     },
     {
-      "word": "automation",
-      "frequency": 5
-    },
-    {
       "word": "realtime",
       "frequency": 5
     },
@@ -1537,15 +325,7 @@
       "frequency": 5
     },
     {
-      "word": "team",
-      "frequency": 5
-    },
-    {
       "word": "——",
-      "frequency": 5
-    },
-    {
-      "word": "page",
       "frequency": 5
     },
     {
@@ -1553,11 +333,11 @@
       "frequency": 5
     },
     {
-      "word": "provide",
+      "word": "阿里",
       "frequency": 5
     },
     {
-      "word": "low",
+      "word": "launcher",
       "frequency": 5
     },
     {
@@ -1565,15 +345,11 @@
       "frequency": 5
     },
     {
-      "word": "多种",
+      "word": "scanner",
       "frequency": 5
     },
     {
-      "word": "under",
-      "frequency": 5
-    },
-    {
-      "word": "test",
+      "word": "load",
       "frequency": 5
     },
     {
@@ -1582,10 +358,6 @@
     },
     {
       "word": "real-time",
-      "frequency": 5
-    },
-    {
-      "word": "text",
       "frequency": 5
     },
     {
@@ -1601,7 +373,15 @@
       "frequency": 5
     },
     {
-      "word": "make",
+      "word": "导航",
+      "frequency": 5
+    },
+    {
+      "word": "kotlin",
+      "frequency": 5
+    },
+    {
+      "word": "程序",
       "frequency": 5
     },
     {
@@ -1613,15 +393,15 @@
       "frequency": 5
     },
     {
-      "word": "displaying",
-      "frequency": 5
-    },
-    {
       "word": "机器人",
       "frequency": 5
     },
     {
-      "word": "展示",
+      "word": "拍照",
+      "frequency": 5
+    },
+    {
+      "word": "customizable",
       "frequency": 5
     },
     {
@@ -1629,7 +409,7 @@
       "frequency": 5
     },
     {
-      "word": "official",
+      "word": "欢迎",
       "frequency": 5
     },
     {
@@ -1637,7 +417,7 @@
       "frequency": 5
     },
     {
-      "word": "running",
+      "word": "easy-to-use",
       "frequency": 5
     },
     {
@@ -1645,11 +425,7 @@
       "frequency": 5
     },
     {
-      "word": "日历",
-      "frequency": 5
-    },
-    {
-      "word": "作为",
+      "word": "structures",
       "frequency": 5
     },
     {
@@ -1657,19 +433,19 @@
       "frequency": 5
     },
     {
-      "word": "debugging",
-      "frequency": 5
-    },
-    {
       "word": "container",
       "frequency": 5
     },
     {
-      "word": "公众",
+      "word": "前台",
       "frequency": 5
     },
     {
       "word": "enables",
+      "frequency": 5
+    },
+    {
+      "word": "设置",
       "frequency": 5
     },
     {
@@ -1681,7 +457,7 @@
       "frequency": 5
     },
     {
-      "word": "various",
+      "word": "generator",
       "frequency": 5
     },
     {
@@ -1689,7 +465,7 @@
       "frequency": 5
     },
     {
-      "word": "systems",
+      "word": "信息",
       "frequency": 5
     },
     {
@@ -1697,15 +473,11 @@
       "frequency": 5
     },
     {
+      "word": "specification",
+      "frequency": 5
+    },
+    {
       "word": "open-source",
-      "frequency": 5
-    },
-    {
-      "word": "fork",
-      "frequency": 5
-    },
-    {
-      "word": "transaction",
       "frequency": 5
     },
     {
@@ -1713,47 +485,23 @@
       "frequency": 5
     },
     {
-      "word": "my",
-      "frequency": 5
-    },
-    {
-      "word": "backend",
-      "frequency": 5
-    },
-    {
       "word": "bridge",
       "frequency": 5
     },
     {
-      "word": "device",
+      "word": "activity",
       "frequency": 5
     },
     {
-      "word": "scrollable",
+      "word": "decompiler",
       "frequency": 5
     },
     {
-      "word": "时间",
+      "word": "mobile",
       "frequency": 5
     },
     {
-      "word": "help",
-      "frequency": 5
-    },
-    {
-      "word": "create",
-      "frequency": 5
-    },
-    {
-      "word": "结合",
-      "frequency": 5
-    },
-    {
-      "word": "youtube",
-      "frequency": 5
-    },
-    {
-      "word": "latency",
+      "word": "指南",
       "frequency": 5
     },
     {
@@ -1761,7 +509,7 @@
       "frequency": 5
     },
     {
-      "word": "runtime",
+      "word": "caching",
       "frequency": 5
     },
     {
@@ -1793,7 +541,7 @@
       "frequency": 5
     },
     {
-      "word": "mvvm",
+      "word": "workflow",
       "frequency": 5
     },
     {
@@ -1801,11 +549,11 @@
       "frequency": 5
     },
     {
-      "word": "分析",
+      "word": "xposed",
       "frequency": 5
     },
     {
-      "word": "navigate",
+      "word": "完成",
       "frequency": 5
     },
     {
@@ -1814,10 +562,6 @@
     },
     {
       "word": "scrolling",
-      "frequency": 5
-    },
-    {
-      "word": "testing",
       "frequency": 5
     },
     {
@@ -1833,7 +577,7 @@
       "frequency": 5
     },
     {
-      "word": "apk",
+      "word": "一行",
       "frequency": 5
     },
     {
@@ -1841,19 +585,11 @@
       "frequency": 5
     },
     {
-      "word": "popular",
-      "frequency": 5
-    },
-    {
       "word": "产品",
       "frequency": 5
     },
     {
-      "word": "pattern",
-      "frequency": 5
-    },
-    {
-      "word": "springmvc",
+      "word": "repo",
       "frequency": 5
     },
     {
@@ -1865,11 +601,7 @@
       "frequency": 5
     },
     {
-      "word": "practices",
-      "frequency": 5
-    },
-    {
-      "word": "programming",
+      "word": "awesome",
       "frequency": 5
     },
     {
@@ -1877,15 +609,7 @@
       "frequency": 5
     },
     {
-      "word": "deep",
-      "frequency": 5
-    },
-    {
       "word": "停车场",
-      "frequency": 5
-    },
-    {
-      "word": "big",
       "frequency": 5
     },
     {
@@ -1897,10 +621,6 @@
       "frequency": 5
     },
     {
-      "word": "change",
-      "frequency": 5
-    },
-    {
       "word": "定时",
       "frequency": 5
     },
@@ -1909,7 +629,11 @@
       "frequency": 5
     },
     {
-      "word": "but",
+      "word": "highly",
+      "frequency": 5
+    },
+    {
+      "word": "批量",
       "frequency": 5
     },
     {
@@ -1921,11 +645,11 @@
       "frequency": 5
     },
     {
-      "word": "implements",
+      "word": "guide",
       "frequency": 5
     },
     {
-      "word": "任何",
+      "word": "token",
       "frequency": 5
     },
     {
@@ -1935,14 +659,6 @@
     {
       "word": "fragment",
       "frequency": 5
-    },
-    {
-      "word": "example",
-      "frequency": 6
-    },
-    {
-      "word": "top",
-      "frequency": 6
     },
     {
       "word": "包含",
@@ -1957,15 +673,7 @@
       "frequency": 6
     },
     {
-      "word": "launcher",
-      "frequency": 6
-    },
-    {
-      "word": "graph",
-      "frequency": 6
-    },
-    {
-      "word": "load",
+      "word": "多种",
       "frequency": 6
     },
     {
@@ -1973,7 +681,11 @@
       "frequency": 6
     },
     {
-      "word": "程序",
+      "word": "microservices",
+      "frequency": 6
+    },
+    {
+      "word": "视图",
       "frequency": 6
     },
     {
@@ -1981,11 +693,15 @@
       "frequency": 6
     },
     {
-      "word": "many",
+      "word": "progress",
       "frequency": 6
     },
     {
       "word": "3d",
+      "frequency": 6
+    },
+    {
+      "word": "displaying",
       "frequency": 6
     },
     {
@@ -2001,27 +717,11 @@
       "frequency": 6
     },
     {
-      "word": "configuration",
-      "frequency": 6
-    },
-    {
-      "word": "拍照",
-      "frequency": 6
-    },
-    {
-      "word": "customizable",
+      "word": "展示",
       "frequency": 6
     },
     {
       "word": "引擎",
-      "frequency": 6
-    },
-    {
-      "word": "欢迎",
-      "frequency": 6
-    },
-    {
-      "word": "new",
       "frequency": 6
     },
     {
@@ -2033,11 +733,7 @@
       "frequency": 6
     },
     {
-      "word": "easy-to-use",
-      "frequency": 6
-    },
-    {
-      "word": "media",
+      "word": "running",
       "frequency": 6
     },
     {
@@ -2061,6 +757,10 @@
       "frequency": 6
     },
     {
+      "word": "可能",
+      "frequency": 6
+    },
+    {
       "word": "play",
       "frequency": 6
     },
@@ -2069,19 +769,15 @@
       "frequency": 6
     },
     {
-      "word": "前台",
+      "word": "game",
       "frequency": 6
     },
     {
-      "word": "generator",
+      "word": "user",
       "frequency": 6
     },
     {
-      "word": "at",
-      "frequency": 6
-    },
-    {
-      "word": "be",
+      "word": "language",
       "frequency": 6
     },
     {
@@ -2089,23 +785,15 @@
       "frequency": 6
     },
     {
-      "word": "specification",
-      "frequency": 6
-    },
-    {
       "word": "camera",
       "frequency": 6
     },
     {
-      "word": "no",
+      "word": "device",
       "frequency": 6
     },
     {
-      "word": "single",
-      "frequency": 6
-    },
-    {
-      "word": "up",
+      "word": "时间",
       "frequency": 6
     },
     {
@@ -2113,23 +801,23 @@
       "frequency": 6
     },
     {
-      "word": "log4j",
-      "frequency": 6
-    },
-    {
       "word": "samples",
       "frequency": 6
     },
     {
-      "word": "line",
+      "word": "create",
       "frequency": 6
     },
     {
-      "word": "方式",
+      "word": "结合",
       "frequency": 6
     },
     {
-      "word": "interface",
+      "word": "youtube",
+      "frequency": 6
+    },
+    {
+      "word": "analysis",
       "frequency": 6
     },
     {
@@ -2153,7 +841,7 @@
       "frequency": 6
     },
     {
-      "word": "small",
+      "word": "runtime",
       "frequency": 6
     },
     {
@@ -2165,15 +853,11 @@
       "frequency": 6
     },
     {
-      "word": "just",
-      "frequency": 6
-    },
-    {
       "word": "action",
       "frequency": 6
     },
     {
-      "word": "workflow",
+      "word": "分析",
       "frequency": 6
     },
     {
@@ -2185,11 +869,7 @@
       "frequency": 6
     },
     {
-      "word": "xposed",
-      "frequency": 6
-    },
-    {
-      "word": "完成",
+      "word": "compatible",
       "frequency": 6
     },
     {
@@ -2205,23 +885,15 @@
       "frequency": 6
     },
     {
-      "word": "animated",
+      "word": "apk",
       "frequency": 6
     },
     {
-      "word": "other",
+      "word": "popular",
       "frequency": 6
     },
     {
-      "word": "web-based",
-      "frequency": 6
-    },
-    {
-      "word": "ant",
-      "frequency": 6
-    },
-    {
-      "word": "一行",
+      "word": "显示",
       "frequency": 6
     },
     {
@@ -2233,11 +905,19 @@
       "frequency": 6
     },
     {
+      "word": "aws",
+      "frequency": 6
+    },
+    {
+      "word": "usage",
+      "frequency": 6
+    },
+    {
       "word": "images",
       "frequency": 6
     },
     {
-      "word": "both",
+      "word": "springmvc",
       "frequency": 6
     },
     {
@@ -2253,7 +933,11 @@
       "frequency": 6
     },
     {
-      "word": "complex",
+      "word": "programming",
+      "frequency": 6
+    },
+    {
+      "word": "deep",
       "frequency": 6
     },
     {
@@ -2269,36 +953,12 @@
       "frequency": 6
     },
     {
-      "word": "leetcode",
-      "frequency": 6
-    },
-    {
-      "word": "highly",
-      "frequency": 6
-    },
-    {
-      "word": "ssh",
-      "frequency": 6
-    },
-    {
-      "word": "makes",
-      "frequency": 6
-    },
-    {
-      "word": "批量",
-      "frequency": 6
-    },
-    {
-      "word": "graphs",
-      "frequency": 6
-    },
-    {
       "word": "引导",
       "frequency": 6
     },
     {
-      "word": "better",
-      "frequency": 7
+      "word": "player",
+      "frequency": 6
     },
     {
       "word": "强大",
@@ -2309,27 +969,11 @@
       "frequency": 7
     },
     {
-      "word": "下载",
-      "frequency": 7
-    },
-    {
-      "word": "阿里",
-      "frequency": 7
-    },
-    {
-      "word": "scanner",
-      "frequency": 7
-    },
-    {
       "word": "操作",
       "frequency": 7
     },
     {
-      "word": "made",
-      "frequency": 7
-    },
-    {
-      "word": "microservices",
+      "word": "graph",
       "frequency": 7
     },
     {
@@ -2337,15 +981,11 @@
       "frequency": 7
     },
     {
-      "word": "layout",
+      "word": "configuration",
       "frequency": 7
     },
     {
       "word": "播放器",
-      "frequency": 7
-    },
-    {
-      "word": "contains",
       "frequency": 7
     },
     {
@@ -2369,14 +1009,6 @@
       "frequency": 7
     },
     {
-      "word": "used",
-      "frequency": 7
-    },
-    {
-      "word": "user",
-      "frequency": 7
-    },
-    {
       "word": "interview",
       "frequency": 7
     },
@@ -2385,15 +1017,7 @@
       "frequency": 7
     },
     {
-      "word": "easily",
-      "frequency": 7
-    },
-    {
       "word": "dialog",
-      "frequency": 7
-    },
-    {
-      "word": "自动",
       "frequency": 7
     },
     {
@@ -2402,6 +1026,26 @@
     },
     {
       "word": "rbac",
+      "frequency": 7
+    },
+    {
+      "word": "single",
+      "frequency": 7
+    },
+    {
+      "word": "software",
+      "frequency": 7
+    },
+    {
+      "word": "方式",
+      "frequency": 7
+    },
+    {
+      "word": "minecraft",
+      "frequency": 7
+    },
+    {
+      "word": "interface",
       "frequency": 7
     },
     {
@@ -2429,11 +1073,7 @@
       "frequency": 7
     },
     {
-      "word": "best",
-      "frequency": 7
-    },
-    {
-      "word": "compatible",
+      "word": "streaming",
       "frequency": 7
     },
     {
@@ -2449,23 +1089,11 @@
       "frequency": 7
     },
     {
-      "word": "列表",
+      "word": "目前",
       "frequency": 7
     },
     {
-      "word": "through",
-      "frequency": 7
-    },
-    {
-      "word": "显示",
-      "frequency": 7
-    },
-    {
-      "word": "show",
-      "frequency": 7
-    },
-    {
-      "word": "aws",
+      "word": "帮助",
       "frequency": 7
     },
     {
@@ -2473,15 +1101,7 @@
       "frequency": 7
     },
     {
-      "word": "usage",
-      "frequency": 7
-    },
-    {
       "word": "generation",
-      "frequency": 7
-    },
-    {
-      "word": "item",
       "frequency": 7
     },
     {
@@ -2489,11 +1109,11 @@
       "frequency": 7
     },
     {
-      "word": "set",
+      "word": "complex",
       "frequency": 7
     },
     {
-      "word": "awesome",
+      "word": "set",
       "frequency": 7
     },
     {
@@ -2501,11 +1121,19 @@
       "frequency": 7
     },
     {
+      "word": "leetcode",
+      "frequency": 7
+    },
+    {
+      "word": "日期",
+      "frequency": 7
+    },
+    {
       "word": "版本",
       "frequency": 7
     },
     {
-      "word": "guide",
+      "word": "manager",
       "frequency": 7
     },
     {
@@ -2513,11 +1141,19 @@
       "frequency": 7
     },
     {
-      "word": "player",
-      "frequency": 7
+      "word": "模板",
+      "frequency": 8
+    },
+    {
+      "word": "including",
+      "frequency": 8
     },
     {
       "word": "services",
+      "frequency": 8
+    },
+    {
+      "word": "下载",
       "frequency": 8
     },
     {
@@ -2533,19 +1169,11 @@
       "frequency": 8
     },
     {
-      "word": "null",
-      "frequency": 8
-    },
-    {
       "word": "性能",
       "frequency": 8
     },
     {
-      "word": "视图",
-      "frequency": 8
-    },
-    {
-      "word": "测试",
+      "word": "layout",
       "frequency": 8
     },
     {
@@ -2553,11 +1181,11 @@
       "frequency": 8
     },
     {
-      "word": "可能",
+      "word": "designed",
       "frequency": 8
     },
     {
-      "word": "designed",
+      "word": "easily",
       "frequency": 8
     },
     {
@@ -2565,31 +1193,11 @@
       "frequency": 8
     },
     {
+      "word": "qq",
+      "frequency": 8
+    },
+    {
       "word": "orm",
-      "frequency": 8
-    },
-    {
-      "word": "tools",
-      "frequency": 8
-    },
-    {
-      "word": "core",
-      "frequency": 8
-    },
-    {
-      "word": "without",
-      "frequency": 8
-    },
-    {
-      "word": "analysis",
-      "frequency": 8
-    },
-    {
-      "word": "案例",
-      "frequency": 8
-    },
-    {
-      "word": "minecraft",
       "frequency": 8
     },
     {
@@ -2597,7 +1205,7 @@
       "frequency": 8
     },
     {
-      "word": "streaming",
+      "word": "menu",
       "frequency": 8
     },
     {
@@ -2609,11 +1217,11 @@
       "frequency": 8
     },
     {
-      "word": "目前",
+      "word": "high-performance",
       "frequency": 8
     },
     {
-      "word": "high-performance",
+      "word": "列表",
       "frequency": 8
     },
     {
@@ -2621,11 +1229,11 @@
       "frequency": 8
     },
     {
-      "word": "aop",
+      "word": "rpc",
       "frequency": 8
     },
     {
-      "word": "帮助",
+      "word": "aop",
       "frequency": 8
     },
     {
@@ -2634,6 +1242,14 @@
     },
     {
       "word": "内容",
+      "frequency": 8
+    },
+    {
+      "word": "item",
+      "frequency": 8
+    },
+    {
+      "word": "architecture",
       "frequency": 8
     },
     {
@@ -2649,23 +1265,7 @@
       "frequency": 8
     },
     {
-      "word": "manager",
-      "frequency": 8
-    },
-    {
-      "word": "用于",
-      "frequency": 8
-    },
-    {
-      "word": "缓存",
-      "frequency": 8
-    },
-    {
       "word": "docker",
-      "frequency": 8
-    },
-    {
-      "word": "请求",
       "frequency": 8
     },
     {
@@ -2677,7 +1277,7 @@
       "frequency": 9
     },
     {
-      "word": "including",
+      "word": "裁剪",
       "frequency": 9
     },
     {
@@ -2693,15 +1293,19 @@
       "frequency": 9
     },
     {
-      "word": "各种",
+      "word": "star",
       "frequency": 9
     },
     {
-      "word": "flink",
+      "word": "common",
       "frequency": 9
     },
     {
-      "word": "when",
+      "word": "视频",
+      "frequency": 9
+    },
+    {
+      "word": "测试",
       "frequency": 9
     },
     {
@@ -2709,15 +1313,15 @@
       "frequency": 9
     },
     {
-      "word": "qq",
+      "word": "自动",
       "frequency": 9
     },
     {
-      "word": "software",
+      "word": "tools",
       "frequency": 9
     },
     {
-      "word": "component",
+      "word": "案例",
       "frequency": 9
     },
     {
@@ -2725,19 +1329,7 @@
       "frequency": 9
     },
     {
-      "word": "同时",
-      "frequency": 9
-    },
-    {
       "word": "进行",
-      "frequency": 9
-    },
-    {
-      "word": "menu",
-      "frequency": 9
-    },
-    {
-      "word": "problems",
       "frequency": 9
     },
     {
@@ -2745,19 +1337,7 @@
       "frequency": 9
     },
     {
-      "word": "free",
-      "frequency": 9
-    },
-    {
       "word": "building",
-      "frequency": 9
-    },
-    {
-      "word": "方案",
-      "frequency": 9
-    },
-    {
-      "word": "rpc",
       "frequency": 9
     },
     {
@@ -2769,32 +1349,20 @@
       "frequency": 9
     },
     {
-      "word": "most",
+      "word": "edition",
       "frequency": 9
     },
     {
-      "word": "over",
+      "word": "views",
       "frequency": 9
     },
     {
-      "word": "日期",
+      "word": "用于",
       "frequency": 9
     },
     {
-      "word": "react",
+      "word": "缓存",
       "frequency": 9
-    },
-    {
-      "word": "between",
-      "frequency": 9
-    },
-    {
-      "word": "裁剪",
-      "frequency": 10
-    },
-    {
-      "word": "build",
-      "frequency": 10
     },
     {
       "word": "提供",
@@ -2802,14 +1370,6 @@
     },
     {
       "word": "components",
-      "frequency": 10
-    },
-    {
-      "word": "into",
-      "frequency": 10
-    },
-    {
-      "word": "star",
       "frequency": 10
     },
     {
@@ -2821,19 +1381,11 @@
       "frequency": 10
     },
     {
-      "word": "common",
+      "word": "flink",
       "frequency": 10
     },
     {
-      "word": "视频",
-      "frequency": 10
-    },
-    {
-      "word": "网络",
-      "frequency": 10
-    },
-    {
-      "word": "apps",
+      "word": "效果",
       "frequency": 10
     },
     {
@@ -2845,15 +1397,19 @@
       "frequency": 10
     },
     {
+      "word": "core",
+      "frequency": 10
+    },
+    {
+      "word": "component",
+      "frequency": 10
+    },
+    {
       "word": "知识",
       "frequency": 10
     },
     {
       "word": "service",
-      "frequency": 10
-    },
-    {
-      "word": "some",
       "frequency": 10
     },
     {
@@ -2877,11 +1433,11 @@
       "frequency": 10
     },
     {
-      "word": "实战",
+      "word": "方案",
       "frequency": 10
     },
     {
-      "word": "edition",
+      "word": "实战",
       "frequency": 10
     },
     {
@@ -2889,11 +1445,7 @@
       "frequency": 10
     },
     {
-      "word": "architecture",
-      "frequency": 10
-    },
-    {
-      "word": "also",
+      "word": "sdk",
       "frequency": 10
     },
     {
@@ -2905,11 +1457,15 @@
       "frequency": 10
     },
     {
-      "word": "模板",
-      "frequency": 11
+      "word": "react",
+      "frequency": 10
     },
     {
       "word": "任务",
+      "frequency": 11
+    },
+    {
+      "word": "build",
       "frequency": 11
     },
     {
@@ -2917,23 +1473,15 @@
       "frequency": 11
     },
     {
+      "word": "music",
+      "frequency": 11
+    },
+    {
       "word": "商品",
       "frequency": 11
     },
     {
-      "word": "etc",
-      "frequency": 11
-    },
-    {
-      "word": "plugin",
-      "frequency": 11
-    },
-    {
-      "word": "效果",
-      "frequency": 11
-    },
-    {
-      "word": "前后",
+      "word": "apps",
       "frequency": 11
     },
     {
@@ -2941,11 +1489,19 @@
       "frequency": 11
     },
     {
+      "word": "重构",
+      "frequency": 11
+    },
+    {
       "word": "生成",
       "frequency": 11
     },
     {
-      "word": "数据库",
+      "word": "process",
+      "frequency": 11
+    },
+    {
+      "word": "flexible",
       "frequency": 11
     },
     {
@@ -2957,27 +1513,15 @@
       "frequency": 11
     },
     {
-      "word": "all",
-      "frequency": 11
-    },
-    {
-      "word": "views",
-      "frequency": 11
-    },
-    {
       "word": "核心",
       "frequency": 11
     },
     {
-      "word": "以及",
+      "word": "消息",
       "frequency": 12
     },
     {
       "word": "算法",
-      "frequency": 12
-    },
-    {
-      "word": "custom",
       "frequency": 12
     },
     {
@@ -2993,7 +1537,19 @@
       "frequency": 12
     },
     {
+      "word": "management",
+      "frequency": 12
+    },
+    {
+      "word": "repository",
+      "frequency": 12
+    },
+    {
       "word": "security",
+      "frequency": 12
+    },
+    {
+      "word": "数据库",
       "frequency": 12
     },
     {
@@ -3005,7 +1561,11 @@
       "frequency": 12
     },
     {
-      "word": "sdk",
+      "word": "dynamic",
+      "frequency": 12
+    },
+    {
+      "word": "请求",
       "frequency": 12
     },
     {
@@ -3013,11 +1573,11 @@
       "frequency": 12
     },
     {
-      "word": "通过",
+      "word": "redis",
       "frequency": 13
     },
     {
-      "word": "redis",
+      "word": "custom",
       "frequency": 13
     },
     {
@@ -3029,11 +1589,7 @@
       "frequency": 13
     },
     {
-      "word": "way",
-      "frequency": 13
-    },
-    {
-      "word": "effect",
+      "word": "网络",
       "frequency": 13
     },
     {
@@ -3041,43 +1597,19 @@
       "frequency": 13
     },
     {
-      "word": "learning",
-      "frequency": 13
-    },
-    {
       "word": "用户",
       "frequency": 13
     },
     {
-      "word": "process",
+      "word": "切换",
       "frequency": 13
     },
     {
-      "word": "flexible",
-      "frequency": 13
-    },
-    {
-      "word": "配置",
-      "frequency": 13
-    },
-    {
-      "word": "模式",
-      "frequency": 13
-    },
-    {
-      "word": "any",
-      "frequency": 13
-    },
-    {
-      "word": "采用",
+      "word": "animation",
       "frequency": 13
     },
     {
       "word": "access",
-      "frequency": 13
-    },
-    {
-      "word": "dynamic",
       "frequency": 13
     },
     {
@@ -3089,7 +1621,7 @@
       "frequency": 14
     },
     {
-      "word": "music",
+      "word": "plugin",
       "frequency": 14
     },
     {
@@ -3097,43 +1629,19 @@
       "frequency": 14
     },
     {
-      "word": "management",
+      "word": "learning",
       "frequency": 14
     },
     {
-      "word": "allows",
+      "word": "采用",
       "frequency": 14
     },
     {
-      "word": "切换",
-      "frequency": 14
-    },
-    {
-      "word": "设计",
-      "frequency": 14
-    },
-    {
-      "word": "登录",
-      "frequency": 14
-    },
-    {
-      "word": "animation",
-      "frequency": 14
-    },
-    {
-      "word": "run",
-      "frequency": 14
-    },
-    {
-      "word": "sql",
-      "frequency": 14
-    },
-    {
-      "word": "商城",
+      "word": "lightweight",
       "frequency": 15
     },
     {
-      "word": "repository",
+      "word": "商城",
       "frequency": 15
     },
     {
@@ -3141,31 +1649,27 @@
       "frequency": 15
     },
     {
-      "word": "架构",
+      "word": "设计",
       "frequency": 15
     },
     {
-      "word": "database",
+      "word": "配置",
       "frequency": 15
     },
     {
-      "word": "client",
+      "word": "登录",
       "frequency": 15
     },
     {
-      "word": "消息",
-      "frequency": 16
+      "word": "模式",
+      "frequency": 15
+    },
+    {
+      "word": "sql",
+      "frequency": 15
     },
     {
       "word": "简单",
-      "frequency": 16
-    },
-    {
-      "word": "lightweight",
-      "frequency": 16
-    },
-    {
-      "word": "image",
       "frequency": 16
     },
     {
@@ -3173,15 +1677,35 @@
       "frequency": 16
     },
     {
-      "word": "jvm",
+      "word": "viewpager",
       "frequency": 16
     },
     {
-      "word": "high",
+      "word": "database",
       "frequency": 16
+    },
+    {
+      "word": "client",
+      "frequency": 16
+    },
+    {
+      "word": "企业",
+      "frequency": 16
+    },
+    {
+      "word": "后台",
+      "frequency": 17
+    },
+    {
+      "word": "image",
+      "frequency": 17
     },
     {
       "word": "权限",
+      "frequency": 17
+    },
+    {
+      "word": "jvm",
       "frequency": 17
     },
     {
@@ -3189,23 +1713,7 @@
       "frequency": 17
     },
     {
-      "word": "后台",
-      "frequency": 18
-    },
-    {
-      "word": "supports",
-      "frequency": 18
-    },
-    {
-      "word": "https",
-      "frequency": 18
-    },
-    {
-      "word": "like",
-      "frequency": 18
-    },
-    {
-      "word": "模块",
+      "word": "定义",
       "frequency": 18
     },
     {
@@ -3217,43 +1725,47 @@
       "frequency": 18
     },
     {
-      "word": "viewpager",
+      "word": "架构",
       "frequency": 18
     },
     {
-      "word": "powerful",
+      "word": "图片",
       "frequency": 18
-    },
-    {
-      "word": "集成",
-      "frequency": 19
     },
     {
       "word": "server",
       "frequency": 19
     },
     {
-      "word": "定义",
+      "word": "supports",
       "frequency": 19
     },
     {
-      "word": "support",
+      "word": "tool",
       "frequency": 19
     },
     {
-      "word": "system",
+      "word": "https",
       "frequency": 19
     },
     {
-      "word": "图片",
+      "word": "工具",
       "frequency": 19
     },
     {
-      "word": "企业",
+      "word": "包括",
       "frequency": 19
     },
     {
-      "word": "project",
+      "word": "模块",
+      "frequency": 19
+    },
+    {
+      "word": "powerful",
+      "frequency": 19
+    },
+    {
+      "word": "集成",
       "frequency": 20
     },
     {
@@ -3261,7 +1773,7 @@
       "frequency": 20
     },
     {
-      "word": "包括",
+      "word": "快速",
       "frequency": 20
     },
     {
@@ -3269,59 +1781,31 @@
       "frequency": 20
     },
     {
-      "word": "可以",
-      "frequency": 20
-    },
-    {
       "word": "application",
       "frequency": 20
-    },
-    {
-      "word": "more",
-      "frequency": 20
-    },
-    {
-      "word": "as",
-      "frequency": 21
-    },
-    {
-      "word": "which",
-      "frequency": 21
-    },
-    {
-      "word": "快速",
-      "frequency": 21
-    },
-    {
-      "word": "implementation",
-      "frequency": 21
     },
     {
       "word": "使用",
       "frequency": 21
     },
     {
-      "word": "ios",
-      "frequency": 21
-    },
-    {
-      "word": "deprecated",
-      "frequency": 21
+      "word": "project",
+      "frequency": 22
     },
     {
       "word": "监控",
       "frequency": 22
     },
     {
-      "word": "工具",
+      "word": "support",
       "frequency": 22
     },
     {
-      "word": "选择",
+      "word": "ios",
       "frequency": 22
     },
     {
-      "word": "using",
+      "word": "fast",
       "frequency": 22
     },
     {
@@ -3329,11 +1813,7 @@
       "frequency": 22
     },
     {
-      "word": "can",
-      "frequency": 22
-    },
-    {
-      "word": "tool",
+      "word": "engine",
       "frequency": 23
     },
     {
@@ -3345,11 +1825,11 @@
       "frequency": 23
     },
     {
-      "word": "you",
+      "word": "选择",
       "frequency": 23
     },
     {
-      "word": "fast",
+      "word": "deprecated",
       "frequency": 23
     },
     {
@@ -3357,15 +1837,7 @@
       "frequency": 24
     },
     {
-      "word": "or",
-      "frequency": 24
-    },
-    {
-      "word": "provides",
-      "frequency": 25
-    },
-    {
-      "word": "平台",
+      "word": "一个",
       "frequency": 25
     },
     {
@@ -3373,55 +1845,23 @@
       "frequency": 25
     },
     {
-      "word": "use",
-      "frequency": 25
-    },
-    {
-      "word": "open",
-      "frequency": 25
-    },
-    {
       "word": "组件",
       "frequency": 25
     },
     {
-      "word": "服务",
+      "word": "implementation",
       "frequency": 25
     },
     {
-      "word": "一个",
+      "word": "平台",
       "frequency": 26
     },
     {
-      "word": "功能",
-      "frequency": 26
-    },
-    {
-      "word": "engine",
-      "frequency": 26
-    },
-    {
-      "word": "api",
+      "word": "服务",
       "frequency": 26
     },
     {
       "word": "mybatis",
-      "frequency": 27
-    },
-    {
-      "word": "http",
-      "frequency": 28
-    },
-    {
-      "word": "web",
-      "frequency": 28
-    },
-    {
-      "word": "design",
-      "frequency": 28
-    },
-    {
-      "word": "simple",
       "frequency": 28
     },
     {
@@ -3429,35 +1869,39 @@
       "frequency": 28
     },
     {
+      "word": "功能",
+      "frequency": 29
+    },
+    {
       "word": "based",
       "frequency": 29
     },
     {
-      "word": "this",
+      "word": "design",
       "frequency": 30
     },
     {
-      "word": "material",
+      "word": "api",
       "frequency": 30
     },
     {
-      "word": "实现",
-      "frequency": 31
-    },
-    {
-      "word": "view",
-      "frequency": 31
+      "word": "simple",
+      "frequency": 30
     },
     {
       "word": "apache",
-      "frequency": 31
+      "frequency": 30
     },
     {
       "word": "支付",
-      "frequency": 32
+      "frequency": 31
     },
     {
-      "word": "基于",
+      "word": "material",
+      "frequency": 31
+    },
+    {
+      "word": "实现",
       "frequency": 32
     },
     {
@@ -3465,140 +1909,84 @@
       "frequency": 33
     },
     {
-      "word": "from",
+      "word": "ui",
       "frequency": 33
     },
     {
-      "word": "ui",
-      "frequency": 34
+      "word": "view",
+      "frequency": 33
     },
     {
       "word": "distributed",
-      "frequency": 35
+      "frequency": 34
     },
     {
-      "word": "by",
-      "frequency": 36
-    },
-    {
-      "word": "data",
-      "frequency": 36
+      "word": "source",
+      "frequency": 38
     },
     {
       "word": "数据",
-      "frequency": 37
+      "frequency": 38
     },
     {
       "word": "boot",
       "frequency": 38
     },
     {
-      "word": "source",
+      "word": "code",
       "frequency": 39
     },
     {
-      "word": "your",
-      "frequency": 39
+      "word": "data",
+      "frequency": 40
+    },
+    {
+      "word": "框架",
+      "frequency": 41
     },
     {
       "word": "项目",
       "frequency": 41
     },
     {
-      "word": "框架",
-      "frequency": 42
-    },
-    {
-      "word": "it",
-      "frequency": 42
-    },
-    {
-      "word": "code",
-      "frequency": 43
-    },
-    {
       "word": "开发",
-      "frequency": 51
-    },
-    {
-      "word": "app",
-      "frequency": 56
-    },
-    {
-      "word": "管理",
-      "frequency": 57
+      "frequency": 49
     },
     {
       "word": "framework",
+      "frequency": 56
+    },
+    {
+      "word": "app",
+      "frequency": 57
+    },
+    {
+      "word": "管理",
       "frequency": 58
     },
     {
       "word": "系统",
-      "frequency": 59
+      "frequency": 62
     },
     {
       "word": "支持",
       "frequency": 74
     },
     {
-      "word": "on",
-      "frequency": 76
-    },
-    {
-      "word": "that",
-      "frequency": 79
-    },
-    {
-      "word": "an",
-      "frequency": 83
-    },
-    {
-      "word": "in",
-      "frequency": 94
-    },
-    {
       "word": "spring",
-      "frequency": 95
-    },
-    {
-      "word": "with",
-      "frequency": 95
+      "frequency": 96
     },
     {
       "word": "library",
-      "frequency": 120
-    },
-    {
-      "word": "is",
-      "frequency": 133
-    },
-    {
-      "word": "of",
-      "frequency": 138
+      "frequency": 123
     },
     {
       "word": "java",
-      "frequency": 184
-    },
-    {
-      "word": "to",
-      "frequency": 184
-    },
-    {
-      "word": "the",
-      "frequency": 210
-    },
-    {
-      "word": "and",
-      "frequency": 309
-    },
-    {
-      "word": "for",
-      "frequency": 342
+      "frequency": 186
     },
     {
       "word": "android",
-      "frequency": 368
+      "frequency": 372
     }
   ]
 }
