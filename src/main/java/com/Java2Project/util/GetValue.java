@@ -18,6 +18,7 @@ public class GetValue {
     String[] des = new String[1000];
     String[] urls = new String[1000];
     UArray pageArray = new UArray();
+    String wordFrequency;
 
     public GetValue() {
         try {
@@ -35,6 +36,7 @@ public class GetValue {
                 day[i] = jo2.getInt("day");
             }
             in.close();
+            wordFrequency = new WordAnalyse().getCloud();
             for (int i = 0; i < 1000; i++) {
                 String time = String.valueOf(year[i]) + '-' + month[i] + '-' + day[i];
                 pageArray.addItem(new UItem(name[i], des[i], time, watcher[i], urls[i], i));
@@ -82,7 +84,8 @@ public class GetValue {
     }
 
     public String getWords(){
-        return new WordAnalyse().getCloud();
+        System.out.println(wordFrequency);
+        return wordFrequency;
     }
 
     public static class YArray {
