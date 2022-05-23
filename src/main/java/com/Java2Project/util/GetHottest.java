@@ -37,6 +37,7 @@ public class GetHottest { //获取最热门的开源项目
         BufferedWriter json = new BufferedWriter(new FileWriter("src/main/java/com/Java2Project/dataSet/info.json"));
         json.write(JSON);
         json.close();
+        new GetValue();
     }
 
     public static class ItemArray {
