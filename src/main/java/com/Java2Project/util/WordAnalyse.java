@@ -14,6 +14,8 @@ import java.util.HashSet;
 import java.util.List;
 
 public class WordAnalyse {
+    private String cloud;
+
     public void analyse() throws IOException {
         //筛掉中英文stop words
         HashSet<String> stopWord = new HashSet<>();
@@ -43,11 +45,15 @@ public class WordAnalyse {
             if (stopWord.contains(wordFrequency.getWord())) continue;
             iArray.add(new Item(wordFrequency.getWord(), wordFrequency.getFrequency()));
         }
-        String cloud = new Gson().toJson(iArray);
+        cloud = new Gson().toJson(iArray);
         BufferedWriter out = new BufferedWriter(new FileWriter("src/main/java/com/Java2Project/dataSet/cloud.json"));
         out.write(cloud);
         out.close();
         System.out.println("饼图数据传输成功");
+    }
+
+    public String getCloud(){
+        return cloud;
     }
 
     public static class IArray {

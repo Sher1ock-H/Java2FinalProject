@@ -82,18 +82,7 @@ public class GetValue {
     }
 
     public String getWords(){
-        String wordFrequency = null;
-        try{
-            WordAnalyse wa = new WordAnalyse();
-            wa.analyse();
-            BufferedReader wordIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/cloud.json"));
-            wordFrequency = wordIn.readLine();
-            wordIn.close();
-            System.out.println(wordFrequency);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return wordFrequency;
+        return new WordAnalyse().getCloud();
     }
 
     public static class YArray {
