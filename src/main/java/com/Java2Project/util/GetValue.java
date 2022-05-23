@@ -5,6 +5,7 @@ import com.google.gson.Gson;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.Locale;
 
 public class GetValue {
     String[] name = new String[1000];
@@ -15,7 +16,7 @@ public class GetValue {
     UArray pageArray = new UArray();
     String wordFrequency;
 
-    public GetValue(){
+    public GetValue() {
         try {
             BufferedReader nameIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/name.txt"));
             BufferedReader timeIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/time.txt"));
@@ -89,35 +90,60 @@ public class GetValue {
         return new Gson().toJson(itemArray);
     }
 
-    public String getWords(){ return wordFrequency;}
-
-    public static class YArray{
-        public ArrayList<YItem> items;
-        public YArray(){items = new ArrayList<>();}
-        public void addItem(YItem item){this.items.add(item);}
+    public String getWords() {
+        return wordFrequency;
     }
 
-    public static class YItem{
+    public static class YArray {
+        public ArrayList<YItem> items;
+
+        public YArray() {
+            items = new ArrayList<>();
+        }
+
+        public void addItem(YItem item) {
+            this.items.add(item);
+        }
+    }
+
+    public String search(String s) {
+        UArray itemArray = new UArray();
+        String lowers = s.toLowerCase(Locale.ROOT);
+        for (int i = 0; i < 1000; i++) {
+            if (name[i].toLowerCase(Locale.ROOT).contains(lowers)) {
+                itemArray.addItem(pageArray.items.get(i));
+            }
+        }
+        return new Gson().toJson(itemArray);
+    }
+
+    public static class YItem {
         public String name;
         public int year;
 
-        public YItem(String name, int year){
+        public YItem(String name, int year) {
             this.name = name;
             this.year = year;
         }
     }
 
-    public static class UArray{
+    public static class UArray {
         public ArrayList<UItem> items;
-        public UArray(){items = new ArrayList<>();}
-        public void addItem(UItem item){this.items.add(item);}
+
+        public UArray() {
+            items = new ArrayList<>();
+        }
+
+        public void addItem(UItem item) {
+            this.items.add(item);
+        }
 
         public void sort() {
             items.sort(Comparator.comparingInt(i -> -i.watchers));
         }
     }
 
-    public static class UItem{
+    public static class UItem {
         public String name;
         public String des;
         public String time;
@@ -125,7 +151,7 @@ public class GetValue {
         public int watchers;
         public int id;
 
-        public UItem(String name, String des, String time, int watchers, String url, int id){
+        public UItem(String name, String des, String time, int watchers, String url, int id) {
             this.name = name;
             this.des = des;
             this.time = time;
