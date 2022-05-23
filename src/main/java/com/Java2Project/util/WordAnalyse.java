@@ -36,7 +36,7 @@ public class WordAnalyse {
         frequencyAnalyzer.setMinWordLength(2);
         frequencyAnalyzer.setWordTokenizer(new ChineseWordTokenizer());
         List<WordFrequency> wordFrequencyList = frequencyAnalyzer.load(stringList);
-        wordFrequencyList.sort(Comparator.comparingInt(WordFrequency::getFrequency));
+        wordFrequencyList.sort(Comparator.comparingInt(value -> -value.getFrequency()));
 
         IArray iArray = new IArray();
         for (WordFrequency wordFrequency : wordFrequencyList) {
