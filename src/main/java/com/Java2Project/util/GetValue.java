@@ -1,6 +1,8 @@
 package com.Java2Project.util;
 
 import com.google.gson.Gson;
+import net.sf.json.JSONArray;
+import net.sf.json.JSONObject;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -9,7 +11,9 @@ import java.util.Locale;
 
 public class GetValue {
     String[] name = new String[1000];
-    String[] time = new String[1000];
+    int[] year = new int[1000];
+    int[] month = new int[1000];
+    int[] day = new int[1000];
     int[] watcher = new int[1000];
     String[] des = new String[1000];
     String[] urls = new String[1000];
@@ -18,28 +22,26 @@ public class GetValue {
 
     public GetValue() {
         try {
-            BufferedReader nameIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/name.txt"));
-            BufferedReader timeIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/time.txt"));
-            BufferedReader watcherIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/watcher.txt"));
-            BufferedReader desIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/description.txt"));
-            BufferedReader urlIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/url.txt"));
-            BufferedReader wordIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/cloud.json"));
+            BufferedReader in = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/info.json"));
+            BufferedReader wordIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/stopwords.txt"));
+            JSONObject jo1 = JSONObject.fromObject(in.readLine());
+            JSONArray ja = jo1.getJSONArray("items");
             for (int i = 0; i < 1000; i++) {
-                name[i] = nameIn.readLine();
-                time[i] = timeIn.readLine();
-                watcher[i] = Integer.parseInt(watcherIn.readLine());
-                des[i] = desIn.readLine();
-                urls[i] = urlIn.readLine();
+                JSONObject jo2 = ja.getJSONObject(i);
+                name[i] = jo2.getString("name");
+                watcher[i] = jo2.getInt("watchers");
+                des[i] = jo2.getString("description");
+                urls[i] = jo2.getString("url");
+                year[i] = jo2.getInt("year");
+                month[i] = jo2.getInt("month");
+                day[i] = jo2.getInt("day");
             }
             wordFrequency = wordIn.readLine();
-            nameIn.close();
-            timeIn.close();
-            watcherIn.close();
-            desIn.close();
-            urlIn.close();
+            in.close();
             wordIn.close();
             for (int i = 0; i < 1000; i++) {
-                pageArray.addItem(new UItem(name[i], des[i], time[i], watcher[i], urls[i], i));
+                String time = String.valueOf(year[i]) + '-' + month[i] + '-' + day[i];
+                pageArray.addItem(new UItem(name[i], des[i], time, watcher[i], urls[i], i));
             }
             pageArray.sort();
         } catch (IOException e) {
@@ -50,33 +52,26 @@ public class GetValue {
     public String getAll() {
         YArray yArray = new YArray();
         for (int i = 0; i < 1000; i++) {
-            int itemYear = Integer.parseInt(time[i].split("-")[0]);
-            yArray.addItem(new YItem(name[i], itemYear));
+            yArray.addItem(new YItem(name[i], year[i]));
         }
         return new Gson().toJson(yArray);
     }
 
-    public String getYear(int year) {
+    public String getYear(int y) {
         GetHottest.ItemArray itemArray = new GetHottest.ItemArray();
         for (int i = 0; i < 1000; i++) {
-            int itemYear = Integer.parseInt(time[i].split("-")[0]);
-            int itemMonth = Integer.parseInt(time[i].substring(5, 7));
-            int itemDay = Integer.parseInt(time[i].substring(8, 10));
-            if (itemYear == year)
-                itemArray.addItem(new GetHottest.Item(name[i], des[i], itemYear, itemMonth, itemDay, watcher[i], i));
+            if (year[i] == y)
+                itemArray.addItem(new GetHottest.Item(name[i], des[i], year[i], month[i], day[i], watcher[i], urls[i], i));
         }
         itemArray.sort();
         return new Gson().toJson(itemArray);
     }
 
-    public String getMonth(int year, int month) {
+    public String getMonth(int y, int m) {
         GetHottest.ItemArray itemArray = new GetHottest.ItemArray();
         for (int i = 0; i < 1000; i++) {
-            int itemYear = Integer.parseInt(time[i].split("-")[0]);
-            int itemMonth = Integer.parseInt(time[i].substring(5, 7));
-            int itemDay = Integer.parseInt(time[i].substring(8, 10));
-            if (itemYear == year && itemMonth == month)
-                itemArray.addItem(new GetHottest.Item(name[i], des[i], itemYear, itemMonth, itemDay, watcher[i], i));
+            if (year[i] == y && month[i] == m)
+                itemArray.addItem(new GetHottest.Item(name[i], des[i], year[i], month[i], day[i], watcher[i], urls[i], i));
         }
         itemArray.sort();
         return new Gson().toJson(itemArray);

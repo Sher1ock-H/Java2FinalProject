@@ -1,241 +1,66 @@
-1058  INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 13564 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-1062  INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-2249  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-2262  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-2263  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2263  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-2458  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2459  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1323 ms
-2919  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2941  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2953  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 2.486 seconds (JVM running for 4.76)
-12607 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-12608 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-12608 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-686   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 1776 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-689   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1661  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1671  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1672  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1672  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1811  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1811  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1067 ms
-2183  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2201  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2211  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 1.951 seconds (JVM running for 3.724)
-8037  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-8038  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-8039  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-725   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 13460 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-728   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1711  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1721  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1722  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1722  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1857  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1857  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1074 ms
-2256  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2273  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2284  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 1.997 seconds (JVM running for 3.818)
-5602  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-5602  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-5603  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-722   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 13424 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-725   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1730  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1741  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1742  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1742  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1882  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1882  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1097 ms
-2268  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2287  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2297  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 2.023 seconds (JVM running for 3.884)
-4133  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-4134  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-4135  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-729   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 10048 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-732   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1714  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1727  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1728  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1728  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1866  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1866  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1080 ms
-2246  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2263  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2273  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 1.98 seconds (JVM running for 3.775)
-5488  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-5489  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-5489  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-724   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 4196 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-727   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1714  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1726  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1727  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1727  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1874  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1874  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1089 ms
-2251  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2268  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2278  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 2.005 seconds (JVM running for 3.842)
-16611 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-16611 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-16612 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-712   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 9324 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-715   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1688  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1698  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1699  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1699  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1832  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1832  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1059 ms
-2200  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2217  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2227  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 1.958 seconds (JVM running for 3.787)
-6910  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-6910  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-6911  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-741   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 16332 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-744   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1714  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1724  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1725  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1725  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1855  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1855  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1045 ms
-2223  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2242  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2252  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 1.98 seconds (JVM running for 3.811)
-5147  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-5147  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-5148  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-715   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 3032 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-718   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1695  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1706  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1706  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1707  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1841  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1841  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1068 ms
-2208  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2226  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2236  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 1.965 seconds (JVM running for 3.783)
-8854  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-8854  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-8855  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-750   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 16608 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-752   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1754  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1902  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1085 ms
-2291  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2302  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 2.031 seconds (JVM running for 3.929)
-714   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 12900 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-717   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1712  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1723  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1724  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1724  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1860  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1860  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1087 ms
-2239  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2258  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2268  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 1.993 seconds (JVM running for 3.92)
-3841  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-3841  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-3842  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-722   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 10944 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-725   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1717  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1728  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1728  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1728  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1862  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1862  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1081 ms
-2234  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2252  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2262  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 1.989 seconds (JVM running for 3.794)
-4115  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-4115  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-4117  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-720   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 15528 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-722   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1709  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1719  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1719  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1720  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1854  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1854  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1073 ms
-2226  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2243  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2254  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 1.985 seconds (JVM running for 3.873)
-4430  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-4430  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-4432  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-722   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 2424 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-725   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1731  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1742  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1743  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1743  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1881  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1881  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1098 ms
-2262  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2281  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2291  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 2.01 seconds (JVM running for 3.797)
-5860  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-5860  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-5861  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-760   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 12484 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-762   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1778  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1789  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1789  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1790  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1932  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1933  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1115 ms
-2309  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2327  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2339  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 2.046 seconds (JVM running for 3.969)
-5309  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-5309  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-5310  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-716   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 1116 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-719   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1688  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1699  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1699  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1700  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1834  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1834  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1061 ms
-2232  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2251  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2262  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 1.99 seconds (JVM running for 3.881)
-3344  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-3345  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-3346  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-732   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 6456 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-735   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1728  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1738  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1739  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1739  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1875  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1875  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1081 ms
-2254  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-2271  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-2282  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 2.007 seconds (JVM running for 3.916)
-4409  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-4410  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-4411  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-710   INFO  com.www.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 13192 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
-712   INFO  com.www.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
-1498  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
-1507  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
-1507  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-1508  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
-1613  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-1613  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 851 ms
-1890  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
-1902  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
-1910  INFO  com.www.JavaSpringBootApplication - Started JavaSpringBootApplication in 1.587 seconds (JVM running for 3.055)
+392   INFO  c.J.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 17.0.1 on LAPTOP-FO55M9GV with PID 22492 (D:\downloadD\kumo-master\Java2SpringBoot\target\classes started by 24321 in D:\downloadD\kumo-master\Java2SpringBoot)
+396   INFO  c.J.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+940   INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
+945   INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
+945   INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+946   INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+1014  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1014  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 582 ms
+1053  WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webController' defined in file [D:\downloadD\kumo-master\Java2SpringBoot\target\classes\com\Java2Project\controller\WebController.class]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+1055  INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+1063  INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+1076  ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webController' defined in file [D:\downloadD\kumo-master\Java2SpringBoot\target\classes\com\Java2Project\controller\WebController.class]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.Java2Project.JavaSpringBootApplication.main(JavaSpringBootApplication.java:12)
+Caused by: java.lang.ExceptionInInitializerError: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326)
+	... 17 common frames omitted
+Caused by: net.sf.json.JSONException: A JSONObject text must end with '}' at character 1 of {
+	at net.sf.json.util.JSONTokener.syntaxError(JSONTokener.java:512)
+	at net.sf.json.JSONObject._fromJSONTokener(JSONObject.java:891)
+	at net.sf.json.JSONObject._fromString(JSONObject.java:1102)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:175)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:145)
+	at com.Java2Project.util.GetValue.<init>(GetValue.java:27)
+	at com.Java2Project.controller.WebController.<clinit>(WebController.java:12)
+	... 25 common frames omitted
+351   INFO  c.J.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 17.0.1 on LAPTOP-FO55M9GV with PID 22192 (D:\downloadD\kumo-master\Java2SpringBoot\target\classes started by 24321 in D:\downloadD\kumo-master\Java2SpringBoot)
+352   INFO  c.J.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+815   INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
+819   INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
+819   INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+819   INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+884   INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+884   INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 501 ms
+1221  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
+1233  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
+1239  INFO  c.J.JavaSpringBootApplication - Started JavaSpringBootApplication in 1.083 seconds (JVM running for 1.645)
+12801 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12802 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12802 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
