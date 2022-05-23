@@ -27,7 +27,7 @@ public class WordAnalyse {
         BufferedWriter out = new BufferedWriter(new FileWriter("src/main/java/com/Java2Project/dataSet/cloud.json"));
         out.write(cloud);
         out.close();
-        System.out.println("云图生成成功");
+        System.out.println("饼图数据传输成功");
     }
 
     public static class IArray{

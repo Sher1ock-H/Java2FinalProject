@@ -13,6 +13,7 @@ public class GetValue {
     String[] des = new String[1000];
     String[] urls = new String[1000];
     UArray pageArray = new UArray();
+    String wordFrequency;
 
     public GetValue(){
         try {
@@ -21,6 +22,7 @@ public class GetValue {
             BufferedReader watcherIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/watcher.txt"));
             BufferedReader desIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/description.txt"));
             BufferedReader urlIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/url.txt"));
+            BufferedReader wordIn = new BufferedReader(new FileReader("src/main/java/com/Java2Project/dataSet/cloud.json"));
             for (int i = 0; i < 1000; i++) {
                 name[i] = nameIn.readLine();
                 time[i] = timeIn.readLine();
@@ -28,11 +30,13 @@ public class GetValue {
                 des[i] = desIn.readLine();
                 urls[i] = urlIn.readLine();
             }
+            wordFrequency = wordIn.readLine();
             nameIn.close();
             timeIn.close();
             watcherIn.close();
             desIn.close();
             urlIn.close();
+            wordIn.close();
             for (int i = 0; i < 1000; i++) {
                 pageArray.addItem(new UItem(name[i], des[i], time[i], watcher[i], urls[i], i));
             }
@@ -84,6 +88,8 @@ public class GetValue {
         }
         return new Gson().toJson(itemArray);
     }
+
+    public String getWords(){ return wordFrequency;}
 
     public static class YArray{
         public ArrayList<YItem> items;
