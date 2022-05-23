@@ -40,7 +40,7 @@
 <script type="application/javascript">
     const dom = document.getElementById('container');
     var myChart = echarts.init(dom, null, {
-        renderer: 'svg',
+        renderer: 'canvas',
         useDirtyRect: false
     });
     var dataSet;
@@ -71,6 +71,17 @@
             },
             tooltip: {
                 // trigger: 'item'
+            },
+            toolbox: {
+                show: true,
+                feature: {
+                    saveAsImage: {
+                        show:true,
+                        excludeComponents :['toolbox', 'legend'],
+                        pixelRatio: 2,
+                        type: 'png'
+                    }
+                }
             },
             legend: {
                 orient: 'vertical',
