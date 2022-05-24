@@ -65,7 +65,7 @@
         }
         option = {
             title: {
-                text: 'Github按Watchers排序前1000条的时间分布',
+                text: 'Github仓库关键词分布图',
                 subtext: 'Data',
                 left: 'center'
             },
@@ -80,10 +80,16 @@
                         excludeComponents :['toolbox', 'legend'],
                         pixelRatio: 2,
                         type: 'png'
-                    }
+                    },
+                    dataView: {
+                        show: true,
+                        title: "DataView",
+                        readOnly: true,
+                    },
                 }
             },
             legend: {
+                show: true,
                 orient: 'vertical',
                 left: 'left',
                 selected: {}
