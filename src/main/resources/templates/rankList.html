@@ -141,7 +141,7 @@
     function getPage(i) {
         fetch('page/' + i).then(response => response.json()).then(json => {
             dataSet = json['items'];
-            setList()
+            setList();
         })
     }
 
@@ -153,8 +153,8 @@
                 + dataSet[i]['name']
                 + '<span class="float-end text-secondary">' + dataSet[i]['watchers']
                 + '</span>'
-                + '</li>'
-            $('#list').append(html)
+                + '</li>';
+            $('#list').append(html);
         }
     }
 

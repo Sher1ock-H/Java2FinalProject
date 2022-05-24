@@ -438,6 +438,20 @@ Caused by: net.sf.json.JSONException: A JSONObject text must end with '}' at cha
 59786 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 59787 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 59787 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+472   INFO  c.J.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 1880 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
+475   INFO  c.J.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+1119  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
+1125  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
+1126  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1126  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+1215  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1215  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 704 ms
+4687  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
+4706  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
+4713  INFO  c.J.JavaSpringBootApplication - Started JavaSpringBootApplication in 4.539 seconds (JVM running for 5.743)
+6838  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+6838  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+6838  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
 353   INFO  c.J.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 17.0.1 on LAPTOP-FO55M9GV with PID 18092 (D:\downloadD\kumo-master\Java2SpringBoot\target\classes started by 24321 in D:\downloadD\kumo-master\Java2SpringBoot)
 355   INFO  c.J.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
 829   INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
@@ -452,3 +466,31 @@ Caused by: net.sf.json.JSONException: A JSONObject text must end with '}' at cha
 9257  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 9257  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 9258  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+934   INFO  c.J.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 23164 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
+938   INFO  c.J.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+2127  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
+2140  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
+2140  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2141  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2307  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2307  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1298 ms
+7533  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
+7554  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
+7566  INFO  c.J.JavaSpringBootApplication - Started JavaSpringBootApplication in 7.192 seconds (JVM running for 9.21)
+85798 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+85799 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+85800 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+695   INFO  c.J.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 1.8.0_261 on 黄柯睿的电脑 with PID 23796 (E:\CS_Project\Java_Project\JavaSpringBoot\target\classes started by Bronya in E:\CS_Project\Java_Project\JavaSpringBoot)
+698   INFO  c.J.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+1696  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
+1706  INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
+1707  INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1707  INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+1849  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1849  INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1094 ms
+6930  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
+6949  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
+6959  INFO  c.J.JavaSpringBootApplication - Started JavaSpringBootApplication in 6.695 seconds (JVM running for 8.527)
+10095 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10096 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+10097 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
