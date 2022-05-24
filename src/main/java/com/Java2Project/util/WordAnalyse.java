@@ -46,7 +46,7 @@ public class WordAnalyse {
             iArray.add(new Item(wordFrequency.getWord(), wordFrequency.getFrequency()));
         }
         cloud = new Gson().toJson(iArray);
-        BufferedWriter out = new BufferedWriter(new FileWriter("src/main/java/com/Java2Project/dataSet/cloud.json"));
+        BufferedWriter out = new BufferedWriter(new FileWriter("src/main/java/com/Java2Project/dataSet/frequency.json"));
         out.write(cloud);
         out.close();
         System.out.println("饼图数据传输成功");

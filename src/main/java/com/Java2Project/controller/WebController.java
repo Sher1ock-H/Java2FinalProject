@@ -53,11 +53,11 @@ public class WebController {
         return getValue.getYear(Integer.parseInt(y));
     }
 
-    @ResponseBody
+    /*@ResponseBody
     @RequestMapping(value = "/year/{year}/month/{month}", produces = "application/json; charset=utf-8")
     public String year_month(@PathVariable("year") String y, @PathVariable("month") String m) {
         return getValue.getMonth(Integer.parseInt(y), Integer.parseInt(m));
-    }
+    }*/
 
     @ResponseBody
     @RequestMapping(value = "/page/{i}", produces = "application/json; charset=utf-8")
