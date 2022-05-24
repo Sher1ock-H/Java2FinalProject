@@ -98,19 +98,21 @@ public static class ItemArray {
 ​		后端部分我们此次project用的框架是Springboot+thymeleaf，以下是依赖：
 
 ```xml
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-web</artifactId>
-</dependency>
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-test</artifactId>
-    <scope>test</scope>
-</dependency>
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-thymeleaf</artifactId>
-</dependency>
+<dependencies>
+   <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+   </dependency>
+   <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+   </dependency>
+   <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-thymeleaf</artifactId>
+   </dependency>
+</dependencies>
 ```
 
 ​		用springboot最大的优势是简化配置，它实现了自动化配置，不需要冗杂的配置流程，只需简单的代码就可以实现一个后端服务
@@ -127,7 +129,7 @@ public static class ItemArray {
 >
 > Bootstrap.js	version: 5.1.3
 >
-> JQuery.js	version: 3.6.0
+> JQuery.min.js	version: 3.6.0
 
 我们提供了本地的框架文件，在static目录下
 
@@ -169,7 +171,7 @@ public static class ItemArray {
 
 ​		通过对这段数据的分析，我们可以看出频率最高的词汇是android，并可以大致看出热门项目的大致类型
 
-<img src="CS209A Final Project——.assets\Github仓库关键词分布图.png" alt="Github仓库关键词分布图" style="zoom:;" />
+<img src="CS209A Final Project——.assets\Github仓库关键词分布图.png" alt="Github仓库关键词分布图"  />
 
 #### Rank-List
 
