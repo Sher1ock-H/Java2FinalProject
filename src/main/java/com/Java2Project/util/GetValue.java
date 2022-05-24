@@ -58,22 +58,11 @@ public class GetValue {
     }
 
     public String getYear(int y) {
-        GetHottest.ItemArray itemArray = new GetHottest.ItemArray();
+        MArray itemArray = new MArray();
         for (int i = 0; i < 1000; i++) {
             if (year[i] == y)
-                itemArray.addItem(new GetHottest.Item(name[i], des[i], year[i], month[i], day[i], watcher[i], urls[i], i));
+                itemArray.addItem(new MItem(name[i], month[i]));
         }
-        itemArray.sort();
-        return new Gson().toJson(itemArray);
-    }
-
-    public String getMonth(int y, int m) {
-        GetHottest.ItemArray itemArray = new GetHottest.ItemArray();
-        for (int i = 0; i < 1000; i++) {
-            if (year[i] == y && month[i] == m)
-                itemArray.addItem(new GetHottest.Item(name[i], des[i], year[i], month[i], day[i], watcher[i], urls[i], i));
-        }
-        itemArray.sort();
         return new Gson().toJson(itemArray);
     }
 
@@ -90,6 +79,17 @@ public class GetValue {
         return wordFrequency;
     }
 
+    public String search(String s) {
+        UArray itemArray = new UArray();
+        String lowers = s.toLowerCase(Locale.ROOT);
+        for (int i = 0; i < 1000; i++) {
+            if (name[i].toLowerCase(Locale.ROOT).contains(lowers)) {
+                itemArray.addItem(pageArray.items.get(i));
+            }
+        }
+        return new Gson().toJson(itemArray);
+    }
+
     public static class YArray {
         public ArrayList<YItem> items;
 
@@ -102,17 +102,6 @@ public class GetValue {
         }
     }
 
-    public String search(String s) {
-        UArray itemArray = new UArray();
-        String lowers = s.toLowerCase(Locale.ROOT);
-        for (int i = 0; i < 1000; i++) {
-            if (name[i].toLowerCase(Locale.ROOT).contains(lowers)) {
-                itemArray.addItem(pageArray.items.get(i));
-            }
-        }
-        return new Gson().toJson(itemArray);
-    }
-
     public static class YItem {
         public String name;
         public int year;
@@ -120,6 +109,28 @@ public class GetValue {
         public YItem(String name, int year) {
             this.name = name;
             this.year = year;
+        }
+    }
+
+    public static class MArray {
+        public ArrayList<MItem> items;
+
+        public MArray() {
+            items = new ArrayList<>();
+        }
+
+        public void addItem(MItem item) {
+            this.items.add(item);
+        }
+    }
+
+    public static class MItem {
+        public String name;
+        public int month;
+
+        public MItem(String name, int month) {
+            this.name = name;
+            this.month = month;
         }
     }
 
