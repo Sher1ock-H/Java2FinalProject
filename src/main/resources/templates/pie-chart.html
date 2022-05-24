@@ -31,6 +31,7 @@
                 </li>
             </ul>
         </div>
+        <button class="btn btn-primary me-3" id="download" onclick="downloadData()">Download Data</button>
         <a class="navbar-brand float-end">Language: Java</a>
     </div>
 </nav>
@@ -53,6 +54,19 @@
             setOpt()
         })
     })
+    function downloadData() {
+        fetch('/pie-chart/data').then(async res => await res.blob()).then(blob => {
+                console.log(blob);
+                const a = document.createElement('a');
+                a.style.display = 'none';
+                a.href = URL.createObjectURL(blob);
+                a.download = 'data.json';
+                a.click();
+                window.URL.revokeObjectURL('/pie-chart/data');
+            }
+        )
+    }
+
 
     var option;
 

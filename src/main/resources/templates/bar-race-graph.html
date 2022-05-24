@@ -29,6 +29,7 @@
                 </li>
             </ul>
         </div>
+        <button class="btn btn-primary me-3" id="download" onclick="downloadData()">Download Data</button>
         <a class="navbar-brand float-end">Language: Java</a>
     </div>
 </nav>
@@ -50,6 +51,21 @@
     var results = [];
     var temp = 0;
     var min;
+
+
+    function downloadData() {
+        let url = type === 'year'? 'data': 'year/' + bar;
+        fetch(url).then(async res => await res.blob()).then(blob => {
+                console.log(blob);
+                const a = document.createElement('a');
+                a.style.display = 'none';
+                a.href = URL.createObjectURL(blob);
+                a.download = 'data.json';
+                a.click();
+                window.URL.revokeObjectURL('/pie-chart/data');
+            }
+        )
+    }
 
     window.onload = function () {
         fetch('data').then(data => data.json()).then(json => {
@@ -104,7 +120,7 @@
                 feature: {
                     saveAsImage: {
                         show:true,
-                        excludeComponents :['toolbox', 'legend'],
+                        excludeComponents :['toolbox'],
                         pixelRatio: 2,
                         type: 'png'
                     }
