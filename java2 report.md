@@ -18,7 +18,7 @@
 
 ## 项目背景
 
-​        我们使用GitHub搜索一些感兴趣的仓库时，我们经常会按照不同的方法排序，以找到我们想找的那个仓库。但是GitHub自带的搜索除了Best match外，只提供了按照stars数、forks数以及更新时间的排序。<img align="right" src="D:\Documents\CS209A Final Project——.assets\image-20220523214326301.png" alt="image-20220523214326301" style="zoom:80%;" />
+​        我们使用GitHub搜索一些感兴趣的仓库时，我们经常会按照不同的方法排序，以找到我们想找的那个仓库。但是GitHub自带的搜索除了Best match外，只提供了按照stars数、forks数以及更新时间的排序。<img align="right" src="CS209A Final Project——.assets\image-20220523214326301.png" alt="image-20220523214326301" style="zoom:80%;" />
 
 ​        但是我们想知道，用户们对于java，最关心的项目有哪些，他们最关心的这些项目，都有什么共性，并且我们想知道，大家最关心的仓库一般是在什么时间段建立的。这个时候用我们就要根据仓库的watcher数进行排序，找出用户最关心的java项目是哪些，而这是GitHub没有直接提供的，需要我们自己实现。所以，我们运用了GitHub的api，将返回的数据按照watcher数排序。返回后，在后端对仓库信息进行筛选、合并和分割处理，存储到info.json文件中保存于本地，并且预留了给前端获取的接口，用于从本地读取数据并返回给前端界面。同时还做了按关注数来对这些热门java项目排行的搜索页面，解决GitHub无法根据watcher数排序的问题。
 
@@ -75,7 +75,7 @@ public static class ItemArray {
     }
 ```
 
-​        <img align="right" src="D:\Documents\CS209A Final Project——.assets\image-20220524130446348.png" alt="image-20220524130446348"  />此外，除所有收集到的数据info.json外，在dataSet中我们还存储了两个数据，frequency.json是用于生成频率饼图的数据，以及从网上下载的中英文stop words，用于筛掉nlp分割出的关键词中无意义的成分。前端调用时可以直接调用在这里面的数据而不需要重新爬取，增强了稳定性。
+​        <img align="right" src="CS209A Final Project——.assets\image-20220524130446348.png" alt="image-20220524130446348"  />此外，除所有收集到的数据info.json外，在dataSet中我们还存储了两个数据，frequency.json是用于生成频率饼图的数据，以及从网上下载的中英文stop words，用于筛掉nlp分割出的关键词中无意义的成分。前端调用时可以直接调用在这里面的数据而不需要重新爬取，增强了稳定性。
 
 
 
@@ -85,7 +85,7 @@ public static class ItemArray {
 
 ​        在前两个模块中，数据处理主要是对数据的筛选和统计，GitHub的api返回的数据十分庞杂，我们要在其中挑选出对分析时间规律有意义的信息。在存储数据时只将仓库名称、描述、url、建立时间存储下来，而对于建立时间，我们用字符串处理将其分割为年月日。在进行柱状图展示时，在前端将返回的年月以逐条导入的方式进行统计及展示。
 
-<img align = "right" src="D:\Documents\CS209A Final Project——.assets\image-20220524140845510.png" alt="image-20220524140845510"  />在第三个模块中，我们用到了kumo项目中的*FrequencyAnalyzer*，用库中的nlp技术自动分割仓库描述中的关键词以及统计这些关键词出现的频率。对于英文单词，采取的是直接以单词分割的形式，对于中文的句子，*FrequencyAnalyzer*引入了中文词库，用其进行分词，分词后将词语和出现频率记录在链表`List<WordFrequency>`里。在这些词语中有很多无意义的连接词，于是我们在GitHub中找了中文的停用词表和英文的stop words，保存在stopwords.txt中，筛掉含有这些停用词的单词数据。最后以json文件的形式，将分析出的数据存在frequency.json中，用于第三个模块中生成关键词饼图。右图是经过分词处理后出现频率最高的7个关键词。
+<img align = "right" src="CS209A Final Project——.assets\image-20220524140845510.png" alt="image-20220524140845510"  />在第三个模块中，我们用到了kumo项目中的*FrequencyAnalyzer*，用库中的nlp技术自动分割仓库描述中的关键词以及统计这些关键词出现的频率。对于英文单词，采取的是直接以单词分割的形式，对于中文的句子，*FrequencyAnalyzer*引入了中文词库，用其进行分词，分词后将词语和出现频率记录在链表`List<WordFrequency>`里。在这些词语中有很多无意义的连接词，于是我们在GitHub中找了中文的停用词表和英文的stop words，保存在stopwords.txt中，筛掉含有这些停用词的单词数据。最后以json文件的形式，将分析出的数据存在frequency.json中，用于第三个模块中生成关键词饼图。右图是经过分词处理后出现频率最高的7个关键词。
 
 
 
@@ -99,7 +99,7 @@ public static class ItemArray {
 
 ​        在生成的热门仓库时间分布图中我们可以看出来，关注量最大的几个项目集中在2018年前后，而前1000个项目里，2015、2016两年创建的项目占到了大多数。而2012年以前，和2019年之后创建的仓库，在热门仓库里的次数都较少且逐年递减。我们认为，这是因为在2012年以前的项目大多过于陈旧或停止了维护，减少了用户的关注度，且Java版本也比较旧。而2015年前后创建的仓库，因其有相对较新的主题以及存在了较长的时间，因此占了热门仓库的很大一部分，并且我们注意到，在2014年，Java8发布，引入了包括lambda、流处理在内的很多新特性，所以这些项目的火热很可能与之有关。2018年前后创建的仓库因为有新颖的主题和极大的实用性（比如JavaGuide、leetcodeAnimation），因此会有很多人关注这种项目。而近年的项目因为时间距离现在较短，完成度不高，所以watcher数会比之前创建的仓库少。对于仓库创建的月份，则与热门程度无关。不过从2018年以来，12月建立的仓库watcher数高的普遍较少，可能是因为java新版本的发布一般是在3月和9月，而12月时没有新版本的发布。所以我们分析出，这些Java热门项目与新版本的发布是有一定相关性的。
 
-<img src="D:\Documents\CS209A Final Project——.assets\image-20220524145221693.png" alt="image-20220524145221693" style="zoom: 50%;" />
+<img src="CS209A Final Project——.assets\image-20220524145221693.png" alt="image-20220524145221693" style="zoom: 50%;" />
 
 ​        对于java项目描述中的关键词进行分析，我们可以发现，android一词在描述里出现的频率最高，在1000个仓库里，出现了372次，我们可以看出，在安卓上的应用是人们比较关心的一个方面，同时，java也是安卓app开发的首选语言。在中文关键词里，最突出的是支持、系统、管理三个词。说明人们关心的Java项目有很多都是用于有关系统的开发，和对资源等的管理。
 
