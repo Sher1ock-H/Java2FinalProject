@@ -26,3 +26,31 @@
 7071  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 7072  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 7072  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+362   INFO  c.J.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 17.0.1 on LAPTOP-FO55M9GV with PID 25472 (D:\downloadD\kumo-master\Java2SpringBoot\target\classes started by 24321 in D:\downloadD\kumo-master\Java2SpringBoot)
+364   INFO  c.J.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+889   INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
+893   INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
+894   INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+894   INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+963   INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+963   INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 560 ms
+6132  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
+6145  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
+6151  INFO  c.J.JavaSpringBootApplication - Started JavaSpringBootApplication in 5.991 seconds (JVM running for 6.574)
+6298  INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+6298  INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+6299  INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+377   INFO  c.J.JavaSpringBootApplication - Starting JavaSpringBootApplication using Java 17.0.1 on LAPTOP-FO55M9GV with PID 2444 (D:\downloadD\kumo-master\Java2SpringBoot\target\classes started by 24321 in D:\downloadD\kumo-master\Java2SpringBoot)
+379   INFO  c.J.JavaSpringBootApplication - No active profile set, falling back to 1 default profile: "default"
+861   INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8765 (http)
+866   INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8765"]
+866   INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+866   INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+945   INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+945   INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 538 ms
+5993  INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8765"]
+6008  INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8765 (http) with context path ''
+6016  INFO  c.J.JavaSpringBootApplication - Started JavaSpringBootApplication in 5.844 seconds (JVM running for 6.453)
+24267 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24267 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+24268 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms

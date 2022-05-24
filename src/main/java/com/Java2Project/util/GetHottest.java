@@ -5,15 +5,22 @@ import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
 import java.io.*;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Comparator;
 
 public class GetHottest { //获取最热门的开源项目
     public static void main(String[] args) throws IOException {
-        GetHot gh = new GetHot();
         ItemArray itemArray = new ItemArray();
         for (int i = 1; i <= 10; i++) {
-            BufferedReader in = new BufferedReader(new InputStreamReader(gh.get(i)));
+            String website = "https://api.github.com/search/repositories?q=language:java+created:>2010+stars:>800&sort=watchers&per_page=100&page=" + i;
+            URL url = new URL(website);
+            HttpURLConnection huc = (HttpURLConnection) url.openConnection();
+            huc.setRequestMethod("GET");
+            huc.connect();
+
+            BufferedReader in = new BufferedReader(new InputStreamReader(huc.getInputStream()));
             String info = in.readLine();
             JSONObject jo1 = JSONObject.fromObject(info);
             JSONArray ja = jo1.getJSONArray("items");
