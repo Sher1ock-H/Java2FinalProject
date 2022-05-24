@@ -93,6 +93,30 @@ public static class ItemArray {
 
 ## 数据展示
 
+### 后端部分
+
+​		后端部分我们此次project用的框架是Springboot+thymeleaf，以下是依赖：
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-test</artifactId>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+</dependency>
+```
+
+​		用springboot最大的优势是简化配置，它实现了自动化配置，不需要冗杂的配置流程，只需简单的代码就可以实现一个后端服务
+
+### 前端部分
+
 ​		这次的数据展示我们用的语言是Html + CSS + JavaScript，我们设计了三个界面，分别为bar-race, pie-chart以及rank-list
 
 ​		所使用的框架有：
@@ -121,7 +145,7 @@ public static class ItemArray {
 - 许多用户在访问另一个站点时已经CDN节点下载了对应文件。因此，当他们访问我们的网站时，它将从缓存中加载，从而缩短加载时间。
 - 此外，大多数 CDN 将确保一旦用户从中请求文件，它将从最接近他们的服务器提供服务，这也导致更快的加载时间。
 
-### Bar-Race
+#### Bar-Race
 
 ​		这部分的标题是：Github按Watchers排序前1000条的时间分布
 
@@ -137,7 +161,7 @@ public static class ItemArray {
 
 以2015为例，我们可以看到不同时间的项目数量，其中11月份的数量最多，5月的项目最少
 
-### Pie-Chart
+#### Pie-Chart
 
 ​		这部分的标题是：Github仓库关键词分布图。
 
@@ -147,7 +171,7 @@ public static class ItemArray {
 
 <img src="CS209A Final Project——.assets\Github仓库关键词分布图.png" alt="Github仓库关键词分布图" style="zoom:;" />
 
-### Rank-List
+#### Rank-List
 
 ​		在这部分我们写了一个简单的动态网页：排名列表，总共1000条的数据我们将它分成10页展示，每页100条数据。在加载好页面的时候向服务器请求第一页的数据，并封装成html语句加到网页里
 
