@@ -33,7 +33,7 @@
             </ul>
         </div>
         <div class="d-flex me-3">
-            <input class="form-control me-2" id="content" required="required" type="text" placeholder="Search">
+            <input class="form-control me-2" id="content" type="text" placeholder="Search">
             <button class="btn btn-primary" id="search" onclick="search()">Search</button>
         </div>
         <a class="navbar-brand float-end">Language: Java</a>
@@ -119,9 +119,8 @@
     })
 
     function search() {
-        console.log(window.location.href)
-        window.location.href += '/search-result/' + $('#content').val()
-        return false
+        let url = window.location.href
+        window.location.href = url + '/search-result/' + $('#content').val()
     }
 
     function showDialog(item) {
